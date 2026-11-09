@@ -1,0 +1,38 @@
+== 1. composition differs between carriers and non-carriers? ==
+  epithelial      carrier mean   6.08  non-carrier   6.14  t -0.41  p 0.685
+  ft_secretory    carrier mean   7.37  non-carrier   7.55  t -0.81  p 0.418
+  ft_ciliated     carrier mean   6.18  non-carrier   5.87  t +1.40  p 0.164
+  breast_luminal  carrier mean   5.47  non-carrier   5.54  t -0.74  p 0.462
+  breast_basal    carrier mean   1.22  non-carrier   1.25  t -0.27  p 0.785
+  stroma          carrier mean   8.31  non-carrier   8.48  t -1.72  p 0.0887
+  smooth_muscle   carrier mean   8.49  non-carrier   8.88  t -2.97  p 0.00395
+  immune          carrier mean   5.98  non-carrier   6.19  t -2.29  p 0.0246
+  endothelial     carrier mean   5.83  non-carrier   6.22  t -3.37  p 0.00109
+  adipose         carrier mean   1.16  non-carrier   0.96  t +1.28  p 0.203
+  R2 of carrier status explained by the 10 composition scores: 0.23 | by batch + menopause: 0.07
+
+== 2. within NON-CARRIERS only: correlation of hit-RBP activity with composition ==
+  RRP9    {'ft_ciliated': np.float64(-0.7), 'ft_secretory': np.float64(-0.41), 'epithelial': np.float64(-0.5), 'stroma': np.float64(0.44), 'smooth_muscle': np.float64(0.56), 'endothelial': np.float64(0.55), 'immune': np.float64(0.54)}
+  EIF3D   {'ft_ciliated': np.float64(-0.51), 'ft_secretory': np.float64(-0.27), 'epithelial': np.float64(-0.34), 'stroma': np.float64(0.38), 'smooth_muscle': np.float64(0.42), 'endothelial': np.float64(0.62), 'immune': np.float64(0.43)}
+  EIF2S1  {'ft_ciliated': np.float64(0.55), 'ft_secretory': np.float64(0.31), 'epithelial': np.float64(0.39), 'stroma': np.float64(-0.48), 'smooth_muscle': np.float64(-0.39), 'endothelial': np.float64(-0.33), 'immune': np.float64(-0.43)}
+  SRSF3   {'ft_ciliated': np.float64(-0.27), 'ft_secretory': np.float64(-0.28), 'epithelial': np.float64(-0.34), 'stroma': np.float64(0.23), 'smooth_muscle': np.float64(0.23), 'endothelial': np.float64(0.12), 'immune': np.float64(0.14)}
+  SUGP2   {'ft_ciliated': np.float64(-0.01), 'ft_secretory': np.float64(-0.1), 'epithelial': np.float64(-0.12), 'stroma': np.float64(-0.18), 'smooth_muscle': np.float64(-0.26), 'endothelial': np.float64(-0.49), 'immune': np.float64(-0.08)}
+  TAF15   {'ft_ciliated': np.float64(-0.41), 'ft_secretory': np.float64(-0.47), 'epithelial': np.float64(-0.63), 'stroma': np.float64(0.18), 'smooth_muscle': np.float64(0.18), 'endothelial': np.float64(-0.26), 'immune': np.float64(0.03)}
+
+== 3. graded adjustment (family-wise p of max |t| over 478 RBPs; t of the hits) ==
+  none                                          cov  0 | family-wise p 0.013 | max|t| 4.27 | {'RRP9': -2.39, 'EIF3D': -1.96, 'EIF2S1': 2.15, 'SRSF3': -3.55, 'SUGP2': 2.38, 'TAF15': 1.76}
+  batch+menopause                               cov  3 | family-wise p 0.076 | max|t| 3.65 | {'RRP9': -3.12, 'EIF3D': -2.97, 'EIF2S1': 2.47, 'SRSF3': -3.0, 'SUGP2': 3.3, 'TAF15': 2.73}
+  +epithelial                                   cov  4 | family-wise p 0.017 | max|t| 4.28 | {'RRP9': -4.28, 'EIF3D': -3.67, 'EIF2S1': 3.34, 'SRSF3': -3.24, 'SUGP2': 3.14, 'TAF15': 2.41}
+  +ciliated,stroma,smooth muscle,endothelial    cov  8 | family-wise p 0.542 | max|t| 2.98 | {'RRP9': -0.97, 'EIF3D': -0.61, 'EIF2S1': 0.62, 'SRSF3': -2.39, 'SUGP2': 0.87, 'TAF15': 2.03}
+  all 10 + age                                  cov 14 | family-wise p 0.302 | max|t| 3.32 | {'RRP9': -0.92, 'EIF3D': -0.61, 'EIF2S1': 0.47, 'SRSF3': -1.98, 'SUGP2': 0.39, 'TAF15': 1.57}
+
+== 4. composition-matched pairs (no regression) ==
+  41 carriers each matched to nearest non-carrier (median composition distance 1.76 SD units; unmatched carrier-vs-all median 3.86)
+  RRP9    mean paired diff +0.0003  t +0.08  parametric p 0.934  sign-flip p 0.921
+  EIF3D   mean paired diff +0.0019  t +0.50  parametric p 0.620  sign-flip p 0.610
+  EIF2S1  mean paired diff -0.0053  t -1.49  parametric p 0.143  sign-flip p 0.159
+  SRSF3   mean paired diff -0.0198  t -4.42  parametric p 0.000  sign-flip p 0.001
+  SUGP2   mean paired diff -0.0010  t -0.29  parametric p 0.776  sign-flip p 0.777
+  TAF15   mean paired diff +0.0059  t +1.56  parametric p 0.127  sign-flip p 0.117
+  family-wise: max paired |t| 6.48, sign-flip p 0.001, top RBP CSNK1E
+DONE

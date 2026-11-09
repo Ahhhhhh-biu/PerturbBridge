@@ -1,0 +1,15 @@
+cell_line	a	b	diff	ci_lo	ci_hi
+HepG2	A_r_all	shuf_r_all	0.0152	-0.0087	0.0400
+HepG2	A_r_all	none_r_all	0.0220	0.0029	0.0422
+HepG2	A_r_all	r_all_meanbase	0.0680	0.0445	0.0903
+HepG2	A_r_all	B_r_all	0.0034	-0.0066	0.0136
+HepG2	A_sign_sig	shuf_sign_sig	0.0197	0.0006	0.0400
+HepG2	A_sign_sig	sign_sig_meanbase	0.0660	0.0487	0.0832
+HepG2	A_r_sig	r_sig_meanbase	0.1414	0.1095	0.1735
+K562	A_r_all	shuf_r_all	0.0306	0.0088	0.0518
+K562	A_r_all	none_r_all	0.0423	0.0238	0.0594
+K562	A_r_all	r_all_meanbase	0.0825	0.0606	0.1044
+K562	A_r_all	B_r_all	0.0004	-0.0071	0.0077
+K562	A_sign_sig	shuf_sign_sig	0.0306	0.0090	0.0520
+K562	A_sign_sig	sign_sig_meanbase	0.0874	0.0701	0.1063
+K562	A_r_sig	r_sig_meanbase	0.1691	0.1417	0.1970

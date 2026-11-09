@@ -1,0 +1,23 @@
+== a. matched pairs within premenopausal & batch C ==
+  SRSF3   pairs 25  mean diff -0.0166  t -2.53  sign-flip p 0.026
+  CSNK1E  pairs 25  mean diff +0.0126  t +3.31  sign-flip p 0.003
+  RRP9    pairs 25  mean diff -0.0020  t -0.83  sign-flip p 0.420
+  EIF3D   pairs 25  mean diff -0.0163  t -3.76  sign-flip p 0.002
+
+== b. activity vs composition (whole fallopian cohort) ==
+  SRSF3   {'epithelial': np.float64(-0.22), 'ft_secretory': np.float64(-0.13), 'ft_ciliated': np.float64(-0.17), 'breast_luminal': np.float64(-0.25), 'breast_basal': np.float64(-0.07), 'stroma': np.float64(0.27), 'smooth_muscle': np.float64(0.27), 'immune': np.float64(0.09), 'endothelial': np.float64(0.18), 'adipose': np.float64(0.12)} | vs carrier r -0.35
+  CSNK1E  {'epithelial': np.float64(0.01), 'ft_secretory': np.float64(-0.01), 'ft_ciliated': np.float64(-0.13), 'breast_luminal': np.float64(0.15), 'breast_basal': np.float64(0.17), 'stroma': np.float64(-0.0), 'smooth_muscle': np.float64(0.03), 'immune': np.float64(0.18), 'endothelial': np.float64(-0.01), 'adipose': np.float64(-0.16)} | vs carrier r 0.26
+
+== c. breast cohort, composition-matched pairs ==
+  SRSF3   pairs 15  mean diff +0.0108  t +1.88  sign-flip p 0.090  (fallopian sign was negative)
+  CSNK1E  pairs 15  mean diff -0.0048  t -0.97  sign-flip p 0.353  (fallopian sign was negative)
+
+== d. event level on SRSF3 clean events (fallopian, composition-matched pairs) ==
+  SRSF3 clean events in cohort: 3116; fraction where carrier-minus-matched-control PSI change is OPPOSITE to SRSF3 knockdown: 0.535
+  same statistic for 200 random RBPs: mean 0.495, 95th pct 0.533, p = 0.050
+  Pearson r(carrier-minus-control dPSI, SRSF3 knockdown dpsi_cc) on these events: -0.076
+
+== e. SRSF3 / CSNK1E mRNA (log2 CPM) ==
+  SRSF3: carrier mean 7.82 vs 7.86 (t -0.57, p 0.570) | matched-pair diff +0.051 (p 0.479) | full-adjusted beta -0.023 (t -0.43)
+  CSNK1E: carrier mean 5.75 vs 5.87 (t -1.55, p 0.125) | matched-pair diff +0.117 (p 0.043) | full-adjusted beta -0.016 (t -0.24)
+DONE

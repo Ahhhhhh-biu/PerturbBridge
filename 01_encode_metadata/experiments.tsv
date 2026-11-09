@@ -1,0 +1,1341 @@
+accession	assay	target	target_genes	cell_line	controls	control_type	lab	date_released	n_bio_reps	nucleic_acid	strand_specificity
+ENCSR584UYK	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR859TDD	shRNA RNA-seq	Sox14	Sox14	whole organism	ENCSR519XWV		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR377PTA	shRNA RNA-seq	sens-2	sens-2	whole organism	ENCSR495ORA		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR090TYL	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR458SVD	shRNA RNA-seq	Hr3	Hr3	whole organism	ENCSR872UEL		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR877VRF	shRNA RNA-seq	bsh	bsh	whole organism	ENCSR595PMA		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR504SWK	shRNA RNA-seq	CG33557	CG33557	whole organism	ENCSR202ZVO		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR423HDZ	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR629XTS	shRNA RNA-seq	XPO1	XPO1	K562	ENCSR260BQC		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR756VLW	shRNA RNA-seq	ABT1	ABT1	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR412CLT	shRNA RNA-seq	sens	sens	whole organism	ENCSR326QRM		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR035SVG	shRNA RNA-seq	pb	pb	whole organism	ENCSR629RYK		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR212SHB	shRNA RNA-seq	trh	trh	whole organism	ENCSR519XWV		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR608IXR	shRNA RNA-seq	FUBP1	FUBP1	K562	ENCSR260BQC		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR149RUM	shRNA RNA-seq	kah	Kah	whole organism	ENCSR353ROS		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR736TAW	shRNA RNA-seq	FUBP1	FUBP1	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR233UVM	shRNA RNA-seq	ABT1	ABT1	K562	ENCSR260BQC		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR994LDP	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR732YIY	shRNA RNA-seq	kah	Kah	whole organism	ENCSR629RYK		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR439FGE	shRNA RNA-seq	Xbp1	Xbp1	whole organism	ENCSR370ETJ		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR960HOL	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR872UEL	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR326QRM	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR067WTH	shRNA RNA-seq	ss	ss	whole organism	ENCSR561NVP		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR301XPT	shRNA RNA-seq	Sox102F	Sox102F	whole organism	ENCSR872UEL		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR573JSS	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR244XGY	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR394ZMQ	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR561NVP	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR098GAO	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR774BXV	shRNA RNA-seq	EIF4B	EIF4B	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR000KYM	shRNA RNA-seq	DDX3X	DDX3X	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR067LLB	shRNA RNA-seq	DDX24	DDX24	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR342EDG	shRNA RNA-seq	U2AF1	U2AF1L5;U2AF1	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR952RRH	shRNA RNA-seq	IGF2BP2	IGF2BP2	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR201WFU	shRNA RNA-seq	NELFE	NELFE	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR319QUN	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR931EER	shRNA RNA-seq	ERR	ERR	whole organism	ENCSR595PMA		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR774AEQ	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR947OIM	shRNA RNA-seq	RBM22	RBM22	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR546MBH	shRNA RNA-seq	EIF2S1	EIF2S1	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR939ZRA	shRNA RNA-seq	NELFE	NELFE	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR310VND	shRNA RNA-seq	RECQL	RECQL	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR815CVQ	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR312HJY	shRNA RNA-seq	CNOT8	CNOT8	K562	ENCSR898NWE		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR031RZS	shRNA RNA-seq	TAF15	TAF15	K562	ENCSR942UNX		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR129RWD	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR527IVX	shRNA RNA-seq	PTBP1	PTBP1	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR746EKS	shRNA RNA-seq	MAGOH	MAGOH	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR064DXG	shRNA RNA-seq	PTBP1	PTBP1	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR635FRH	shRNA RNA-seq	PCBP1	PCBP1	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR597XHH	shRNA RNA-seq	SRSF9	SRSF9	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR057GCF	shRNA RNA-seq	TIA1	TIA1	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR998RZI	shRNA RNA-seq	TAF15	TAF15	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR984CLJ	shRNA RNA-seq	CCAR2	CCAR2	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR745WVZ	shRNA RNA-seq	PUM1	PUM1	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR519KXM	shRNA RNA-seq	SLBP	SLBP	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR556FNN	shRNA RNA-seq	PPIL4	PPIL4	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR678MVE	shRNA RNA-seq	UCHL5	UCHL5	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR366FFV	shRNA RNA-seq	ILF2	ILF2	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR152MON	shRNA RNA-seq	EIF4G2	EIF4G2	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR629RUG	shRNA RNA-seq	NSUN2	NSUN2	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR098NHI	shRNA RNA-seq	RPS19	RPS19	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR459EMR	shRNA RNA-seq	TUFM	TUFM	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR210DML	shRNA RNA-seq	PUM2	PUM2	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR907UTB	shRNA RNA-seq	DAZAP1	DAZAP1	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR958NDU	shRNA RNA-seq	HLTF	HLTF	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR656DQV	shRNA RNA-seq	PKM	PKM	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR716WZH	shRNA RNA-seq	FASTKD2	FASTKD2	HepG2	ENCSR003EKR		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR964YTW	shRNA RNA-seq	DDX55	DDX55	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR594DNW	shRNA RNA-seq	CPSF7	CPSF7	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR570CWH	shRNA RNA-seq	BCCIP	BCCIP	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR896MMU	shRNA RNA-seq	MSI2	MSI2	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR312SFA	shRNA RNA-seq	DDX19B	DDX19B	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR823WTA	shRNA RNA-seq	KIF1C	KIF1C	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR624FBY	shRNA RNA-seq	LARP7	LARP7	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR511SYK	shRNA RNA-seq	ACO1	ACO1	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR648BSC	shRNA RNA-seq	PUF60	PUF60	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR925RNE	shRNA RNA-seq	SERBP1	SERBP1	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR713OLV	shRNA RNA-seq	ATP5C1	ATP5F1C	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR227AVS	shRNA RNA-seq	NOL12	NOL12	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR535YPK	shRNA RNA-seq	SFPQ	SFPQ	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR905HID	shRNA RNA-seq	FMR1	FMR1	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR620OKS	shRNA RNA-seq	EFTUD2	EFTUD2	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR090UMI	shRNA RNA-seq	SMN1	SMN2;SMN1	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR222ABK	shRNA RNA-seq	HSPD1	HSPD1	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR913ZWR	shRNA RNA-seq	DDX52	DDX52	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR808FBR	shRNA RNA-seq	DDX5	DDX5	HepG2	ENCSR776SXA		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR530BOP	shRNA RNA-seq	SUPT6H	SUPT6H	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR258VGD	shRNA RNA-seq	EIF3A	EIF3A	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR696LLZ	shRNA RNA-seq	NIP7	NIP7	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR850FEH	shRNA RNA-seq	GRWD1	GRWD1	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR898NWE	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR344XID	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR338CON	shRNA RNA-seq	AKAP1	AKAP1	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR853ZJS	shRNA RNA-seq	HNRNPK	HNRNPK	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR321KYP	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR172RNV	shRNA RNA-seq	Sox102F	Sox102F	whole organism	ENCSR573JSS		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR215VHC	shRNA RNA-seq	CG9876	CG9876	whole organism	ENCSR098GAO		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR712BIW	shRNA RNA-seq	Blimp-1	Blimp-1	whole organism	ENCSR382NOE		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR363QIA	shRNA RNA-seq	PRPF4	PRPF4	K562	ENCSR260BQC		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR949RMX	shRNA RNA-seq	XRN1	XRN1	K562	ENCSR260BQC		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR289HOV	shRNA RNA-seq	YTHDC2	YTHDC2	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR793QPX	shRNA RNA-seq	HDGF	HDGF	K562	ENCSR619PCR		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR016OIX	shRNA RNA-seq	MARK2	MARK2	K562	ENCSR619PCR		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR608IAI	shRNA RNA-seq	FASTKD2	FASTKD2	K562	ENCSR084SCN		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR234YMW	shRNA RNA-seq	SLTM	SLTM	K562	ENCSR084SCN		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR237YZT	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR398LZW	shRNA RNA-seq	SND1	SND1	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR139BIJ	shRNA RNA-seq	FXR2	FXR2	K562	ENCSR081EST		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR047AJA	shRNA RNA-seq	SUB1	SUB1	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR230ORC	shRNA RNA-seq	CIRBP	CIRBP	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR147ZBD	shRNA RNA-seq	DDX6	DDX6	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR481YXD	shRNA RNA-seq	IGF2BP3	IGF2BP3	K562	ENCSR771ZZL		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR850CKU	shRNA RNA-seq	KHSRP	KHSRP	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR313CHR	shRNA RNA-seq	EIF4B	EIF4B	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR576GOW	shRNA RNA-seq	RAVER1	RAVER1	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR491FOC	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR207QGW	shRNA RNA-seq	AGO3	AGO3	K562	ENCSR898NWE		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR637JLM	shRNA RNA-seq	DDX3X	DDX3X	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR813NZP	shRNA RNA-seq	SRFBP1	SRFBP1	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR701GSV	shRNA RNA-seq	MTPAP	MTPAP	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR422JMS	shRNA RNA-seq	SSRP1	SSRP1	HepG2	ENCSR246RRQ		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR812TLY	shRNA RNA-seq	AGGF1	AGGF1	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR871BXO	shRNA RNA-seq	STIP1	STIP1	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR243IGA	shRNA RNA-seq	HSPD1	HSPD1	HepG2	ENCSR246RRQ		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR267RHP	shRNA RNA-seq	BUD13	BUD13	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR124KCF	shRNA RNA-seq	STAU1	STAU1	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR118XYK	shRNA RNA-seq	PUM2	PUM2	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR674KEK	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR963RLK	shRNA RNA-seq	APOBEC3C	APOBEC3C	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR362XMY	shRNA RNA-seq	UBE2L3	UBE2L3	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR606QIX	shRNA RNA-seq	BCCIP	BCCIP	K562	ENCSR245BNJ		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR205VSQ	shRNA RNA-seq	DDX28	DDX28	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR795VAK	shRNA RNA-seq	CPEB4	CPEB4	K562	ENCSR031RRO		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR312SRB	shRNA RNA-seq	SRP68	SRP68	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR851KEX	shRNA RNA-seq	PPIL4	PPIL4	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR599UDS	shRNA RNA-seq	AARS	AARS	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR880DEH	shRNA RNA-seq	PNPT1	PNPT1	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR771QMJ	shRNA RNA-seq	GEMIN5	GEMIN5	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR395FYF	shRNA RNA-seq	AUH	AUH	K562	ENCSR718EWL		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR066FUL	shRNA RNA-seq	Hr51	Hr51	whole organism	ENCSR535NRZ		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR534NDG	shRNA RNA-seq	CG33557	CG33557	whole organism	ENCSR322GTE		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR719OKP	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR479MNS	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR495ORA	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR895WGR	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR911OFF	shRNA RNA-seq	Ets65A	Ets65A	whole organism	ENCSR671UJC		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR068JQB	shRNA RNA-seq	Sox14	Sox14	whole organism	ENCSR163IYI		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR243BLT	shRNA RNA-seq	fd59A	fd59A	whole organism	ENCSR319QUN		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR051GNG	shRNA RNA-seq	Blimp-1	Blimp-1	whole organism	ENCSR394ZMQ		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR519XWV	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR322GTE	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR439IYF	shRNA RNA-seq	fd59A	fd59A	whole organism	ENCSR994LDP		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR163IYI	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR364XCF	shRNA RNA-seq	onecut	onecut	whole organism	ENCSR895WGR		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR317MVV	shRNA RNA-seq	sens-2	sens-2	whole organism	ENCSR423HDZ		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR457KBG	shRNA RNA-seq	pb	pb	whole organism	ENCSR353ROS		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR383RTF	shRNA RNA-seq	Blimp-1	Blimp-1	whole organism	ENCSR479MNS		Susan Celniker, LBNL	2019-04-25	2	RNA;polyadenylated mRNA	unstranded
+ENCSR724PYN	shRNA RNA-seq	onecut	onecut	whole organism	ENCSR561NVP		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR755ASK	shRNA RNA-seq	sens	sens	whole organism	ENCSR163IYI		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR621TQN	shRNA RNA-seq	pb	pb	whole organism	ENCSR413JFV		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR793UCQ	shRNA RNA-seq	trh	trh	whole organism	ENCSR326QRM		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR086ONA	shRNA RNA-seq	sens	sens	whole organism	ENCSR519XWV		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR725NVH	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR535NRZ	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR316ITY	shRNA RNA-seq	kay	kay	whole organism	ENCSR394ZMQ		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR693ONK	shRNA RNA-seq	Sox14	Sox14	whole organism	ENCSR326QRM		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR971HUE	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR629FXI	shRNA RNA-seq	ss	ss	whole organism	ENCSR090TYL		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR671UJC	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR907YCU	shRNA RNA-seq	TfAP-2	TfAP-2	whole organism	ENCSR719OKP		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR307BVX	shRNA RNA-seq	Sox102F	Sox102F	whole organism	ENCSR971HUE		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR725USC	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR231PWH	shRNA RNA-seq	NKRF	NKRF	K562	ENCSR619PCR		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR676SDU	shRNA RNA-seq	XRN1	XRN1	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR963KDE	shRNA RNA-seq	Xbp1	Xbp1	whole organism	ENCSR595PMA		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR122DKJ	shRNA RNA-seq	scro	scro	whole organism	ENCSR895WGR		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR548UHS	shRNA RNA-seq	kay	kay	whole organism	ENCSR479MNS		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR945KDK	shRNA RNA-seq	TfAP-2	TfAP-2	whole organism	ENCSR560GZO		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR180YUC	shRNA RNA-seq	TfAP-2	TfAP-2	whole organism	ENCSR523IFB		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR495ZCJ	shRNA RNA-seq	kah	Kah	whole organism	ENCSR413JFV		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR237ZFL	shRNA RNA-seq	scro	scro	whole organism	ENCSR090TYL		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR815BUC	shRNA RNA-seq	ERR	ERR	whole organism	ENCSR370ETJ		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR543DTG	shRNA RNA-seq	Xbp1	Xbp1	whole organism	ENCSR444QYK		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR944BOU	shRNA RNA-seq	scro	scro	whole organism	ENCSR561NVP		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR474HMU	shRNA RNA-seq	Hr51	Hr51	whole organism	ENCSR960HOL		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR251SMB	shRNA RNA-seq	fd59A	fd59A	whole organism	ENCSR725NVH		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR355TOK	shRNA RNA-seq	Hr3	Hr3	whole organism	ENCSR971HUE		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR554IWH	shRNA RNA-seq	Hr3	Hr3	whole organism	ENCSR573JSS		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR843VZK	shRNA RNA-seq	bsh	bsh	whole organism	ENCSR370ETJ		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR560GZO	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR822QGF	shRNA RNA-seq	Ets65A	Ets65A	whole organism	ENCSR725USC		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR875SQZ	shRNA RNA-seq	ss	ss	whole organism	ENCSR895WGR		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR193PSI	shRNA RNA-seq	bsh	bsh	whole organism	ENCSR444QYK		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR202ZVO	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR260BQC	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR225PRV	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR204QKA	shRNA RNA-seq	YWHAG	YWHAG	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR953IQF	shRNA RNA-seq	NUP35	NUP35	K562	ENCSR260BQC		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR093FHC	shRNA RNA-seq	WRN	WRN	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR902VPO	shRNA RNA-seq	WDR3	WDR3	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR431SXF	shRNA RNA-seq	AQR	AQR	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR382NOE	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR348YVC	shRNA RNA-seq	sens-2	sens-2	whole organism	ENCSR848RQY		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR959DQE	shRNA RNA-seq	ERR	ERR	whole organism	ENCSR444QYK		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR754KEV	shRNA RNA-seq	trh	trh	whole organism	ENCSR163IYI		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR133CZI	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR523IFB	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR324WIS	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR438UOT	shRNA RNA-seq	XPO1	XPO1	HepG2	ENCSR225PRV		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR024FOF	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR856CJK	shRNA RNA-seq	DDX55	DDX55	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR619PCR	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR047LTG	shRNA RNA-seq	Hr51	Hr51	whole organism	ENCSR098GAO		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR755YRY	shRNA RNA-seq	Ets65A	Ets65A	whole organism	ENCSR321KYP		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR680MSH	shRNA RNA-seq	onecut	onecut	whole organism	ENCSR090TYL		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR491CMU	shRNA RNA-seq	kay	kay	whole organism	ENCSR382NOE		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR848RQY	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR540XNF	shRNA RNA-seq	Hr51	Hr51	whole organism	ENCSR133CZI		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR520WRX	shRNA RNA-seq	CG9876	CG9876	whole organism	ENCSR535NRZ		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR805BLA	shRNA RNA-seq	CG33557	CG33557	whole organism	ENCSR244XGY		Susan Celniker, LBNL	2019-04-25	2	polyadenylated mRNA	unstranded
+ENCSR762GGY	shRNA RNA-seq	CG9876	CG9876	whole organism	ENCSR133CZI		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR093MEH	shRNA RNA-seq	CG9876	CG9876	whole organism	ENCSR960HOL		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR517JHY	shRNA RNA-seq	MAK16	MAK16	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR374NMJ	shRNA RNA-seq	SF3A3	SF3A3	HepG2	ENCSR691IVR		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR555LCE	shRNA RNA-seq	FMR1	FMR1	K562	ENCSR424QCW		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR167JPY	shRNA RNA-seq	SRP68	SRP68	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR191VWK	shRNA RNA-seq	PNPT1	PNPT1	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR060IWW	shRNA RNA-seq	ESF1	ESF1	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR572FFX	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR755KOM	shRNA RNA-seq	FUBP3	FUBP3	HepG2	ENCSR376RJN		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR306IOF	shRNA RNA-seq	PARN	PARN	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR958KSY	shRNA RNA-seq	AKAP8	AKAP8	HepG2	ENCSR246RRQ		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR450VQO	shRNA RNA-seq	TIAL1	TIAL1	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR165BCF	shRNA RNA-seq	WRN	WRN	K562	ENCSR718EWL		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR000YYN	shRNA RNA-seq	AKAP8	AKAP8	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR558XNA	shRNA RNA-seq	PUF60	PUF60	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR599PXD	shRNA RNA-seq	RBM15	RBM15	HepG2	ENCSR585KOJ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR237IWZ	shRNA RNA-seq	CCAR2	CCAR2	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR681SMT	shRNA RNA-seq	PHF6	PHF6	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR760EGM	shRNA RNA-seq	RBM39	RBM39	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR885YOI	shRNA RNA-seq	CSTF2	CSTF2	K562	ENCSR245BNJ		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR856ZRV	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR486AIO	shRNA RNA-seq	RPS19	RPS19	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR117WLY	shRNA RNA-seq	EFTUD2	EFTUD2	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR110ZYD	shRNA RNA-seq	SAFB2	SAFB2	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR210RWL	shRNA RNA-seq	DDX27	DDX27	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR754RJA	shRNA RNA-seq	NUFIP2	NUFIP2	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR952QDQ	shRNA RNA-seq	METAP2	METAP2	K562	ENCSR424QCW		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR222COT	shRNA RNA-seq	MBNL1	MBNL1	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR392HSJ	shRNA RNA-seq	HNRNPF	HNRNPF	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR978CSQ	shRNA RNA-seq	PKM	PKM	K562	ENCSR438MDN		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR943LIB	shRNA RNA-seq	SNRNP200	SNRNP200	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR029LGJ	shRNA RNA-seq	DDX51	DDX51	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR528ASX	shRNA RNA-seq	GRWD1	GRWD1	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR809ISU	shRNA RNA-seq	AKAP8L	AKAP8L	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR605MFS	shRNA RNA-seq	CELF1	CELF1	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR079LMZ	shRNA RNA-seq	DNAJC21	DNAJC21	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR598YQX	shRNA RNA-seq	LIN28B	LIN28B	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR012DAF	shRNA RNA-seq	APOBEC3C	APOBEC3C	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR343DHN	shRNA RNA-seq	SBDS	SBDS	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR945GUR	shRNA RNA-seq	NAA15	NAA15	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR361LBE	shRNA RNA-seq	NCBP2	NCBP2	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR936TED	shRNA RNA-seq	POLR2G	POLR2G	K562	ENCSR942UNX		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR675KPR	shRNA RNA-seq	RBM3	RBM3	K562	ENCSR936VPP		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR545AIK	shRNA RNA-seq	PCBP1	PCBP1	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR603TCV	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR016IDR	shRNA RNA-seq	AKAP1	AKAP1	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR330YOU	shRNA RNA-seq	QKI	QKI	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR992JGE	shRNA RNA-seq	METAP2	METAP2	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR388CNS	shRNA RNA-seq	DDX47	DDX47	HepG2	ENCSR968BBQ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR007XKL	shRNA RNA-seq	NFX1	NFX1	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR279HMU	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR957EEG	shRNA RNA-seq	EIF4A3	EIF4A3	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR561CBC	shRNA RNA-seq	KHSRP	KHSRP	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR256PLH	shRNA RNA-seq	QKI	QKI	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR538QOG	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR913CAE	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR079IPT	shRNA RNA-seq	TBRG4	TBRG4	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR611ZAL	shRNA RNA-seq	TAF15	TAF15	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR076PMZ	shRNA RNA-seq	EIF2S2	EIF2S2	K562	ENCSR118EFE		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR904CJQ	shRNA RNA-seq	U2AF2	U2AF2	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR030ARO	shRNA RNA-seq	NCBP2	NCBP2	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR694LKY	shRNA RNA-seq	TIA1	TIA1	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR094KBY	shRNA RNA-seq	SRSF1	SRSF1	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR891AXF	shRNA RNA-seq	SSB	SSB	K562	ENCSR084SCN		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR164MUK	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR334HNJ	shRNA RNA-seq	DDX47	DDX47	K562	ENCSR898NWE		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR185JGT	shRNA RNA-seq	SLTM	SLTM	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR997FOT	shRNA RNA-seq	SUB1	SUB1	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR500WHE	shRNA RNA-seq	XRCC6	XRCC6	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR496ETJ	shRNA RNA-seq	PES1	PES1	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR081QQH	shRNA RNA-seq	ZRANB2	ZRANB2	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR028ITN	shRNA RNA-seq	PCBP2	PCBP2	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR732ICL	shRNA RNA-seq	HNRNPU	HNRNPU	K562	ENCSR898NWE		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR368ZRP	shRNA RNA-seq	PAPOLA	PAPOLA	K562	ENCSR942UNX		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR547NWD	shRNA RNA-seq	AARS	AARS	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR835RMN	shRNA RNA-seq	GRSF1	GRSF1	K562	ENCSR118EFE		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR921KDS	shRNA RNA-seq	RCC2	RCC2	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR092WKG	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR746NIM	shRNA RNA-seq	HNRNPM	HNRNPM	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR838SMC	shRNA RNA-seq	RPS5	RPS5	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR906WTM	shRNA RNA-seq	RTF1	RTF1	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR712CSN	shRNA RNA-seq	EIF4G1	EIF4G1	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR866XLI	shRNA RNA-seq	LARP4	LARP4	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR624XHG	shRNA RNA-seq	DROSHA	DROSHA	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR771ZZL	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR927XBT	shRNA RNA-seq	NUSAP1	NUSAP1	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR246SOU	shRNA RNA-seq	G3BP2	G3BP2	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR720BPO	shRNA RNA-seq	HNRNPA0	HNRNPA0	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR718EWL	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR770LYW	shRNA RNA-seq	SAFB2	SAFB2	K562	ENCSR154OBA		Brenton Graveley, UConn	2016-08-01	2	polyadenylated mRNA	reverse
+ENCSR896CFV	shRNA RNA-seq	SF3B1	SF3B1	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR354XQY	shRNA RNA-seq	HNRNPAB	HNRNPAB	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR384BDV	shRNA RNA-seq	CPSF6	CPSF6	K562	ENCSR424QCW		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR376RJN	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR667PLJ	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR466NRW	shRNA RNA-seq	PRPF4	PRPF4	HepG2	ENCSR093ERJ		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR473KFO	shRNA RNA-seq	UTP3	UTP3	K562	ENCSR655JYC		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR455TNF	shRNA RNA-seq	TARDBP	TARDBP	K562	ENCSR372DZW		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR232XRZ	shRNA RNA-seq	SND1	SND1	K562	ENCSR084SCN		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR936VPP	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR783LUA	shRNA RNA-seq	PRPF6	PRPF6	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR030GZQ	shRNA RNA-seq	TRA2A	TRA2A	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR074UZM	shRNA RNA-seq	G3BP1	G3BP1	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR318HAT	shRNA RNA-seq	RBM34	RBM34	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR410UHJ	shRNA RNA-seq	RPS10	RPS10	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR861ENA	shRNA RNA-seq	EIF2S1	EIF2S1	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR478FJK	shRNA RNA-seq	IGF2BP2	IGF2BP2	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR973QSV	shRNA RNA-seq	AATF	AATF	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR732IYM	shRNA RNA-seq	XRCC5	XRCC5	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR533HXS	shRNA RNA-seq	AGO1	AGO1	HepG2	ENCSR003EKR		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR155EZL	shRNA RNA-seq	DDX47	DDX47	K562	ENCSR031RRO		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR129ROE	shRNA RNA-seq	SMN1	SMN2;SMN1	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR728BOL	shRNA RNA-seq	FASTKD1	FASTKD1	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR762FEO	shRNA RNA-seq	LSM11	LSM11	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR269SJB	shRNA RNA-seq	CKAP4	CKAP4	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR477TRX	shRNA RNA-seq	EEF2	EEF2	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR345VVZ	shRNA RNA-seq	DHX30	DHX30	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR318OXM	shRNA RNA-seq	UPF2	UPF2	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR330KHN	shRNA RNA-seq	RBM22	RBM22	HepG2	ENCSR997HCQ		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR116QBU	shRNA RNA-seq	FIP1L1	FIP1L1	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR322XVS	shRNA RNA-seq	PHF6	PHF6	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR967QNT	shRNA RNA-seq	GPKOW	GPKOW	K562	ENCSR424QCW		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR563YIS	shRNA RNA-seq	HNRNPL	HNRNPL	K562	ENCSR031RRO		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR624OUI	shRNA RNA-seq	AQR	AQR	K562	ENCSR718EWL		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR995RPB	shRNA RNA-seq	SUPV3L1	SUPV3L1	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR077BPR	shRNA RNA-seq	ESF1	ESF1	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR104OLN	shRNA RNA-seq	ADAR	ADAR	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR281IUF	shRNA RNA-seq	DDX19B	DDX19B	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR810FHY	shRNA RNA-seq	UPF2	UPF2	K562	ENCSR438MDN		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR775TMW	shRNA RNA-seq	BOP1	BOP1	K562	ENCSR424QCW		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR584JRB	shRNA RNA-seq	NUFIP2	NUFIP2	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR778RWJ	shRNA RNA-seq	XPO5	XPO5	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR494UDF	shRNA RNA-seq	DKC1	DKC1	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR222SMI	shRNA RNA-seq	RBM27	RBM27	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR942MBU	shRNA RNA-seq	ILF3	ILF3	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR542ESY	shRNA RNA-seq	KRR1	KRR1	HepG2	ENCSR246RRQ		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR070LJO	shRNA RNA-seq	DDX1	DDX1	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR152IWT	shRNA RNA-seq	TRIP6	TRIP6	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR518JXY	shRNA RNA-seq	ZNF622	ZNF622	HepG2	ENCSR691IVR		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR810JYX	shRNA RNA-seq	SUCLG1	SUCLG1	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR251ABP	shRNA RNA-seq	UPF1	UPF1	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR040WAK	shRNA RNA-seq	CALR	CALR	HepG2	ENCSR364GRM		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR028YAQ	shRNA RNA-seq	PA2G4	PA2G4	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR386YEV	shRNA RNA-seq	CCAR1	CCAR1	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR034VBA	shRNA RNA-seq	HNRNPUL1	HNRNPUL1	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR278CHI	shRNA RNA-seq	SSB	SSB	HepG2	ENCSR997HCQ		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR410ZPU	shRNA RNA-seq	BCLAF1	BCLAF1	K562	ENCSR245BNJ		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR874ZLI	shRNA RNA-seq	CCDC124	CCDC124	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR998MZP	shRNA RNA-seq	PRPF8	PRPF8	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR721MXZ	shRNA RNA-seq	ABCF1	ABCF1	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR011BBS	shRNA RNA-seq	SART3	SART3	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR454KYR	shRNA RNA-seq	SF3A3	SF3A3	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR778SIU	shRNA RNA-seq	SUPV3L1	SUPV3L1	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR902WSK	shRNA RNA-seq	SSRP1	SSRP1	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR382QKD	shRNA RNA-seq	BUD13	BUD13	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR661HEL	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR843LYF	shRNA RNA-seq	YTHDC2	YTHDC2	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR113PYX	shRNA RNA-seq	CNOT7	CNOT7	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR181RLB	shRNA RNA-seq	EEF2	EEF2	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR336DFS	shRNA RNA-seq	RBFOX2	RBFOX2	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR744PAQ	shRNA RNA-seq	LARP4	LARP4	HepG2	ENCSR135LXL		Brenton Graveley, UConn	2016-08-01	2	polyadenylated mRNA	reverse
+ENCSR385KOY	shRNA RNA-seq	DNAJC21	DNAJC21	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR376FGR	shRNA RNA-seq	SRSF3	SRSF3	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR245BNJ	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR300QFQ	shRNA RNA-seq	TRIM56	TRIM56	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR101OPF	shRNA RNA-seq	SUCLG1	SUCLG1	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR016XPB	shRNA RNA-seq	NPM1	NPM1	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR448JAM	shRNA RNA-seq	ZC3H8	ZC3H8	K562	ENCSR718EWL		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR927SLP	shRNA RNA-seq	LIN28B	LIN28B	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR850PWM	shRNA RNA-seq	ZRANB2	ZRANB2	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR511BNY	shRNA RNA-seq	FIP1L1	FIP1L1	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR494VSD	shRNA RNA-seq	YBX3	YBX3	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR769GES	shRNA RNA-seq	HNRNPA2B1	HNRNPA2B1	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR104ABF	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR306EIU	shRNA RNA-seq	YBX3	YBX3	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR532ZPP	shRNA RNA-seq	EWSR1	EWSR1	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR767LLP	shRNA RNA-seq	RBFOX2	RBFOX2	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR180XTP	shRNA RNA-seq	NUSAP1	NUSAP1	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR047VPW	shRNA RNA-seq	FAM120A	FAM120A	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR105OXX	shRNA RNA-seq	MARK2	MARK2	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR911DGK	shRNA RNA-seq	TFIP11	TFIP11	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR689PHN	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR620HAA	shRNA RNA-seq	PPIG	PPIG	HepG2	ENCSR246RRQ		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR741YCA	shRNA RNA-seq	TBRG4	TBRG4	HepG2	ENCSR246RRQ		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR231DXJ	shRNA RNA-seq	ATP5C1	ATP5F1C	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR929PXS	shRNA RNA-seq	CEBPZ	CEBPZ	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR188IPO	shRNA RNA-seq	GTF2F1	GTF2F1	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR300IEW	shRNA RNA-seq	DDX24	DDX24	HepG2	ENCSR003EKR		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR032YMP	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR597IYB	shRNA RNA-seq	EXOSC9	EXOSC9	HepG2	ENCSR003EKR		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR471GIS	shRNA RNA-seq	RRP9	RRP9	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR634KHL	shRNA RNA-seq	HDGF	HDGF	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR678WOA	shRNA RNA-seq	RBM39	RBM39	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR667RIA	shRNA RNA-seq	RPS2	RPS2	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR524YXQ	shRNA RNA-seq	SRPK2	SRPK2	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR634KBO	shRNA RNA-seq	HNRNPC	HNRNPC	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR003EKR	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR812EIA	shRNA RNA-seq	EXOSC9	EXOSC9	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR192BPV	shRNA RNA-seq	SUGP2	SUGP2	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR777EDL	shRNA RNA-seq	STAU1	STAU1	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR674KDQ	shRNA RNA-seq	GRSF1	GRSF1	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR820ROH	shRNA RNA-seq	SERBP1	SERBP1	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR184YDW	shRNA RNA-seq	ZC3H8	ZC3H8	HepG2	ENCSR093ERJ		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR688GVV	shRNA RNA-seq	FTO	FTO	K562	ENCSR424QCW		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR822ASI	shRNA RNA-seq	twi	twi	whole organism	ENCSR891PPB		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR891PPB	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR315VLR	shRNA RNA-seq	twi	twi	whole organism	ENCSR625CVN		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR611LQB	shRNA RNA-seq	PSIP1	PSIP1	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR364GRM	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR110HAA	shRNA RNA-seq	EIF2S2	EIF2S2	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR118EFE	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR067GHD	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR060KRD	shRNA RNA-seq	TROVE2	TROVE2	K562	ENCSR092WKG		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR222CSF	shRNA RNA-seq	DDX28	DDX28	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR220TBR	shRNA RNA-seq	DAZAP1	DAZAP1	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR052IYH	shRNA RNA-seq	HNRNPC	HNRNPC	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR778WPL	shRNA RNA-seq	HNRNPAB	HNRNPAB	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR192GBD	shRNA RNA-seq	PABPC1	PABPC1	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR631RFX	shRNA RNA-seq	MTPAP	MTPAP	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR309HXK	shRNA RNA-seq	TRIM56	TRIM56	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR940GIC	shRNA RNA-seq	CKAP4	CKAP4	K562	ENCSR898ABR		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR286OKW	shRNA RNA-seq	CSTF2T	CSTF2T	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR325OOM	shRNA RNA-seq	FUS	FUS	K562	ENCSR084SCN		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR047IUS	shRNA RNA-seq	HNRNPU	HNRNPU	K562	ENCSR438MDN		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR782MXN	shRNA RNA-seq	SFPQ	SFPQ	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR815JDY	shRNA RNA-seq	CSTF2	CSTF2	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR927TSP	shRNA RNA-seq	TIAL1	TIAL1	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR126ARZ	shRNA RNA-seq	ILF2	ILF2	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR509LIV	shRNA RNA-seq	EIF4G1	EIF4G1	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR155BMF	shRNA RNA-seq	HNRNPL	HNRNPL	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR023HWI	shRNA RNA-seq	KHDRBS1	KHDRBS1	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR424JSU	shRNA RNA-seq	UBE2L3	UBE2L3	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR182GKG	shRNA RNA-seq	KIF1C	KIF1C	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR409CSO	shRNA RNA-seq	AUH	AUH	HepG2	ENCSR997HCQ		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR295XKC	shRNA RNA-seq	GTF2F1	GTF2F1	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR910ECL	shRNA RNA-seq	UTP3	UTP3	HepG2	ENCSR691IVR		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR968YWY	shRNA RNA-seq	GPKOW	GPKOW	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR529MBZ	shRNA RNA-seq	PPIG	PPIG	K562	ENCSR032YMP		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR644AIM	shRNA RNA-seq	SF1	SF1	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR744YVR	shRNA RNA-seq	PSIP1	PSIP1	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR620PUP	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR419JMU	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR372UWV	shRNA RNA-seq	U2AF1	U2AF1L5;U2AF1	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR222LRL	shRNA RNA-seq	CPSF7	CPSF7	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR398GHW	shRNA RNA-seq	GEMIN5	GEMIN5	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR527QNC	shRNA RNA-seq	TARDBP	TARDBP	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR711ZJQ	shRNA RNA-seq	RBM47	RBM47	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR695XOD	shRNA RNA-seq	CELF1	CELF1	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR174OYC	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR825QXH	shRNA RNA-seq	PARN	PARN	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR281KCL	shRNA RNA-seq	SUPT6H	SUPT6H	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR219DXZ	shRNA RNA-seq	SBDS	SBDS	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR573UBF	shRNA RNA-seq	TFIP11	TFIP11	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR794NUE	shRNA RNA-seq	HNRNPA2B1	HNRNPA2B1	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR945XKW	shRNA RNA-seq	PUM1	PUM1	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR517JDK	shRNA RNA-seq	NKRF	NKRF	HepG2	ENCSR246RRQ		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR954HAY	shRNA RNA-seq	SART3	SART3	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR165VBD	shRNA RNA-seq	UTP18	UTP18	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR334BTA	shRNA RNA-seq	WDR3	WDR3	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR914WQV	shRNA RNA-seq	CSTF2T	CSTF2T	HepG2	ENCSR003EKR		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR424YSV	shRNA RNA-seq	AATF	AATF	HepG2	ENCSR003EKR		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR268JDD	shRNA RNA-seq	AGO1	AGO1	K562	ENCSR084SCN		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR118VQR	shRNA RNA-seq	RPS3A	RPS3A	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR153GKS	shRNA RNA-seq	SRFBP1	SRFBP1	HepG2	ENCSR997HCQ		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR925SYZ	shRNA RNA-seq	BOP1	BOP1	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR927JXU	shRNA RNA-seq	FUS	FUS	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR717SJA	shRNA RNA-seq	XRN2	XRN2	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR685JXU	shRNA RNA-seq	RCC2	RCC2	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR562CCA	shRNA RNA-seq	SF1	SF1	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR660ETT	shRNA RNA-seq	EIF3D	EIF3D	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR379VXW	shRNA RNA-seq	FKBP4	FKBP4	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR040FSN	shRNA RNA-seq	EIF4G2	EIF4G2	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR733GMN	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR598GKQ	shRNA RNA-seq	DDX59	DDX59	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR389HFU	shRNA RNA-seq	FTO	FTO	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR264TUE	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR689MIY	shRNA RNA-seq	UPF1	UPF1	HepG2	ENCSR691IVR		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR424QCW	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR776SXA	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR302JQA	shRNA RNA-seq	IGF2BP3	IGF2BP3	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR792XFP	shRNA RNA-seq	MATR3	MATR3	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR246RRQ	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR552NBS	shRNA RNA-seq	HNRNPA0	HNRNPA0	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR426UUG	shRNA RNA-seq	U2AF2	U2AF2	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR995JMS	shRNA RNA-seq	HNRNPM	HNRNPM	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR031RRO	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR968BBQ	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-06-30	2	polyadenylated mRNA	reverse
+ENCSR997HCQ	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR385UPQ	shRNA RNA-seq	RBM15	RBM15	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR840QOH	shRNA RNA-seq	ETF1	ETF1	HepG2	ENCSR997HCQ		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR691IVR	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR490DYI	shRNA RNA-seq	HNRNPLL	HNRNPLL	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR770BZR	shRNA RNA-seq	twi	twi	whole organism	ENCSR733GMN		Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR081XRA	shRNA RNA-seq	SF3B4	SF3B4	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR960MSV	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR945UYL	shRNA RNA-seq	G3BP2	G3BP2	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR009PPI	shRNA RNA-seq	FXR1	FXR1	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR495YSS	shRNA RNA-seq	AGO2	AGO2	K562	ENCSR898NWE		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR995ZGJ	shRNA RNA-seq	SMNDC1	SMNDC1	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR529QEZ	shRNA RNA-seq	PRPF6	PRPF6	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR625CVN	shRNA RNA-seq			whole organism		control	Susan Celniker, LBNL	2019-04-25	2	RNA	unstranded
+ENCSR408SDL	shRNA RNA-seq	SMNDC1	SMNDC1	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR014VQS	shRNA RNA-seq	RECQL	RECQL	K562	ENCSR942UNX		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR351CNN	shRNA RNA-seq	CELF1	CELF1	K562	ENCSR081EST		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR010ZMZ	shRNA RNA-seq	HLTF	HLTF	HepG2	ENCSR491FOC		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR492UFS	shRNA RNA-seq	MATR3	MATR3	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR470PRV	shRNA RNA-seq	HNRNPC	HNRNPC	K562	ENCSR771ZZL		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR628JYB	shRNA RNA-seq	SF1	SF1	K562	ENCSR898NWE		Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR081EST	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR253DCB	shRNA RNA-seq	ASCC1	ASCC1	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR134JRE	shRNA RNA-seq	TARDBP	TARDBP	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR831YGP	shRNA RNA-seq	EWSR1	EWSR1	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR849STR	shRNA RNA-seq	MAGOH	MAGOH	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR143COQ	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR347ZHQ	shRNA RNA-seq	XRN2	XRN2	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR081IAO	shRNA RNA-seq	CCAR1	CCAR1	HepG2	ENCSR135LXL		Brenton Graveley, UConn	2016-08-01	2	polyadenylated mRNA	reverse
+ENCSR048BWH	shRNA RNA-seq	HNRNPA1	HNRNPA1	K562	ENCSR438MDN		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR639LKS	shRNA RNA-seq	FKBP4	FKBP4	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR610VTA	shRNA RNA-seq	ABCF1	ABCF1	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR577OVP	shRNA RNA-seq	DNAJC2	DNAJC2	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR946OFN	shRNA RNA-seq	TROVE2	TROVE2	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR296ERI	shRNA RNA-seq	PUS1	PUS1	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR584LDM	shRNA RNA-seq	DDX27	DDX27	K562	ENCSR245BNJ		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR208GPE	shRNA RNA-seq	DDX1	DDX1	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR210KJB	shRNA RNA-seq	RRP9	RRP9	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR004OSI	shRNA RNA-seq	DNAJC2	DNAJC2	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR244SIO	shRNA RNA-seq	KRR1	KRR1	K562	ENCSR424QCW		Brenton Graveley, UConn	2017-01-04	2	polyadenylated mRNA	reverse
+ENCSR341PZW	shRNA RNA-seq	WDR43	WDR43	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR788YGG	shRNA RNA-seq	RPS3A	RPS3A	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR560RSZ	shRNA RNA-seq	DDX52	DDX52	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR492BKM	shRNA RNA-seq	FAM120A	FAM120A	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR844QNT	shRNA RNA-seq	PPP1R8	PPP1R8	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR618IQH	shRNA RNA-seq	PUS1	PUS1	K562	ENCSR143COQ		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR676EKU	shRNA RNA-seq	CPSF6	CPSF6	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR453HKS	shRNA RNA-seq	XPO5	XPO5	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR269ZAO	shRNA RNA-seq	UTP18	UTP18	HepG2	ENCSR691IVR		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR874DVZ	shRNA RNA-seq	GLRX3	GLRX3	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR082UWF	shRNA RNA-seq	STIP1	STIP1	K562	ENCSR419JMU		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR898ABR	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR093ERJ	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR164TLB	shRNA RNA-seq	ADAR	ADAR	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR837QDN	shRNA RNA-seq	SUGP2	SUGP2	HepG2	ENCSR246RRQ		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR182DAW	shRNA RNA-seq	HNRNPA1	HNRNPA1	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR112YTD	shRNA RNA-seq	SLBP	SLBP	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR305XWT	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR042QTH	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR660MZN	shRNA RNA-seq	HNRNPD	HNRNPD	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR942UNX	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR529JNJ	shRNA RNA-seq	HNRNPK	HNRNPK	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR904BCZ	shRNA RNA-seq	RAVER1	RAVER1	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR648QFY	shRNA RNA-seq	PCBP2	PCBP2	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR372DZW	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-06-30	2	RNA	reverse
+ENCSR084SCN	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR148MQK	shRNA RNA-seq	SF3B4	SF3B4	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR193FFA	shRNA RNA-seq	ASCC1	ASCC1	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR560AYQ	shRNA RNA-seq	RBM34	RBM34	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR066VOO	shRNA RNA-seq	SRSF1	SRSF1	K562	ENCSR129RWD		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR610AEI	shRNA RNA-seq	RBM25	RBM25	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR780YFF	shRNA RNA-seq	FXR1	FXR1	K562	ENCSR913CAE		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR154OBA	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR585KOJ	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR135LXL	shRNA RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR910YNJ	shRNA RNA-seq	PABPC1	PABPC1	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR781YNI	shRNA RNA-seq	SRSF5	SRSF5	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR047EEG	shRNA RNA-seq	PABPC4	PABPC4	K562	ENCSR344XID		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR438MDN	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR143UET	shRNA RNA-seq	EIF3G	EIF3G	K562	ENCSR084SCN		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR807ODB	shRNA RNA-seq	AKAP8L	AKAP8L	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR788HVK	shRNA RNA-seq	EIF3D	EIF3D	HepG2	ENCSR689PHN		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR385TMY	shRNA RNA-seq	RBM17	RBM17	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR684HTV	shRNA RNA-seq	UCHL5	UCHL5	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR602AWR	shRNA RNA-seq	TUFM	TUFM	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR784FTX	shRNA RNA-seq	KHDRBS1	KHDRBS1	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR647NYX	shRNA RNA-seq	NONO	NONO	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR309PPC	shRNA RNA-seq	PA2G4	PA2G4	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR398HXV	shRNA RNA-seq	NONO	NONO	K562	ENCSR661HEL		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR481AYC	shRNA RNA-seq	BCLAF1	BCLAF1	HepG2	ENCSR856ZRV		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR643UFV	shRNA RNA-seq	NOL12	NOL12	HepG2	ENCSR042QTH		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR169QQW	shRNA RNA-seq	MSI2	MSI2	K562	ENCSR620PUP		Brenton Graveley, UConn	2016-01-12	2	polyadenylated mRNA	reverse
+ENCSR355OQC	shRNA RNA-seq	NAA15	NAA15	HepG2	ENCSR067GHD		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR883BXR	shRNA RNA-seq	LSM11	LSM11	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR853PBF	shRNA RNA-seq	DHX30	DHX30	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR116YMU	shRNA RNA-seq	GNB2L1	RACK1	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR003LSA	shRNA RNA-seq	SNRNP200	SNRNP200	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR269HQA	shRNA RNA-seq	ILF3	ILF3	K562	ENCSR667PLJ		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR457WBK	shRNA RNA-seq	NUP35	NUP35	HepG2	ENCSR960MSV		Brenton Graveley, UConn	2016-06-13	2	polyadenylated mRNA	reverse
+ENCSR274KWA	shRNA RNA-seq	CNOT7	CNOT7	HepG2	ENCSR279HMU		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR118KUN	shRNA RNA-seq	DKC1	DKC1	HepG2	ENCSR538QOG		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR829EFL	shRNA RNA-seq	NSUN2	NSUN2	K562	ENCSR174OYC		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR898OPN	shRNA RNA-seq	RBM17	RBM17	K562	ENCSR118EFE		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR689ZJC	shRNA RNA-seq	HNRNPUL1	HNRNPUL1	HepG2	ENCSR104ABF		Brenton Graveley, UConn	2016-02-11	2	polyadenylated mRNA	reverse
+ENCSR770OWW	shRNA RNA-seq	LARP7	LARP7	K562	ENCSR572FFX		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR706SXN	shRNA RNA-seq	RPL23A	RPL23A	HepG2	ENCSR674KEK		Brenton Graveley, UConn	2014-12-17	2	polyadenylated mRNA	reverse
+ENCSR416ZJH	shRNA RNA-seq	PABPN1	PABPN1	K562	ENCSR164MUK		Brenton Graveley, UConn	2016-03-16	2	polyadenylated mRNA	reverse
+ENCSR308IKH	shRNA RNA-seq	HNRNPU	HNRNPU	HepG2	ENCSR305XWT		Brenton Graveley, UConn	2015-08-18	2	polyadenylated mRNA	reverse
+ENCSR485ZTC	shRNA RNA-seq	DDX21	DDX21	HepG2	ENCSR003EKR		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR778AJO	shRNA RNA-seq	EIF3G	EIF3G	HepG2	ENCSR003EKR		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR710NWE	shRNA RNA-seq	IGF2BP3	IGF2BP3	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR572AMC	shRNA RNA-seq	RECQL	RECQL	HepG2	ENCSR603TCV		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR455VZH	shRNA RNA-seq	PABPC4	PABPC4	HepG2	ENCSR237YZT		Brenton Graveley, UConn	2014-10-16	2	polyadenylated mRNA	reverse
+ENCSR783YSQ	shRNA RNA-seq	RTF1	RTF1	K562	ENCSR815CVQ		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR004RGI	shRNA RNA-seq	RPS10	RPS10	K562	ENCSR084SCN		Brenton Graveley, UConn	2014-11-20	2	polyadenylated mRNA	reverse
+ENCSR635BOO	shRNA RNA-seq	SNRNP70	SNRNP70	HepG2	ENCSR264TUE		Brenton Graveley, UConn	2016-09-29	2	polyadenylated mRNA	reverse
+ENCSR655JYC	shRNA RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR166MWM	CRISPR RNA-seq	RBM14	RBM14;RBM14-RBM4	HepG2	ENCSR521WAI		Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR580TGX	CRISPR RNA-seq	POLR2G	POLR2G	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR521WAI	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR772DUM	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR680OJB	CRISPR RNA-seq	SYNCRIP	SYNCRIP	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR972AZD	CRISPR RNA-seq	SRSF9	SRSF9	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR105LOV	CRISPR RNA-seq	PCBP3	PCBP3	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR175OSV	CRISPR RNA-seq	DDX39B	DDX39B	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR020EBN	CRISPR RNA-seq	DUS3L	DUS3L	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR516EPT	CRISPR RNA-seq	XRCC6	XRCC6	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR439CUH	CRISPR RNA-seq	PPP1R10	PPP1R10	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR092QTF	CRISPR RNA-seq	RAE1	RAE1	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR671OGO	CRISPR RNA-seq	IFIT2	IFIT2	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR034NAT	CRISPR RNA-seq	NPM1	NPM1	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR700FWD	CRISPR RNA-seq	SMAD4	SMAD4	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR516TLX	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR147RTA	CRISPR RNA-seq	FXR2	FXR2	HepG2	ENCSR834IFU		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR718RBZ	CRISPR RNA-seq	DDX42	DDX42	HepG2	ENCSR834IFU		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR064VKV	CRISPR RNA-seq	ZNF574	ZNF574	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR548OTL	CRISPR RNA-seq	YBX1	YBX1	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR026FEM	CRISPR RNA-seq	ERN1	ERN1	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR426JCD	CRISPR RNA-seq	GSK3B	GSK3B	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR383QYT	CRISPR RNA-seq	SMAD5	SMAD5	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR416NPL	CRISPR RNA-seq	CXXC1	CXXC1	K562	ENCSR516TLX		Brenton Graveley, UConn	2021-04-19	2	polyadenylated mRNA	reverse
+ENCSR528LDT	CRISPR RNA-seq	PTGES3	PTGES3	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR786OLN	CRISPR RNA-seq	EIF2B3	EIF2B3	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR702LIH	CRISPR RNA-seq	RPL11	RPL11	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR308EYT	CRISPR RNA-seq	E4F1	E4F1	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR329UEC	CRISPR RNA-seq	SCAF8	SCAF8	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR206ICZ	CRISPR RNA-seq	CHCHD3	CHCHD3	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR755DOV	CRISPR RNA-seq	CTTN	CTTN	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR041IXV	CRISPR RNA-seq	RBM25	RBM25	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR462MFN	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR191LWZ	CRISPR RNA-seq	ARHGEF2	ARHGEF2	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR051BQF	CRISPR RNA-seq	CAT	CAT	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR146ITQ	CRISPR RNA-seq	DCTN2	DCTN2	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR608WYZ	CRISPR RNA-seq	RIOK1	RIOK1	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR535TPQ	CRISPR RNA-seq	SPATS2	SPATS2	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR954VJD	CRISPR RNA-seq	SAP30BP	SAP30BP	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR821KIN	CRISPR RNA-seq	RBM14	RBM14;RBM14-RBM4	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR096JMV	CRISPR RNA-seq	RBM26	RBM26	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR094AES	CRISPR RNA-seq	SEC62	SEC62	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR330VES	CRISPR RNA-seq	SCAF8	SCAF8	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR745KNE	CRISPR RNA-seq	SEC23IP	SEC23IP	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR737OPD	CRISPR RNA-seq	RPRD1B	RPRD1B	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-18	2	polyadenylated mRNA	reverse
+ENCSR335KFN	CRISPR RNA-seq	METTL3	METTL3	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR120WNJ	CRISPR RNA-seq	LSM7	LSM7	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR029VGU	CRISPR RNA-seq	DHX57	DHX57	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR644LYC	CRISPR RNA-seq	CNOT10	CNOT10	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR306EWE	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR913OZW	CRISPR RNA-seq	CHTOP	CHTOP	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR713OTF	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR119PLU	CRISPR RNA-seq	RUVBL1	RUVBL1	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR068YPI	CRISPR RNA-seq	SAP30BP	SAP30BP	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR639XFV	CRISPR RNA-seq	SARNP	SARNP	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR034FLW	CRISPR RNA-seq	SF3B3	SF3B3	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR447ARO	CRISPR RNA-seq	SF3B2	SF3B2	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR778XFE	CRISPR RNA-seq	BMS1	BMS1	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR911CLD	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR925SFP	CRISPR RNA-seq	RPS21	RPS21	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR383FCI	CRISPR RNA-seq	CD2BP2	CD2BP2	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR981TQN	CRISPR RNA-seq	SEC63	SEC63	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR199WMC	CRISPR RNA-seq	REXO2	REXO2	HepG2	ENCSR232ERY		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR008ECN	CRISPR RNA-seq	SEC62	SEC62	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR119RXN	CRISPR RNA-seq	RPS15A	RPS15A	HepG2	ENCSR232ERY		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR458FLK	CRISPR RNA-seq	SNW1	SNW1	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR994NGU	CRISPR RNA-seq	RPS8	RPS8	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR347NKX	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR218ITU	CRISPR RNA-seq	SEC31A	SEC31A	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR082BCP	CRISPR RNA-seq	SEC63	SEC63	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR183WOW	CRISPR RNA-seq	SMG5	SMG5	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR558XPA	CRISPR RNA-seq	SETD1A	SETD1A	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR157IJG	CRISPR RNA-seq	SMG7	SMG7	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR971FJU	CRISPR RNA-seq	SMG9	SMG9	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR235JSA	CRISPR RNA-seq	RPUSD2	RPUSD2	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR153WFE	CRISPR RNA-seq	RUVBL2	RUVBL2	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR563QCQ	CRISPR RNA-seq	RPUSD2	RPUSD2	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR870EBU	CRISPR RNA-seq	SAMHD1	SAMHD1	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR878TRK	CRISPR RNA-seq	SAMHD1	SAMHD1	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR726RTM	CRISPR RNA-seq	RTCB	RTCB	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR323RFB	CRISPR RNA-seq	CDC42EP4	CDC42EP4	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR703FPC	CRISPR RNA-seq	RNASEH2A	RNASEH2A	HepG2	ENCSR232ERY		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR271ZAB	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR232ERY	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR780UNO	CRISPR RNA-seq	SKIV2L2	MTREX	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR333JNM	CRISPR RNA-seq	RPL29	RPL29	HepG2	ENCSR232ERY		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR812JYP	CRISPR RNA-seq	ADK	ADK	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR883MTV	CRISPR RNA-seq	DDX39B	DDX39B	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR916PCG	CRISPR RNA-seq	E4F1	E4F1	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR715XCS	CRISPR RNA-seq	DICER1	DICER1	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR444IOJ	CRISPR RNA-seq	MORC2	MORC2	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR670KAS	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR503VIZ	CRISPR RNA-seq	GARS	GARS	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR665DMA	CRISPR RNA-seq	MECP2	MECP2	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR005UDT	CRISPR RNA-seq	ERN1	ERN1	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR148XGX	CRISPR RNA-seq	GSPT2	GSPT2	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR474EJY	CRISPR RNA-seq	GARS	GARS	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR821GQN	CRISPR RNA-seq	ZNF574	ZNF574	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR504CPZ	CRISPR RNA-seq	NSUN4	NSUN4	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR197XHV	CRISPR RNA-seq	BAZ1A	BAZ1A	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR359ICP	CRISPR RNA-seq	DHX57	DHX57	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR511QFJ	CRISPR RNA-seq	PRPF39	PRPF39	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR033XYV	CRISPR RNA-seq	EIF4E	EIF4E	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR013PBS	CRISPR RNA-seq	NCL	NCL	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR940FIN	CRISPR RNA-seq	GNL3	GNL3	HepG2	ENCSR713OTF		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR687ITW	CRISPR RNA-seq	RPL28	RPL28	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR380LKB	CRISPR RNA-seq	SUZ12	SUZ12	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR723QPD	CRISPR RNA-seq	RAE1	RAE1	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR036ANR	CRISPR RNA-seq	SMAD2	SMAD2	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR561IMV	CRISPR RNA-seq	ERO1A	ERO1A	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR565ZPZ	CRISPR RNA-seq	RPS25	RPS25	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR473HXR	CRISPR RNA-seq	EXOSC2	EXOSC2	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR262ZBE	CRISPR RNA-seq	RIOK2	RIOK2	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR632RWY	CRISPR RNA-seq	RECQL5	RECQL5	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR877CJJ	CRISPR RNA-seq	CSE1L	CSE1L	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR251LKQ	CRISPR RNA-seq	CSNK1E	CSNK1E	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR328DHD	CRISPR RNA-seq	ATP5A1	ATP5F1A	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR002JOW	CRISPR RNA-seq	RNASEH2A	RNASEH2A	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-18	2	polyadenylated mRNA	reverse
+ENCSR036ZTN	CRISPR RNA-seq	RPL29	RPL29	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-18	2	polyadenylated mRNA	reverse
+ENCSR574ZTO	CRISPR RNA-seq	DARS	DARS	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR044GQU	CRISPR RNA-seq	CSTF3	CSTF3	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR224XSS	CRISPR RNA-seq	CPSF2	CPSF2	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR958OFR	CRISPR RNA-seq	CPSF3	CPSF3	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR992YRL	CRISPR RNA-seq	DDX18	DDX18	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR524NOZ	CRISPR RNA-seq	DCPS	DCPS	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR576ASZ	CRISPR RNA-seq	CLTC	CLTC	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR248WTR	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2022-02-18	2	polyadenylated mRNA	reverse
+ENCSR292NHK	CRISPR RNA-seq	RPS15A	RPS15A	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-18	2	polyadenylated mRNA	reverse
+ENCSR339XFB	CRISPR RNA-seq	CPSF7	CPSF7	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR005RUR	CRISPR RNA-seq	SNRPC	SNRPC	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR435YKS	CRISPR RNA-seq	CSDE1	CSDE1	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR256UIA	CRISPR RNA-seq	DBNL	DBNL	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR298AQX	CRISPR RNA-seq	CHTOP	CHTOP	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR631NIZ	CRISPR RNA-seq	RNPC3	RNPC3	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-18	2	polyadenylated mRNA	reverse
+ENCSR918MUU	CRISPR RNA-seq	CNOT2	CNOT2	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR519LZD	CRISPR RNA-seq	RBM28	RBM28	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR944PAO	CRISPR RNA-seq	CDV3	CDV3	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR163RXI	CRISPR RNA-seq	RBM8A	RBM8A	K562	ENCSR347NKX		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR583SHC	CRISPR RNA-seq	CCDC47	CCDC47	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR234UAM	CRISPR RNA-seq	ATXN2L	ATXN2L	HepG2	ENCSR248WTR		Brenton Graveley, UConn	2022-02-18	2	polyadenylated mRNA	reverse
+ENCSR146YRO	CRISPR RNA-seq	CTTN	CTTN	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR840HSL	CRISPR RNA-seq	ADAT3	ADAT3	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR077MFQ	CRISPR RNA-seq	CARS	CARS	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR489DNH	CRISPR RNA-seq	APTX	APTX	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR654SOD	CRISPR RNA-seq	AGFG1	AGFG1	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR700JXJ	CRISPR RNA-seq	AHCYL2	AHCYL2	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR076LFC	CRISPR RNA-seq	ALKBH1	ALKBH1	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR642RCV	CRISPR RNA-seq	ALDH18A1	ALDH18A1	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR697NDQ	CRISPR RNA-seq	CMTR1	CMTR1	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR122RJE	CRISPR RNA-seq	ADAT1	ADAT1	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR688ZJS	CRISPR RNA-seq	CCT2	CCT2	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR944KLG	CRISPR RNA-seq	C1QBP	C1QBP	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR671FDZ	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR735FXX	CRISPR RNA-seq	ALDOA	ALDOA	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR547ICR	CRISPR RNA-seq	SF3A1	SF3A1	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR921IQU	CRISPR RNA-seq	BZW2	BZW2	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR300LXO	CRISPR RNA-seq	DDX18	DDX18	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR331MLG	CRISPR RNA-seq	CLASP2	CLASP2	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR740WAG	CRISPR RNA-seq	CPSF4	CPSF4	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR900GQL	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR274ESZ	CRISPR RNA-seq	ACO2	ACO2	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR828XJV	CRISPR RNA-seq	APEH	APEH	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR892ZGW	CRISPR RNA-seq	AGFG1	AGFG1	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR695RQF	CRISPR RNA-seq	PPP1R10	PPP1R10	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR585UBH	CRISPR RNA-seq	ATXN2L	ATXN2L	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR924AVW	CRISPR RNA-seq	ADK	ADK	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR428WVZ	CRISPR RNA-seq	DICER1	DICER1	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR682DZY	CRISPR RNA-seq	SUZ12	SUZ12	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR404OHQ	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR650GNB	CRISPR RNA-seq	ZNF335	ZNF335	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR667WZB	CRISPR RNA-seq	EIF2AK1	EIF2AK1	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR999MAE	CRISPR RNA-seq	EIF4A3	EIF4A3	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR613LSQ	CRISPR RNA-seq	CTCF	CTCF	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR739ZMF	CRISPR RNA-seq	RBM25	RBM25	HepG2	ENCSR232ERY		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR036HUB	CRISPR RNA-seq	SEPT11	SEPT11	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR293VAR	CRISPR RNA-seq	SPAG9	SPAG9	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR727WPW	CRISPR RNA-seq	SEPT11	SEPT11	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR034VEC	CRISPR RNA-seq	ROCK2	ROCK2	HepG2	ENCSR232ERY		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR706QGC	CRISPR RNA-seq	RNH1	RNH1	HepG2	ENCSR232ERY		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR642LZB	CRISPR RNA-seq	SPAG9	SPAG9	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR039SOI	CRISPR RNA-seq	GEMIN2	GEMIN2	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR266XKN	CRISPR RNA-seq	MECP2	MECP2	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR207GTU	CRISPR RNA-seq	SARNP	SARNP	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR033MIV	CRISPR RNA-seq	SRA1	SRA1	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR400XYB	CRISPR RNA-seq	CD3EAP	CD3EAP	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR965MSX	CRISPR RNA-seq	SMAD4	SMAD4	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR294DOR	CRISPR RNA-seq	EIF4E	EIF4E	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR363NMO	CRISPR RNA-seq	AHCYL2	AHCYL2	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR307KLI	CRISPR RNA-seq	LSM7	LSM7	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR593NFA	CRISPR RNA-seq	DBNL	DBNL	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR865WQR	CRISPR RNA-seq	CACTIN	CACTIN	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR975NHV	CRISPR RNA-seq	EIF6	EIF6	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR681ELF	CRISPR RNA-seq	PRPF3	PRPF3	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR470SBK	CRISPR RNA-seq	CDK9	CDK9	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR840JRU	CRISPR RNA-seq	SNRPC	SNRPC	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR162HOU	CRISPR RNA-seq	BRIX1	BRIX1	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR340ZLQ	CRISPR RNA-seq	ATP5A1	ATP5F1A	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR875UMY	CRISPR RNA-seq	CDV3	CDV3	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR208AJS	CRISPR RNA-seq	SART1	SART1	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR775USN	CRISPR RNA-seq	SMYD3	SMYD3	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR666FOS	CRISPR RNA-seq	CXXC1	CXXC1	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR816LHY	CRISPR RNA-seq	RPL11	RPL11	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR204OEJ	CRISPR RNA-seq	PAN2	PAN2	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR943CXG	CRISPR RNA-seq	MDM2	MDM2	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR381NPB	CRISPR RNA-seq	LARS	LARS	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR665CVU	CRISPR RNA-seq	NCL	NCL	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR607RGV	CRISPR RNA-seq	RYBP	RYBP	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR909TFJ	CRISPR RNA-seq	PRPF3	PRPF3	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR095TFW	CRISPR RNA-seq	SF3A2	SF3A2	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR035LEO	CRISPR RNA-seq	EXOSC2	EXOSC2	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR607SRH	CRISPR RNA-seq	METTL1	METTL1	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR002NQQ	CRISPR RNA-seq	CNOT10	CNOT10	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR877JEM	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR070AYA	CRISPR RNA-seq	WBP11	WBP11	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR785JUR	CRISPR RNA-seq	APEH	APEH	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR715GSX	CRISPR RNA-seq	ELAC2	ELAC2	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR455KXW	CRISPR RNA-seq	EXOSC10	EXOSC10	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR925POR	CRISPR RNA-seq	METTL1	METTL1	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR751TUX	CRISPR RNA-seq	CSTF1	CSTF1	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR608WXK	CRISPR RNA-seq	EIF6	EIF6	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR104RTM	CRISPR RNA-seq	BARD1	BARD1	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR468LEL	CRISPR RNA-seq	RPL18	RPL18	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR870TGO	CRISPR RNA-seq	ACTN4	ACTN4	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR899RVY	CRISPR RNA-seq	CLTC	CLTC	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR663BBL	CRISPR RNA-seq	CNOT2	CNOT2	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR947EFJ	CRISPR RNA-seq	API5	API5	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR071DBC	CRISPR RNA-seq	ALDOA	ALDOA	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR704VPL	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR887XCL	CRISPR RNA-seq	CPSF2	CPSF2	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR953VMB	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR970WRV	CRISPR RNA-seq	CPSF3	CPSF3	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR233MJI	CRISPR RNA-seq	ARHGEF2	ARHGEF2	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR884REL	CRISPR RNA-seq	METTL3	METTL3	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR932GTJ	CRISPR RNA-seq	PAN2	PAN2	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR613ZVB	CRISPR RNA-seq	DDX17	DDX17	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR585MSI	CRISPR RNA-seq	API5	API5	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR035MKJ	CRISPR RNA-seq	CCNT1	CCNT1	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR507WAD	CRISPR RNA-seq	DDX23	DDX23	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR250QFO	CRISPR RNA-seq	ARHGEF1	ARHGEF1	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR667JRK	CRISPR RNA-seq	CAT	CAT	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR974KDR	CRISPR RNA-seq	CARHSP1	CARHSP1	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR054DGN	CRISPR RNA-seq	CCT3	CCT3	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR297ONN	CRISPR RNA-seq	CAND1	CAND1	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR995XEP	CRISPR RNA-seq	CCT4	CCT4	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR244OOV	CRISPR RNA-seq	CMTR1	CMTR1	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR046XQE	CRISPR RNA-seq	BRD2	BRD2	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR220DTX	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR085GSF	CRISPR RNA-seq	CNDP2	CNDP2	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR544ZMX	CRISPR RNA-seq	CDC5L	CDC5L	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR060SLE	CRISPR RNA-seq	BRIX1	BRIX1	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR323SDL	CRISPR RNA-seq	CD3EAP	CD3EAP	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR049YEZ	CRISPR RNA-seq	CDK9	CDK9	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR513CVF	CRISPR RNA-seq	CLNS1A	CLNS1A	HepG2	ENCSR462MFN		Brenton Graveley, UConn	2022-02-14	2	polyadenylated mRNA	reverse
+ENCSR307GHU	CRISPR RNA-seq	CHCHD3	CHCHD3	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR785SZL	CRISPR RNA-seq	RUVBL1	RUVBL1	HepG2	ENCSR452TFV		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR485ZHW	CRISPR RNA-seq	RIOK2	RIOK2	HepG2	ENCSR911CLD		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR950KYU	CRISPR RNA-seq	CLNS1A	CLNS1A	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR659UXO	CRISPR RNA-seq	YBX1	YBX1	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR989GNV	CRISPR RNA-seq	SMYD3	SMYD3	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR832XLB	CRISPR RNA-seq	FYTTD1	FYTTD1	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR854OFV	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR532IHF	CRISPR RNA-seq	RBM19	RBM19	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR423ERM	CRISPR RNA-seq	DCP2	DCP2	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR825EPB	CRISPR RNA-seq	BAZ1A	BAZ1A	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR580XTY	CRISPR RNA-seq	PDCD4	PDCD4	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR921RQX	CRISPR RNA-seq	THOC1	THOC1	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR029LLJ	CRISPR RNA-seq	ACTN4	ACTN4	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR051LWN	CRISPR RNA-seq	ADAT1	ADAT1	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR511EKJ	CRISPR RNA-seq	ELAC2	ELAC2	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR159HPD	CRISPR RNA-seq	CAST	CAST	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR267SUE	CRISPR RNA-seq	CARS	CARS	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR166VYI	CRISPR RNA-seq	DCPS	DCPS	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR213ILK	CRISPR RNA-seq	LARS	LARS	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR650TTU	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR300UBK	CRISPR RNA-seq	SKIV2L2	MTREX	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR012OCK	CRISPR RNA-seq	BYSL	BYSL	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR747MHD	CRISPR RNA-seq	RPRD1B	RPRD1B	HepG2	ENCSR232ERY		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR512BIT	CRISPR RNA-seq	AIMP1	AIMP1	HepG2	ENCSR650TTU		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR911ITT	CRISPR RNA-seq	DCP1A	DCP1A	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR876IJP	CRISPR RNA-seq	CARHSP1	CARHSP1	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR608CUI	CRISPR RNA-seq	PSMA1	PSMA1	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR633RMN	CRISPR RNA-seq	CAPRIN1	CAPRIN1	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR528OVC	CRISPR RNA-seq	BZW2	BZW2	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR582AOQ	CRISPR RNA-seq	CWF19L2	CWF19L2	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR527XZI	CRISPR RNA-seq	CAND1	CAND1	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR928XFZ	CRISPR RNA-seq	RPS28	RPS28	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR164POA	CRISPR RNA-seq	CNDP2	CNDP2	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR002ODC	CRISPR RNA-seq	DDX10	DDX10	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR402BZZ	CRISPR RNA-seq	SF3A2	SF3A2	HepG2	ENCSR671FDZ		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR251SXS	CRISPR RNA-seq	ACO2	ACO2	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR016WTN	CRISPR RNA-seq	SMAD2	SMAD2	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR353OQP	CRISPR RNA-seq	ERO1A	ERO1A	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR871XPX	CRISPR RNA-seq	CTCF	CTCF	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR834IFU	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR550VEL	CRISPR RNA-seq	NSUN4	NSUN4	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR312VLS	CRISPR RNA-seq	XRCC6	XRCC6	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR234FWR	CRISPR RNA-seq	RPL28	RPL28	K562	ENCSR404OHQ		Brenton Graveley, UConn	2021-04-19	2	polyadenylated mRNA	reverse
+ENCSR194SPW	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR556TJU	CRISPR RNA-seq	SF3A1	SF3A1	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR094HEU	CRISPR RNA-seq	HNRNPH1	HNRNPH1	HepG2	ENCSR194SPW		Brenton Graveley, UConn	2021-01-28	2	polyadenylated mRNA	reverse
+ENCSR333OGA	CRISPR RNA-seq	GEMIN2	GEMIN2	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR469UOO	CRISPR RNA-seq	PDCD4	PDCD4	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR635RAB	CRISPR RNA-seq	FBL	FBL	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR796HOP	CRISPR RNA-seq	FBL	FBL	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR490PSG	CRISPR RNA-seq	TAF9	TAF9	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR264MSX	CRISPR RNA-seq	EIF4A3	EIF4A3	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR949QWR	CRISPR RNA-seq	DUS3L	DUS3L	K562	ENCSR516TLX		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR406SEH	CRISPR RNA-seq	EXOSC5	EXOSC5	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR025XBH	CRISPR RNA-seq	GSK3B	GSK3B	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR437GYG	CRISPR RNA-seq	AGGF1	AGGF1	HepG2	ENCSR853AOV		Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR336TYW	CRISPR RNA-seq	SAFB	SAFB	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR312UYN	CRISPR RNA-seq	EIF2B3	EIF2B3	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR728VRY	CRISPR RNA-seq	PTGES3	PTGES3	K562	ENCSR404OHQ		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR144HCM	CRISPR RNA-seq	IFIT2	IFIT2	HepG2	ENCSR670KAS		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR964HKT	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR636PNL	CRISPR RNA-seq	THOC1	THOC1	HepG2	ENCSR964HKT		Brenton Graveley, UConn	2020-11-30	2	polyadenylated mRNA	reverse
+ENCSR982XTO	CRISPR RNA-seq	NSUN5	NSUN5	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR390TOZ	CRISPR RNA-seq	DDX43	DDX43	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR278CLE	CRISPR RNA-seq	ALKBH1	ALKBH1	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR341TTW	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR400YKV	CRISPR RNA-seq	SART1	SART1	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR484QEX	CRISPR RNA-seq	WBP11	WBP11	HepG2	ENCSR704VPL		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR853AOV	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR994EWL	CRISPR RNA-seq	ADAT3	ADAT3	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR974RYS	CRISPR RNA-seq	ZNF800	ZNF800	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR103NNB	CRISPR RNA-seq	SDAD1	SDAD1	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR284SZO	CRISPR RNA-seq	EXOSC5	EXOSC5	HepG2	ENCSR521WAI		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR959HPB	CRISPR RNA-seq	NOLC1	NOLC1	HepG2	ENCSR521WAI		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR889MBF	CRISPR RNA-seq	TRNAU1AP	TRNAU1AP	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR148HLA	CRISPR RNA-seq	APTX	APTX	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR427KVG	CRISPR RNA-seq	BARD1	BARD1	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR416WTE	CRISPR RNA-seq	CACTIN	CACTIN	K562	ENCSR877JEM		Brenton Graveley, UConn	2021-05-04	2	polyadenylated mRNA	reverse
+ENCSR861BRA	CRISPR RNA-seq	TAF9	TAF9	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR050ONB	CRISPR RNA-seq	RNF187	RNF187	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR649MBU	CRISPR RNA-seq	SMAD5	SMAD5	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR129AAZ	CRISPR RNA-seq	RBM19	RBM19	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR637CZY	CRISPR RNA-seq	RNF187	RNF187	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR978MMZ	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR439TMT	CRISPR RNA-seq	RYBP	RYBP	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR299PRA	CRISPR RNA-seq	EXOSC10	EXOSC10	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR529UYQ	CRISPR RNA-seq	CSTF1	CSTF1	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR854MSP	CRISPR RNA-seq	CPSF4	CPSF4	K562	ENCSR854OFV		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR749QMU	CRISPR RNA-seq	CIZ1	CIZ1	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR290GUQ	CRISPR RNA-seq	DNMT3B	DNMT3B	HepG2	ENCSR306EWE		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR990DKW	CRISPR RNA-seq	MORC2	MORC2	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR765HSN	CRISPR RNA-seq	CIZ1	CIZ1	K562	ENCSR978MMZ		Brenton Graveley, UConn	2021-02-27	2	polyadenylated mRNA	reverse
+ENCSR964YLV	CRISPR RNA-seq	EIF3H	EIF3H	HepG2	ENCSR853AOV		Brenton Graveley, UConn	2017-12-06	2	polyadenylated mRNA	reverse
+ENCSR354RSR	CRISPR RNA-seq	HNRNPH1	HNRNPH1	K562	ENCSR341TTW		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR471INA	CRISPR RNA-seq	SRSF4	SRSF4	HepG2	ENCSR853AOV		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR715QWM	CRISPR RNA-seq	SDAD1	SDAD1	HepG2	ENCSR521WAI		Brenton Graveley, UConn	2017-12-09	2	polyadenylated mRNA	reverse
+ENCSR869YRR	CRISPR RNA-seq	SMG8	SMG8	K562	ENCSR271ZAB		Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR452TFV	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2022-10-27	2	polyadenylated mRNA	reverse
+ENCSR558DZW	CRISPR RNA-seq	ADD3	ADD3	HepG2	ENCSR953VMB		Brenton Graveley, UConn	2021-11-04	2	polyadenylated mRNA	reverse
+ENCSR825RYR	CRISPR RNA-seq	CWC15	CWC15	K562	ENCSR220DTX		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR929YET	CRISPR RNA-seq	AIMP1	AIMP1	K562	ENCSR900GQL		Brenton Graveley, UConn	2021-11-19	2	polyadenylated mRNA	reverse
+ENCSR637EFF	CRISPR RNA-seq	CEBPZ	CEBPZ	K562	ENCSR163JUC		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR000SKS	CRISPR RNA-seq	RPLP0	RPLP0	HepG2	ENCSR105NML		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR599PZD	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-03-23	2	polyadenylated mRNA	reverse
+ENCSR416YFB	CRISPR RNA-seq	SAFB	SAFB	HepG2	ENCSR300EBW		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR548ORV	CRISPR RNA-seq	NFX1	NFX1	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR050ATA	CRISPR RNA-seq	RPS11	RPS11	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR814JQP	CRISPR RNA-seq	SRSF9	SRSF9	HepG2	ENCSR300EBW		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR666QJU	CRISPR RNA-seq	AGGF1	AGGF1	HepG2	ENCSR805TIZ		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR242DBX	CRISPR RNA-seq	CHD3	CHD3	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR521WCW	CRISPR RNA-seq	DDX42	DDX42	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR163PNO	CRISPR RNA-seq	YWHAG	YWHAG	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR733MVT	CRISPR RNA-seq	EIF3H	EIF3H	HepG2	ENCSR805TIZ		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR914IEV	CRISPR RNA-seq	SRSF3	SRSF3	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR278NFF	CRISPR RNA-seq	CDC40	CDC40	HepG2	ENCSR481WJH		Brenton Graveley, UConn	2017-01-09	2	polyadenylated mRNA	reverse
+ENCSR323OPW	CRISPR RNA-seq	EIF4B	EIF4B	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR481WJH	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2017-01-09	2	polyadenylated mRNA	reverse
+ENCSR395HQT	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-03-23	2	polyadenylated mRNA	reverse
+ENCSR376GHG	CRISPR RNA-seq	FXR2	FXR2	K562	ENCSR828YEB		Brenton Graveley, UConn	2017-01-09	2	polyadenylated mRNA	reverse
+ENCSR226KWO	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2017-01-09	2	polyadenylated mRNA	reverse
+ENCSR126UCL	CRISPR RNA-seq	DDX59	DDX59	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR660WRQ	CRISPR RNA-seq	ZNF106	ZNF106	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR324GSI	CRISPR RNA-seq	NCBP1	NCBP1	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR865UKM	CRISPR RNA-seq	RPS3	RPS3	K562	ENCSR005JBU		Brenton Graveley, UConn	2021-04-19	2	polyadenylated mRNA	strand-specific
+ENCSR354DVY	CRISPR RNA-seq	CDC40	CDC40	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR991XFO	CRISPR RNA-seq	DROSHA	DROSHA	HepG2	ENCSR481WJH		Brenton Graveley, UConn	2017-01-09	2	polyadenylated mRNA	reverse
+ENCSR999DVK	CRISPR RNA-seq	NIPBL	NIPBL	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR586YGD	CRISPR RNA-seq	NIP7	NIP7	HepG2	ENCSR300EBW		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR939BTN	CRISPR RNA-seq	SRSF4	SRSF4	K562	ENCSR005JBU		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR005JBU	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2021-04-19	2	polyadenylated mRNA	strand-specific
+ENCSR599NNK	CRISPR RNA-seq	HNRNPF	HNRNPF	HepG2	ENCSR105NML		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR163JUC	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR105NML	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR268XHM	CRISPR RNA-seq	IGF2BP1	IGF2BP1	HepG2	ENCSR105NML		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR845MNM	CRISPR RNA-seq	SRSF7	SRSF7	HepG2	ENCSR105NML		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR619GAS	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2016-03-23	2	polyadenylated mRNA	reverse
+ENCSR300EBW	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR721CNY	CRISPR RNA-seq	DGCR8	DGCR8	K562	ENCSR395HQT		Brenton Graveley, UConn	2016-03-23	2	polyadenylated mRNA	reverse
+ENCSR384LKC	CRISPR RNA-seq	DDX21	DDX21	K562	ENCSR163JUC		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR148UGK	CRISPR RNA-seq	DGCR8	DGCR8	K562	ENCSR619GAS		Brenton Graveley, UConn	2016-03-23	2	polyadenylated mRNA	reverse
+ENCSR828YEB	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2017-01-09	2	polyadenylated mRNA	reverse
+ENCSR610HJO	CRISPR RNA-seq	GSK3A	GSK3A	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR600OWF	CRISPR RNA-seq	DNMT1	DNMT1	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR898KNS	CRISPR RNA-seq	STAU2	STAU2	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR096WVE	CRISPR RNA-seq	EIF3H	EIF3H	K562	ENCSR226KWO		Brenton Graveley, UConn	2017-01-09	2	polyadenylated mRNA	reverse
+ENCSR564RKL	CRISPR RNA-seq	TRA2A	TRA2A	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR659DRE	CRISPR RNA-seq	ELAVL1	ELAVL1	HepG2	ENCSR750CPT		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR929EIP	CRISPR RNA-seq	SRPK2	SRPK2	HepG2	ENCSR827PII		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR544ZCR	CRISPR RNA-seq	SF3B1	SF3B1	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR237QLO	CRISPR RNA-seq	ACO1	ACO1	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR667FZF	CRISPR RNA-seq	KPNB1	KPNB1	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR539PFV	CRISPR RNA-seq	RPS6	RPS6	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR989ZNZ	CRISPR RNA-seq	APEX1	APEX1	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR963JFM	CRISPR RNA-seq	POLR2A	POLR2A	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR499IQB	CRISPR RNA-seq	NIP7	NIP7	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR928MEW	CRISPR RNA-seq	RPLP0	RPLP0	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR279MNU	CRISPR RNA-seq	STAU2	STAU2	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR836XZH	CRISPR RNA-seq	CNOT7	CNOT7	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR867XAL	CRISPR RNA-seq	DDX20	DDX20	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR805TIZ	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR455VFL	CRISPR RNA-seq	GNL3	GNL3	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR603TOC	CRISPR RNA-seq	CENPI	CENPI	HepG2	ENCSR300EBW		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR320IEK	CRISPR RNA-seq	PRPF8	PRPF8	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR929JKA	CRISPR RNA-seq	SRSF4	SRSF4	HepG2	ENCSR805TIZ		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR619GGE	CRISPR RNA-seq	FUBP3	FUBP3	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR606PVX	CRISPR RNA-seq	RBM5	RBM5	HepG2	ENCSR481WJH		Brenton Graveley, UConn	2017-01-09	2	polyadenylated mRNA	reverse
+ENCSR481AIB	CRISPR RNA-seq	TRNAU1AP	TRNAU1AP	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR429OUR	CRISPR RNA-seq	DDX20	DDX20	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR139LOF	CRISPR RNA-seq	SRSF7	SRSF7	K562	ENCSR163JUC		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR544LEZ	CRISPR RNA-seq	ZC3H11A	ZC3H11A	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR466TGH	CRISPR RNA-seq	DGCR8	DGCR8	K562	ENCSR599PZD		Brenton Graveley, UConn	2016-03-23	2	polyadenylated mRNA	reverse
+ENCSR543LCG	CRISPR RNA-seq	IGF2BP1	IGF2BP1	K562	ENCSR163JUC		Brenton Graveley, UConn	2016-03-17	2	polyadenylated mRNA	reverse
+ENCSR925OFV	CRISPR RNA-seq	RPL23A	RPL23A	HepG2	ENCSR300EBW		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR015KGT	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR636DVA	CRISPR RNA-seq	ZNF106	ZNF106	HepG2	ENCSR775ZWO		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR628AFF	CRISPR RNA-seq	EIF2AK2	EIF2AK2	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR298ASI	CRISPR RNA-seq	DDX6	DDX6	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR997ACY	CRISPR RNA-seq	RPL23A	RPL23A	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR775ZWO	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR410USU	CRISPR RNA-seq	NOLC1	NOLC1	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR242VKR	CRISPR RNA-seq	CENPI	CENPI	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR624YDI	CRISPR RNA-seq	MAK16	MAK16	HepG2	ENCSR827PII		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR048AUX	CRISPR RNA-seq	ZC3H11A	ZC3H11A	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR592AQT	CRISPR RNA-seq	PPP1R8	PPP1R8	HepG2	ENCSR827PII		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR080NRY	CRISPR RNA-seq	DDX51	DDX51	HepG2	ENCSR827PII		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR066ZMF	CRISPR RNA-seq	ETF1	ETF1	K562	ENCSR015KGT		Brenton Graveley, UConn	2020-11-03	2	polyadenylated mRNA	reverse
+ENCSR292PXV	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR058MCC	CRISPR RNA-seq	PSMA1	PSMA1	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR827PII	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR300RMY	CRISPR RNA-seq	GSK3A	GSK3A	HepG2	ENCSR750CPT		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR356PRP	CRISPR RNA-seq	ELAVL1	ELAVL1	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR750CPT	CRISPR RNA-seq			HepG2		non-specific target	Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR846OQD	CRISPR RNA-seq	G3BP1	G3BP1	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR606QVN	CRISPR RNA-seq	WDR43	WDR43	HepG2	ENCSR827PII		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR862BCF	CRISPR RNA-seq	ANXA2	ANXA2	HepG2	ENCSR827PII		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR452KAP	CRISPR RNA-seq	CIRBP	CIRBP	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR367BWL	CRISPR RNA-seq	APEX1	APEX1	HepG2	ENCSR750CPT		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR276GMG	CRISPR RNA-seq	XRCC5	XRCC5	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR977NJB	CRISPR RNA-seq	KPNB1	KPNB1	HepG2	ENCSR750CPT		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR717XCO	CRISPR RNA-seq	PES1	PES1	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR712CQC	CRISPR RNA-seq			K562		non-specific target	Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR400SCX	CRISPR RNA-seq	GLRX3	GLRX3	HepG2	ENCSR827PII		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR090SBZ	CRISPR RNA-seq	NCBP1	NCBP1	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR226HQD	CRISPR RNA-seq	PARP1	PARP1	K562	ENCSR712CQC		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR528YVC	CRISPR RNA-seq	SRSF5	SRSF5	K562	ENCSR292PXV		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR010XIH	CRISPR RNA-seq	CIRBP	CIRBP	HepG2	ENCSR827PII		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR202SRN	CRISPR RNA-seq	PARP1	PARP1	HepG2	ENCSR750CPT		Brenton Graveley, UConn	2020-10-19	2	polyadenylated mRNA	reverse
+ENCSR999YGP	eCLIP	GRWD1	GRWD1	K562	ENCSR251FMT		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR322HHA	eCLIP	TIAL1	TIAL1	HepG2	ENCSR599YGK		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR580OFI	eCLIP	SUPV3L1	SUPV3L1	K562	ENCSR328KKB		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR440SUX	eCLIP	MATR3	MATR3	K562	ENCSR183FVK		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR488JKQ	eCLIP	UTP18	UTP18	HepG2	ENCSR387OVO		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR356ZMO	eCLIP	AKAP1	AKAP1	HepG2	ENCSR902XTJ		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR040QLV	eCLIP	DDX21	DDX21	K562	ENCSR266XXD		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR366DGX	eCLIP	KHSRP	KHSRP	HepG2	ENCSR423QXH		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR085JPB	eCLIP	WDR43	WDR43	HepG2	ENCSR722KGI		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR647HOX	eCLIP	HLTF	HLTF	HepG2	ENCSR705DCQ		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR735HOK	eCLIP	YBX3	YBX3	HepG2	ENCSR700UGT		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR819XBT	eCLIP	AATF	AATF	K562	ENCSR290JPJ		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR734ZHL	eCLIP	UTP3	UTP3	K562	ENCSR241ALC		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR202HKN	eCLIP	WDR3	WDR3	K562	ENCSR033FWT		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR018WPY	eCLIP	AQR	AQR	HepG2	ENCSR716AKC		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR891RIC	eCLIP	NIPBL	NIPBL	K562	ENCSR816NVJ		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR187VEQ	eCLIP	TARDBP	TARDBP	HepG2	ENCSR265LJL		Gene Yeo, UCSD	2022-12-17	2	RNA	reverse
+ENCSR521GON	eCLIP	EXOSC10	EXOSC10	K562	ENCSR481MVN		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR168VUE	eCLIP	MORC2	MORC2	K562	ENCSR790SPV		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR379GZS	eCLIP	NSUN2	NSUN2	HepG2	ENCSR293CFE		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR937RSF	eCLIP	RPS10	RPS10	K562	ENCSR701KRV		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR153STI	eCLIP	RNF187	RNF187	K562	ENCSR254NWE		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR973HOJ	eCLIP	FXR2	FXR2	HepG2	ENCSR592ESN		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR352STY	eCLIP	SSB	SSB	HepG2	ENCSR145ZKN		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR903PRV	eCLIP	FTO	FTO	HepG2	ENCSR343MKJ		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR958FKZ	eCLIP	PABPC4	PABPC4	K562	ENCSR192TPA		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR361OCV	eCLIP	NIP7	NIP7	HepG2	ENCSR138HJN		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR606BPV	eCLIP	AQR	AQR	K562	ENCSR952RGL		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR979EWD	eCLIP	STAU2	STAU2	HepG2	ENCSR701QEP		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR721HPX	eCLIP	G3BP1	G3BP1	HepG2	ENCSR907EBB		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR177QQY	eCLIP	AKAP1	AKAP1	K562	ENCSR544UON		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR970FEW	eCLIP	DDX52	DDX52	HepG2	ENCSR991LWQ		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR964VOX	eCLIP	UTP18	UTP18	K562	ENCSR255PGS		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR181NRW	eCLIP	ZC3H8	ZC3H8	K562	ENCSR716DGM		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR046JHH	eCLIP	CPEB4	CPEB4	K562	ENCSR533BNK		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR154CSN	eCLIP	DDX52	DDX52	K562	ENCSR864XNB		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR256CHX	eCLIP	PCBP1	PCBP1	HepG2	ENCSR825FTY		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR337XGI	eCLIP	SAFB	SAFB	HepG2	ENCSR451BRX		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR867DSZ	eCLIP	NPM1	NPM1	K562	ENCSR468ZQA		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR202BFN	eCLIP	U2AF2	U2AF2	HepG2	ENCSR049GND		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR943MHU	eCLIP	SAFB2	SAFB2	K562	ENCSR978JXM		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR820DQJ	eCLIP	NOL12	NOL12	HepG2	ENCSR709ABG		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR820WHR	eCLIP	POLR2G	POLR2G	HepG2	ENCSR129SCO		Gene Yeo, UCSD	2017-11-19	2	RNA	strand-specific
+ENCSR543TPH	eCLIP	AGGF1	AGGF1	HepG2	ENCSR182AEG		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR628IDK	eCLIP	KHDRBS1	KHDRBS1	K562	ENCSR197NFH		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR214BZA	eCLIP	DDX59	DDX59	HepG2	ENCSR334OMC		Gene Yeo, UCSD	2016-10-31	2	RNA	strand-specific
+ENCSR550DVK	eCLIP	HNRNPC	HNRNPC	HepG2	ENCSR497ANA		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR291XPT	eCLIP	PUS1	PUS1	K562	ENCSR869TOB		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR197INS	eCLIP	PPIL4	PPIL4	K562	ENCSR346IHS		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR295OKT	eCLIP	RBM22	RBM22	K562	ENCSR344EGD		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR961OKA	eCLIP	LARP7	LARP7	HepG2	ENCSR095SIV		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR755TJC	eCLIP	HNRNPUL1	HNRNPUL1	HepG2	ENCSR643JMB		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR224QWC	eCLIP	FXR2	FXR2	K562	ENCSR411IMJ		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR647CLF	eCLIP	GPKOW	GPKOW	K562	ENCSR393STP		Gene Yeo, UCSD	2016-10-31	2	RNA	strand-specific
+ENCSR744GEU	eCLIP	IGF2BP1	IGF2BP1	HepG2	ENCSR205ZCE		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR805SRN	eCLIP	LARP4	LARP4	HepG2	ENCSR192PUP		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR736AAG	eCLIP	GTF2F1	GTF2F1	K562	ENCSR157BRV		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR301TFY	eCLIP	DKC1	DKC1	HepG2	ENCSR197LHH		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR351PVI	eCLIP	SLTM	SLTM	HepG2	ENCSR670UPZ		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR120EAR	eCLIP	RPS3	RPS3	K562	ENCSR494JFR		Gene Yeo, UCSD	2017-08-15	2	RNA	strand-specific
+ENCSR993OLA	eCLIP	IGF2BP3	IGF2BP3	HepG2	ENCSR077KVG		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR532VUB	eCLIP	CPSF6	CPSF6	K562	ENCSR249WNK		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR373ODC	eCLIP	SMNDC1	SMNDC1	HepG2	ENCSR388VKV		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR655NZA	eCLIP	XRN2	XRN2	HepG2	ENCSR247PDK		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR815VVI	eCLIP	CDC40	CDC40	HepG2	ENCSR828ALT		Gene Yeo, UCSD	2016-10-31	2	RNA	strand-specific
+ENCSR861GYE	eCLIP	LIN28B	LIN28B	HepG2	ENCSR746ZSV		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR438GZQ	eCLIP	KHSRP	KHSRP	K562	ENCSR305IPT		Gene Yeo, UCSD	2015-12-16	2	RNA	strand-specific
+ENCSR328LLU	eCLIP	U2AF1	U2AF1L5;U2AF1	HepG2	ENCSR941GJG		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR657TZB	eCLIP	XRN2	XRN2	K562	ENCSR170XQH		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR279UJF	eCLIP	SF3B4	SF3B4	HepG2	ENCSR886YYD		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR081JYH	eCLIP	NSUN2	NSUN2	K562	ENCSR595PFU		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR825SVO	eCLIP	AARS	AARS	K562	ENCSR696PRX		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR307YIW	eCLIP	EIF4G2	EIF4G2	K562	ENCSR651NUF		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR265ZIS	eCLIP	GTF2F1	GTF2F1	HepG2	ENCSR451HMR		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR448GXJ	eCLIP	GARS	GARS	K562	ENCSR237YKY		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR498DQS	eCLIP	METTL1	METTL1	K562	ENCSR181YHI		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR331MIC	eCLIP	SF3A3	SF3A3	HepG2	ENCSR859PUB		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR786TSC	eCLIP	ILF3	ILF3	HepG2	ENCSR080OLK		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR489ABS	eCLIP	RBM5	RBM5	HepG2	ENCSR414RME		Gene Yeo, UCSD	2017-08-15	2	RNA	strand-specific
+ENCSR061EVO	eCLIP	SND1	SND1	HepG2	ENCSR167OYL		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR893RAV	eCLIP	U2AF2	U2AF2	K562	ENCSR871RTL		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR893EFU	eCLIP	DDX6	DDX6	K562	ENCSR207DWI		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR756CKJ	eCLIP	RBFOX2	RBFOX2	K562	ENCSR051IXX		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR196INN	eCLIP	RBM15	RBM15	K562	ENCSR454EER		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR887FHF	eCLIP	FASTKD2	FASTKD2	K562	ENCSR119AFY		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR725ARB	eCLIP	AGGF1	AGGF1	K562	ENCSR910LAN		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR631HUN	eCLIP	DDX47	DDX47	K562	ENCSR058PIY		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR589YHM	eCLIP	HLTF	HLTF	K562	ENCSR502NKG		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR267OLV	eCLIP	SF3B4	SF3B4	K562	ENCSR305KNE		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR987NYS	eCLIP	FAM120A	FAM120A	HepG2	ENCSR839KAX		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR200DKE	eCLIP	MTPAP	MTPAP	K562	ENCSR927XDB		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR888YTT	eCLIP	LARP4	LARP4	K562	ENCSR679NKE		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR527DXF	eCLIP	EFTUD2	EFTUD2	HepG2	ENCSR878HWU		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR001VAC	eCLIP	NOLC1	NOLC1	K562	ENCSR009CIV		Gene Yeo, UCSD	2017-11-19	2	RNA	strand-specific
+ENCSR754NDA	eCLIP	RBM15	RBM15	HepG2	ENCSR317PWQ		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR769UEW	eCLIP	HNRNPA1	HNRNPA1	HepG2	ENCSR110XNS		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR249ROI	eCLIP	HNRNPC	HNRNPC	K562	ENCSR960OKV		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR023PKW	eCLIP	EIF3G	EIF3G	K562	ENCSR761AJD		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR486YGP	eCLIP	FUBP3	FUBP3	HepG2	ENCSR056RZV		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR154HRN	eCLIP	HNRNPA1	HNRNPA1	K562	ENCSR898ZCL		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR432XUP	eCLIP	SRSF1	SRSF1	K562	ENCSR925TYQ		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR965DLL	eCLIP	SFPQ	SFPQ	HepG2	ENCSR506EIW		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR539BEV	eCLIP	UPF1	UPF1	HepG2	ENCSR042RCU		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR128VXC	eCLIP	SND1	SND1	K562	ENCSR435EVK		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR586DGV	eCLIP	ZNF800	ZNF800	K562	ENCSR615ZYL		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR906ZJF	eCLIP	SDAD1	SDAD1	K562	ENCSR155XOS		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR069EVH	eCLIP	FUS	FUS	K562	ENCSR389ISM		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR820UYE	eCLIP	PABPN1	PABPN1	HepG2	ENCSR310WYE		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR062NNB	eCLIP	IGF2BP2	IGF2BP2	K562	ENCSR387RGT		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR975KIR	eCLIP	IGF2BP1	IGF2BP1	K562	ENCSR125CLF		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR267UCX	eCLIP	HNRNPM	HNRNPM	HepG2	ENCSR459ONR		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR133QEA	eCLIP	SF3B1	SF3B1	K562	ENCSR496UBM		Gene Yeo, UCSD	2016-10-31	2	RNA	strand-specific
+ENCSR534YOI	eCLIP	PRPF8	PRPF8	K562	ENCSR096SZE		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR440MSY	eCLIP	ELAC2	ELAC2	K562	ENCSR545KBT		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR720BJU	eCLIP	TARDBP	TARDBP	K562	ENCSR720EEM		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR008MQM	eCLIP	DDX43	DDX43	K562	ENCSR816TOM		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR293FWY	eCLIP	DDX1	DDX1	K562	ENCSR561QXJ		Gene Yeo, UCSD	2023-02-03	2	RNA	reverse
+ENCSR100ARZ	eCLIP	RPS6	RPS6	K562	ENCSR911RWF		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR464OSH	eCLIP	FUS	FUS	HepG2	ENCSR986HXA		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR739VVT	eCLIP	APOBEC3C	APOBEC3C	K562	ENCSR382QLC		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR876EYA	eCLIP	BCLAF1	BCLAF1	HepG2	ENCSR128BUO		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR004VIR	eCLIP	EEF2	EEF2	K562	ENCSR344GAQ		Gene Yeo, UCSD	2022-09-12	2	RNA	reverse
+ENCSR554UVB	eCLIP	FMR1	FMR1	K562	ENCSR856KEU		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR381VNR	eCLIP	SRSF9	SRSF9	K562	ENCSR219TIG		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR090LNQ	eCLIP	ELAVL1	ELAVL1	K562	ENCSR327BBW		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR256NCI	eCLIP	APEX1	APEX1	K562	ENCSR937QWU		Gene Yeo, UCSD	2022-09-12	2	RNA	reverse
+ENCSR767OEY	eCLIP	FXR2	FXR2	K562	ENCSR325HDY		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR750YOM	eCLIP	ADAT1	ADAT1	K562	ENCSR546JKS		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR391BBA	eCLIP	EIF4E	EIF4E	K562	ENCSR660DRN		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR321PWZ	eCLIP	SRSF1	SRSF1	K562	ENCSR961NOR		Gene Yeo, UCSD	2022-12-17	2	RNA	reverse
+ENCSR248TXP	eCLIP	FXR1	FXR1	K562	ENCSR111UKN		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR497XZI	eCLIP	MBNL1	MBNL1	K562	ENCSR060MRW		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR953ZOA	eCLIP	HNRNPK	HNRNPK	K562	ENCSR143CTS		Gene Yeo, UCSD	2022-07-19	2	RNA	reverse
+ENCSR179MPN	eCLIP	RYBP	RYBP	K562	ENCSR407QDZ		Gene Yeo, UCSD	2022-11-16	2	RNA	reverse
+ENCSR977OXG	eCLIP	PRPF4	PRPF4	HepG2	ENCSR367ACZ		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR356MSW	eCLIP	SSB	SSB	K562	ENCSR680HYD		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR038JME	eCLIP	WRN	WRN	K562	ENCSR925ZRV		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR145NLR	eCLIP	DDX51	DDX51	K562	ENCSR268SKI		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR484LAB	eCLIP	SAFB	SAFB	K562	ENCSR111USM		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR308YNT	eCLIP	PUM1	PUM1	K562	ENCSR832DWW		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR001KKZ	eCLIP	PHF6	PHF6	K562	ENCSR103HDM		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR922WJV	eCLIP	PCBP1	PCBP1	K562	ENCSR322KLN		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR349CMI	eCLIP	WDR43	WDR43	K562	ENCSR404ABA		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR050BDZ	eCLIP	SDAD1	SDAD1	HepG2	ENCSR130ZDS		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR089BXO	eCLIP	ABCF1	ABCF1	K562	ENCSR857ORY		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR685AUR	eCLIP	ZNF800	ZNF800	HepG2	ENCSR624CUX		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR693JWP	eCLIP	EXOSC5	EXOSC5	HepG2	ENCSR831WYG		Gene Yeo, UCSD	2018-08-30	2	RNA	strand-specific
+ENCSR018ZUE	eCLIP	FKBP4	FKBP4	HepG2	ENCSR704LTK		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR121GQH	eCLIP	SERBP1	SERBP1	K562	ENCSR752YLF		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR513NDD	eCLIP	SRSF7	SRSF7	HepG2	ENCSR629MQN		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR584TCR	eCLIP	TARDBP	TARDBP	K562	ENCSR924OLO		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR999WKT	eCLIP	DDX24	DDX24	K562	ENCSR195IWB		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR766FAC	eCLIP	RPS3	RPS3	HepG2	ENCSR745BIL		Gene Yeo, UCSD	2017-08-15	2	RNA	strand-specific
+ENCSR057DWB	eCLIP	TIA1	TIA1	K562	ENCSR356GCJ		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR485QCG	eCLIP	BCCIP	BCCIP	HepG2	ENCSR655BRZ		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR506UPY	eCLIP	SUGP2	SUGP2	HepG2	ENCSR895TTM		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR490IEE	eCLIP	UCHL5	UCHL5	HepG2	ENCSR161TFX		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR339FUY	eCLIP	PCBP2	PCBP2	HepG2	ENCSR115GAA		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR893NWB	eCLIP	GRWD1	GRWD1	HepG2	ENCSR835ZOK		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR862QCH	eCLIP	U2AF1	U2AF1L5;U2AF1	K562	ENCSR482ZSE		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR384MWO	eCLIP	CSTF2	CSTF2	HepG2	ENCSR309GHK		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR795CAI	eCLIP	HNRNPL	HNRNPL	K562	ENCSR299AAB		Gene Yeo, UCSD	2017-12-04	2	RNA	strand-specific
+ENCSR828ZID	eCLIP	HNRNPK	HNRNPK	HepG2	ENCSR354KAS		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR258QKO	eCLIP	XRCC6	XRCC6	K562	ENCSR687HHB		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR349KMG	eCLIP	UCHL5	UCHL5	K562	ENCSR751CSY		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR887LPK	eCLIP	EWSR1	EWSR1	K562	ENCSR067UKU		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR135VMS	eCLIP	LSM11	LSM11	HepG2	ENCSR114XBO		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR529GSJ	eCLIP	DHX30	DHX30	K562	ENCSR224SND		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR648LAH	eCLIP	DDX3X	DDX3X	HepG2	ENCSR090VXV		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR930BZL	eCLIP	DDX3X	DDX3X	K562	ENCSR028CRL		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR657TZZ	eCLIP	ZNF622	ZNF622	K562	ENCSR594RFP		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR993FMY	eCLIP	TROVE2	TROVE2	HepG2	ENCSR619LRH		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR331VNX	eCLIP	FMR1	FMR1	K562	ENCSR735MBZ		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR438KWZ	eCLIP	ILF3	ILF3	K562	ENCSR760SFB		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR468FSW	eCLIP	SRSF7	SRSF7	K562	ENCSR145PHJ		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR290VLT	eCLIP	MATR3	MATR3	HepG2	ENCSR438XYI		Gene Yeo, UCSD	2018-04-24	2	RNA	strand-specific
+ENCSR663NRA	eCLIP	ZRANB2	ZRANB2	K562	ENCSR528HOM		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR006OEQ	eCLIP	FAM120A	FAM120A	K562	ENCSR811FFO		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR661ICQ	eCLIP	PUM2	PUM2	K562	ENCSR439GXW		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR366YOG	eCLIP	QKI	QKI	K562	ENCSR615AAW		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR529FKI	eCLIP	YBX3	YBX3	K562	ENCSR660VTT		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR406OOZ	eCLIP	SUB1	SUB1	HepG2	ENCSR641PRC		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR059CWF	eCLIP	SBDS	SBDS	K562	ENCSR038TMA		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR576SHT	eCLIP	DDX42	DDX42	K562	ENCSR200SAU		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR268ETU	eCLIP	HNRNPK	HNRNPK	K562	ENCSR669DKA		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR834YLD	eCLIP	DROSHA	DROSHA	HepG2	ENCSR785VKF		Gene Yeo, UCSD	2018-04-24	2	RNA	strand-specific
+ENCSR301UQM	eCLIP	GNL3	GNL3	K562	ENCSR977GTT		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR668MJX	eCLIP	GRSF1	GRSF1	HepG2	ENCSR638YHN		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR571VHI	eCLIP	HNRNPUL1	HNRNPUL1	K562	ENCSR482AWB		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR919HSE	eCLIP	CSTF2T	CSTF2T	HepG2	ENCSR391GLS		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR194HZU	eCLIP	NOLC1	NOLC1	HepG2	ENCSR278BZH		Gene Yeo, UCSD	2017-11-19	2	RNA	strand-specific
+ENCSR712IAG	eCLIP	ZC3H11A	ZC3H11A	K562	ENCSR321GBR		Gene Yeo, UCSD	2018-04-24	2	RNA	strand-specific
+ENCSR571ROL	eCLIP	XRCC6	XRCC6	HepG2	ENCSR044NGV		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR484LTQ	eCLIP	NCBP2	NCBP2	K562	ENCSR921SHJ		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR989SMC	eCLIP	FTO	FTO	K562	ENCSR575DKE		Gene Yeo, UCSD	2016-10-31	2	RNA	strand-specific
+ENCSR384KAN	eCLIP	PTBP1	PTBP1	HepG2	ENCSR438NCK		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR412NOW	eCLIP	HNRNPM	HNRNPM	K562	ENCSR212ILN		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR634MFO	eCLIP	DGCR8	DGCR8	adrenal gland	ENCSR217SVF		Gene Yeo, UCSD	2017-04-10	2	RNA	strand-specific
+ENCSR368GER	eCLIP	HNRNPU	HNRNPU	adrenal gland	ENCSR096YAP		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR013CTQ	eCLIP	EXOSC5	EXOSC5	K562	ENCSR308RMD		Gene Yeo, UCSD	2017-11-19	2	RNA	strand-specific
+ENCSR456ASB	eCLIP	UPF1	UPF1	K562	ENCSR461LGW		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR061SZV	eCLIP	DGCR8	DGCR8	HepG2	ENCSR298SAD		Gene Yeo, UCSD	2017-08-15	2	RNA	strand-specific
+ENCSR916XIV	eCLIP	EIF3H	EIF3H	HepG2	ENCSR756NPZ		Gene Yeo, UCSD	2017-08-15	2	RNA	strand-specific
+ENCSR206RXT	eCLIP	AKAP8L	AKAP8L	K562	ENCSR550SGC		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR830BSQ	eCLIP	BUD13	BUD13	HepG2	ENCSR777PDA		Gene Yeo, UCSD	2015-12-15	2	RNA	strand-specific
+ENCSR506OTC	eCLIP	TBRG4	TBRG4	K562	ENCSR512EZA		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR921SXC	eCLIP	XPO5	XPO5	HepG2	ENCSR583KVR		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR456KXI	eCLIP	LARP7	LARP7	K562	ENCSR863ZGZ		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR041NUV	eCLIP	EIF3D	EIF3D	HepG2	ENCSR755PSW		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR022BVV	eCLIP	LSM11	LSM11	K562	ENCSR952UOL		Gene Yeo, UCSD	2015-12-16	2	RNA	strand-specific
+ENCSR623VEQ	eCLIP	TIA1	TIA1	HepG2	ENCSR333PZV		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR456JJQ	eCLIP	RBM22	RBM22	HepG2	ENCSR775UPS		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR000SSH	eCLIP	SLTM	SLTM	K562	ENCSR820GBM		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR365NVO	eCLIP	TRA2A	TRA2A	K562	ENCSR619RLC		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR981WKN	eCLIP	PTBP1	PTBP1	K562	ENCSR445FZX		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR141OIM	eCLIP	DDX6	DDX6	HepG2	ENCSR099KAK		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR314UMJ	eCLIP	TRA2A	TRA2A	HepG2	ENCSR544CTM		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR773KRC	eCLIP	SRSF9	SRSF9	HepG2	ENCSR060VZF		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR565DGW	eCLIP	DHX30	DHX30	HepG2	ENCSR151MPZ		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR520BZQ	eCLIP	HNRNPU	HNRNPU	K562	ENCSR829SLO		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR570WLM	eCLIP	QKI	QKI	HepG2	ENCSR130TOJ		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR580MFX	eCLIP	SUPV3L1	SUPV3L1	HepG2	ENCSR376KLZ		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR923NKN	eCLIP	DDX55	DDX55	K562	ENCSR180EJY		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR840DRD	eCLIP	CSTF2T	CSTF2T	K562	ENCSR722LZB		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR653HQC	eCLIP	DROSHA	DROSHA	K562	ENCSR828NSY		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR774RFN	eCLIP	FXR1	FXR1	K562	ENCSR562BJW		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR238CLX	eCLIP	GEMIN5	GEMIN5	K562	ENCSR347MVO		Gene Yeo, UCSD	2016-09-21	2	RNA	strand-specific
+ENCSR841EQA	eCLIP	TAF15	TAF15	HepG2	ENCSR708TCY		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR867ZVK	eCLIP	YWHAG	YWHAG	K562	ENCSR812PBU		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR947JVR	eCLIP	DGCR8	DGCR8	K562	ENCSR616BTD		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR970NKP	eCLIP	LIN28B	LIN28B	K562	ENCSR399CBP		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR845VGB	eCLIP	DDX55	DDX55	HepG2	ENCSR454OFD		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR724RDN	eCLIP	HNRNPL	HNRNPL	HepG2	ENCSR513UTE		Gene Yeo, UCSD	2017-12-04	2	RNA	strand-specific
+ENCSR121NVA	eCLIP	PRPF8	PRPF8	HepG2	ENCSR565KBR		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR303OQD	eCLIP	METAP2	METAP2	K562	ENCSR750NTM		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR097NEE	eCLIP	PPIG	PPIG	HepG2	ENCSR445LJH		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR539ZTS	eCLIP	TROVE2	TROVE2	K562	ENCSR687GJH		Gene Yeo, UCSD	2015-12-16	2	RNA	strand-specific
+ENCSR907GUB	eCLIP	ZC3H11A	ZC3H11A	HepG2	ENCSR098VKQ		Gene Yeo, UCSD	2018-04-24	2	RNA	strand-specific
+ENCSR023UHL	eCLIP	FASTKD2	FASTKD2	HepG2	ENCSR671FKF		Gene Yeo, UCSD	2016-08-19	2	RNA	strand-specific
+ENCSR989VIY	eCLIP	SRSF1	SRSF1	HepG2	ENCSR499ZCU		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR916SRV	eCLIP	TBRG4	TBRG4	HepG2	ENCSR081WUU		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR658IQB	eCLIP	SMNDC1	SMNDC1	K562	ENCSR631CJA		Gene Yeo, UCSD	2015-12-16	2	RNA	strand-specific
+ENCSR568DZW	eCLIP	TAF15	TAF15	K562	ENCSR653CNZ		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR483NOP	eCLIP	SLBP	SLBP	K562	ENCSR950WBG		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR269AJF	eCLIP	RPS11	RPS11	K562	ENCSR881RJL		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR987FTF	eCLIP	RBFOX2	RBFOX2	HepG2	ENCSR799EKA		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR018RVZ	eCLIP	NCBP2	NCBP2	HepG2	ENCSR257OYO		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR861PAR	eCLIP	NONO	NONO	K562	ENCSR487EUV		Gene Yeo, UCSD	2015-11-09	2	RNA	strand-specific
+ENCSR844RVX	eCLIP	EFTUD2	EFTUD2	K562	ENCSR266UVO		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR277DEO	eCLIP	NKRF	NKRF	HepG2	ENCSR479XOI		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific
+ENCSR240MVJ	eCLIP	HNRNPU	HNRNPU	HepG2	ENCSR614VYQ		Gene Yeo, UCSD	2015-07-15	2	RNA	strand-specific
+ENCSR663WES	eCLIP	BUD13	BUD13	K562	ENCSR736LKF		Gene Yeo, UCSD	2016-04-26	2	RNA	strand-specific

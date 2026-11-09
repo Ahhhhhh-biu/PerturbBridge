@@ -1,0 +1,569 @@
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:17: RuntimeWarning: Mean of empty slice
+  return pd.DataFrame(np.nanmean(np.stack([A.values, B.values]), 0), index=idx, columns=cols)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/10_h4_extended.py:17: RuntimeWarning: Mean of empty slice
+  idx = mats[0].index.union(mats[1].index); cols = mats[0].columns.union(mats[1].columns); Pc = pd.DataFrame(np.nanmean(np.stack([m.reindex(index=idx, columns=cols).values for m in mats]), 0), index=idx, columns=cols)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/10_h4_extended.py:22: RuntimeWarning: Mean of empty slice
+  gi = ex[0].index.union(ex[1].index); gc = ex[0].columns.union(ex[1].columns); PE = pd.DataFrame(np.nanmean(np.stack([m.reindex(index=gi, columns=gc).values for m in ex]), 0), index=gi, columns=gc)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/10_h4_extended.py:75: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = T.pivot_table(index="sample", columns="event_id", values="psi", aggfunc="first").reindex(samples); W = W.loc[:, W.notna().mean(0) >= 0.7]; print("\n== GSE274628 fallopian:", W.shape)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/10_h4_extended.py:68: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  M = pd.DataFrame(M).T; M.columns = [c.split(".")[0] for c in M.columns]; cpm = M.div(M.sum(1), axis=0) * 1e6; L = np.log2(cpm + 1); L = L.loc[:, cpm.mean(0) >= 1]; return L
+/well/blagden/users/eic789/PerturbBridge/14_inverse/10_h4_extended.py:68: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  M = pd.DataFrame(M).T; M.columns = [c.split(".")[0] for c in M.columns]; cpm = M.div(M.sum(1), axis=0) * 1e6; L = np.log2(cpm + 1); L = L.loc[:, cpm.mean(0) >= 1]; return L
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: divide by zero encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: divide by zero encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: divide by zero encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:53: RuntimeWarning: invalid value encountered in divide
+  s2 = (res ** 2).sum(0) / dof; se = np.sqrt(s2 * XtX_inv[1, 1]); beta[full] = B[1]; tval[full] = B[1] / se; pval[full] = 2 * stats.t.sf(np.abs(tval[full]), dof)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/10_h4_extended.py:89: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = T.pivot_table(index="sample", columns="event_id", values="psi", aggfunc="first").reindex(samples); W = W.loc[:, W.notna().mean(0) >= 0.7]; print("\n== GSE166044 breast:", W.shape)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/10_h4_extended.py:68: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  M = pd.DataFrame(M).T; M.columns = [c.split(".")[0] for c in M.columns]; cpm = M.div(M.sum(1), axis=0) * 1e6; L = np.log2(cpm + 1); L = L.loc[:, cpm.mean(0) >= 1]; return L
+/well/blagden/users/eic789/PerturbBridge/14_inverse/10_h4_extended.py:68: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  M = pd.DataFrame(M).T; M.columns = [c.split(".")[0] for c in M.columns]; cpm = M.div(M.sum(1), axis=0) * 1e6; L = np.log2(cpm + 1); L = L.loc[:, cpm.mean(0) >= 1]; return L
+dictionaries: splicing (62527, 478) clean-restricted (41539, 478) expression (15904, 474)
+
+== GSE274628 fallopian: (94, 77111)
+activity matrices: (94, 478) (94, 478) expression genes 27046 (94, 474)
+
+sensitivity control, splicing activity vs epithelial score: most negative {'EWSR1': -0.57, 'SNRNP70': -0.55, 'PNPT1': -0.51, 'RRP9': -0.51, 'PRPF4': -0.5, 'AATF': -0.5} | most positive {'IGF2BP1': 0.58, 'DDX3X': 0.59, 'HNRNPM': 0.6, 'RBFOX2': 0.61, 'QKI': 0.62, 'ABT1': 0.66}
+
+-- fallopian / A_sample_level: n=94 (group1 41), RBPs 478 | min q_bh 0.023 | family-wise p of max |t| 0.016 | positive calls: ['RRP9', 'EIF3D', 'EIF2S1', 'SRSF3', 'SUGP2']
+    rbp    beta       t      p   q_bh  perm_p repro_class
+   RRP9 -0.0154 -4.2768 0.0000 0.0229   0.001         mid
+ SETD1A  0.0123  3.8601 0.0002 0.0312   0.001         low
+  CEBPZ  0.0119  3.8379 0.0002 0.0312   0.001         low
+  SART3 -0.0129 -3.6760 0.0004 0.0312   0.001         low
+  EIF3D -0.0132 -3.6739 0.0004 0.0312   0.002         mid
+   SMG7  0.0111  3.6090 0.0005 0.0312   0.001         low
+   ILF3  0.0125  3.6062 0.0005 0.0312   0.001         low
+   XRN2  0.0119  3.5911 0.0005 0.0312   0.002         low
+HNRNPLL  0.0174  3.5672 0.0006 0.0312   0.003         low
+ EIF2S1  0.0148  3.3413 0.0012 0.0586   0.002         mid
+
+-- fallopian / C_clean_dictionary: n=94 (group1 41), RBPs 478 | min q_bh 0.023 | family-wise p of max |t| 0.031 | positive calls: ['RBM22', 'EIF2S1', 'RRP9', 'SSB', 'SRSF3', 'CKAP4']
+    rbp    beta       t      p   q_bh  perm_p repro_class
+   ILF3  0.0342  4.1825 0.0001 0.0233   0.001         low
+   PARN -0.0284 -4.0839 0.0001 0.0233   0.001         low
+  RBM22 -0.0265 -3.9704 0.0001 0.0233   0.001        high
+ EIF2S1  0.0327  3.6431 0.0005 0.0447   0.002         mid
+HNRNPLL  0.0388  3.6349 0.0005 0.0447   0.002         low
+   RRP9 -0.0349 -3.5567 0.0006 0.0484   0.001         mid
+   XRN2  0.0315  3.4305 0.0009 0.0628   0.001         low
+   SMG7  0.0428  3.3804 0.0011 0.0630   0.002         low
+    SSB  0.0271  3.3460 0.0012 0.0630   0.003         mid
+  SRSF3 -0.0263 -3.2872 0.0015 0.0630   0.001        high
+
+-- fallopian / D_expression: n=94 (group1 41), RBPs 474 | min q_bh 0.003 | family-wise p of max |t| 0.003 | positive calls: ['SNW1', 'CDC5L', 'SRSF5', 'RBM22', 'SSB', 'THOC1', 'WBP11', 'SAP30BP', 'AKAP8L', 'HDGF', 'SF3B2', 'RBM25', 'UTP18', 'DDX3X', 'SF3A1', 'SF3A3', 'DDX39B', 'SF3B3', 'HNRNPC', 'SNRNP200', 'PUM2', 'RPL18', 'MAGOH', 'POLR2A', 'NELFE', 'FXR2', 'RPS3A', 'G3BP2', 'AGGF1', 'PPP1R10', 'RBM15', 'TAF15', 'AQR', 'SRFBP1', 'CDC40', 'SF3B4', 'NONO', 'HNRNPL', 'EWSR1', 'SF3B1', 'DICER1', 'CNOT2', 'SUGP2', 'RPS19', 'SF3A2', 'PTBP1', 'RPL29', 'RPL11', 'EFTUD2', 'SRSF9', 'EIF4A3', 'SFPQ', 'U2AF2', 'PUS1', 'RPS3', 'SRSF3', 'RPS15A', 'PABPN1', 'YTHDC2', 'AGFG1', 'APOBEC3C', 'SMAD2', 'EIF2AK1', 'ETF1', 'HNRNPU', 'TARDBP']
+   rbp    beta       t      p   q_bh  perm_p repro_class
+  SNW1 -0.0751 -4.6249 0.0000 0.0026   0.001        high
+POLR2G  0.0682  4.4722 0.0000 0.0026   0.001         low
+ CDC5L -0.0744 -4.3762 0.0000 0.0026   0.001        high
+ ELAC2  0.0688  4.2845 0.0000 0.0026   0.001         low
+ SRSF5 -0.0492 -4.2672 0.0000 0.0026   0.001         mid
+  CDK9  0.0773  4.2129 0.0001 0.0026   0.001         low
+HNRNPD  0.0334  4.2016 0.0001 0.0026   0.001         low
+CNOT10  0.0510  4.1947 0.0001 0.0026   0.001         low
+  SLBP  0.0373  4.1923 0.0001 0.0026   0.001         low
+ RBM22 -0.0449 -4.1856 0.0001 0.0026   0.001        high
+
+homogeneous subset (premenopausal, batch C): {'Non-BRCAm': 24, 'BRCA1m': 14, 'BRCA2m': 11}
+
+-- fallopian / B_subset_group_level (group level): query 500 events, top SETD1A r=0.325, p(top vs permutation max) = 0.070
+
+-- fallopian / B_subset_sample_level: n=49 (group1 25), RBPs 478 | min q_bh 0.010 | family-wise p of max |t| 0.006 | positive calls: ['EIF3D', 'RRP9', 'TAF15', 'EIF2S1']
+   rbp    beta       t      p   q_bh  perm_p repro_class
+  YBX3 -0.0160 -4.7330 0.0000 0.0102   0.001         low
+ EIF3D -0.0186 -4.2881 0.0001 0.0218   0.001         mid
+SETD1A  0.0165  3.7094 0.0006 0.0570   0.002         low
+ DHX30  0.0156  3.6691 0.0006 0.0570   0.002         low
+  ILF3  0.0184  3.6267 0.0007 0.0570   0.001         low
+  RRP9 -0.0174 -3.5864 0.0008 0.0570   0.003         mid
+  SMG7  0.0145  3.5464 0.0009 0.0570   0.002         low
+ TAF15  0.0179  3.5171 0.0010 0.0570   0.001         mid
+ CEBPZ  0.0154  3.4911 0.0011 0.0570   0.003         low
+ DDX55  0.0142  3.4339 0.0013 0.0607   0.002         low
+
+-- fallopian / B_subset_BRCA1m_sample_level: n=38 (group1 14), RBPs 478 | min q_bh 0.112 | family-wise p of max |t| 0.111 | positive calls: []
+  rbp    beta       t      p   q_bh  perm_p repro_class
+ SMG9  0.0134  3.8595 0.0005 0.1120   0.001         low
+ SMG7  0.0167  3.7279 0.0007 0.1120   0.001         low
+CEBPZ  0.0177  3.6341 0.0009 0.1120   0.001         low
+EIF3D -0.0193 -3.6143 0.0009 0.1120   0.002         mid
+ YBX3 -0.0143 -3.3639 0.0019 0.1792   0.001         low
+DDX42 -0.0162 -3.2197 0.0028 0.2199   0.004         low
+DHX30  0.0162  3.1633 0.0032 0.2199   0.003         low
+SMAD5  0.0140  3.0574 0.0043 0.2487   0.004         low
+KPNB1 -0.0190 -3.0212 0.0047 0.2487   0.006         mid
+PSMA1  0.0116  2.9582 0.0055 0.2637   0.007         mid
+
+-- fallopian / B_subset_BRCA2m_sample_level: n=35 (group1 11), RBPs 478 | min q_bh 0.022 | family-wise p of max |t| 0.008 | positive calls: ['TAF15', 'RRP9', 'EIF3D']
+   rbp    beta       t      p   q_bh  perm_p repro_class
+  YBX3 -0.0186 -4.7125 0.0000 0.0219   0.001         low
+ TAF15  0.0229  3.8340 0.0006 0.0916   0.001         mid
+  ILF3  0.0236  3.7657 0.0007 0.0916   0.002         low
+  MDM2 -0.0155 -3.6409 0.0009 0.0916   0.002         low
+  RRP9 -0.0235 -3.5924 0.0011 0.0916   0.001         mid
+ EIF3D -0.0176 -3.5706 0.0011 0.0916   0.002         mid
+SETD1A  0.0176  3.3772 0.0019 0.1192   0.004         low
+  ESF1  0.0191  3.3664 0.0020 0.1192   0.002         low
+  CALR  0.0179  3.0550 0.0045 0.2392   0.009         low
+ SRSF3 -0.0255 -3.0146 0.0050 0.2392   0.005        high
+
+== GSE166044 breast: (30, 48761)
+
+-- breast / A_sample_level: n=30 (group1 15), RBPs 478 | min q_bh 0.100 | family-wise p of max |t| 0.053 | positive calls: []
+    rbp    beta       t      p   q_bh  perm_p repro_class
+CWF19L2  0.0261  4.2812 0.0002 0.1002   0.001         low
+ EIF4G2 -0.0190 -3.8432 0.0007 0.1357   0.001         mid
+   NPM1 -0.0166 -3.7512 0.0009 0.1357   0.003         mid
+    SSB -0.0216 -3.5313 0.0015 0.1801   0.002         mid
+  SAFB2 -0.0153 -3.2632 0.0030 0.2325   0.002         low
+  STIP1 -0.0191 -3.1421 0.0040 0.2325   0.004         low
+   ACO1  0.0172  3.1251 0.0042 0.2325   0.008         low
+  MTPAP -0.0211 -3.1119 0.0044 0.2325   0.007         low
+   DBNL -0.0140 -3.1070 0.0044 0.2325   0.003         low
+    ADK  0.0191  3.0043 0.0057 0.2325   0.003         low
+
+-- breast / C_clean_dictionary: n=30 (group1 15), RBPs 478 | min q_bh 0.133 | family-wise p of max |t| 0.094 | positive calls: []
+    rbp    beta       t      p   q_bh  perm_p repro_class
+    ADK  0.0845  4.1754 0.0003 0.1328   0.001         low
+  CPSF2  0.0440  3.4621 0.0018 0.2429   0.004         low
+  SAFB2 -0.0446 -3.4175 0.0020 0.2429   0.008         low
+   XRN1 -0.0481 -3.4146 0.0020 0.2429   0.004         low
+   PUM1  0.0475  3.2730 0.0029 0.2596   0.006         low
+CWF19L2  0.0841  3.2284 0.0033 0.2596   0.006         low
+  SDAD1  0.0353  3.0972 0.0045 0.3001   0.004         low
+ CSNK1E -0.0601 -3.0168 0.0055 0.3001   0.003         low
+   DCP2  0.0899  3.0035 0.0057 0.3001   0.008         low
+    SSB -0.0428 -2.9161 0.0070 0.3001   0.005         mid
+
+-- breast / D_expression: n=30 (group1 15), RBPs 474 | min q_bh 0.003 | family-wise p of max |t| 0.001 | positive calls: ['U2AF2', 'EIF3D', 'DDX39B', 'PRPF8', 'SF3A2', 'NCBP2', 'NSUN4', 'U2AF1', 'PCBP2', 'SF3B2', 'HNRNPL', 'PABPN1', 'RRP9', 'SRFBP1', 'PSMA1', 'RAVER1', 'YTHDC2', 'XRCC6', 'SSB', 'SNRNP200', 'KIF1C', 'FUBP1', 'EIF4G2', 'RBM39', 'LSM7', 'NKRF', 'NAA15', 'EIF4A3', 'CNOT2', 'MAGOH', 'SF3B1', 'DICER1', 'SRSF9', 'FXR2', 'SNRNP70', 'MARK2', 'SUPV3L1', 'RPL29', 'PPP1R8', 'SNW1', 'PCBP1', 'SFPQ', 'EIF2AK1', 'ZC3H8', 'WBP11', 'QKI', 'CDC5L', 'EIF4E', 'TARDBP']
+   rbp    beta       t      p   q_bh  perm_p repro_class
+ U2AF2  0.1026  5.5994 0.0000 0.0029   0.001        high
+  SBDS -0.1172 -5.1460 0.0000 0.0047   0.001         low
+   PKM -0.0969 -4.8604 0.0000 0.0047   0.001         low
+ EIF3D  0.0879  4.8253 0.0000 0.0047   0.001         mid
+RUVBL2  0.0768  4.7983 0.0001 0.0047   0.001         low
+DDX39B  0.0881  4.6953 0.0001 0.0047   0.001         mid
+ SAFB2 -0.0814 -4.6946 0.0001 0.0047   0.001         low
+   WRN -0.0673 -4.6194 0.0001 0.0050   0.001         low
+ PA2G4 -0.0953 -4.4131 0.0001 0.0062   0.001         low
+  CARS  0.0718  4.3848 0.0002 0.0062   0.001         low
+
+== summary ==
+    cohort                     analysis  n  n_group1  n_rbps top_rbp  top_p  min_q_bh  p_familywise_maxt  n_positive_calls                                                                                                                                                                                                                                                                                                                                                                                                           positive_calls
+fallopian               A_sample_level 94        41     478    RRP9 0.0000    0.0229             0.0160                 5                                                                                                                                                                                                                                                                                                                                                                                            RRP9;EIF3D;EIF2S1;SRSF3;SUGP2
+fallopian           C_clean_dictionary 94        41     478    ILF3 0.0001    0.0233             0.0310                 6                                                                                                                                                                                                                                                                                                                                                                                        RBM22;EIF2S1;RRP9;SSB;SRSF3;CKAP4
+fallopian                 D_expression 94        41     474    SNW1 0.0000    0.0026             0.0030                66 SNW1;CDC5L;SRSF5;RBM22;SSB;THOC1;WBP11;SAP30BP;AKAP8L;HDGF;SF3B2;RBM25;UTP18;DDX3X;SF3A1;SF3A3;DDX39B;SF3B3;HNRNPC;SNRNP200;PUM2;RPL18;MAGOH;POLR2A;NELFE;FXR2;RPS3A;G3BP2;AGGF1;PPP1R10;RBM15;TAF15;AQR;SRFBP1;CDC40;SF3B4;NONO;HNRNPL;EWSR1;SF3B1;DICER1;CNOT2;SUGP2;RPS19;SF3A2;PTBP1;RPL29;RPL11;EFTUD2;SRSF9;EIF4A3;SFPQ;U2AF2;PUS1;RPS3;SRSF3;RPS15A;PABPN1;YTHDC2;AGFG1;APOBEC3C;SMAD2;EIF2AK1;ETF1;HNRNPU;TARDBP
+fallopian         B_subset_group_level 49        25     478  SETD1A 0.0697       NaN             0.0697                 0                                                                                                                                                                                                                                                                                                                                                                                                                         
+fallopian        B_subset_sample_level 49        25     478    YBX3 0.0000    0.0102             0.0060                 4                                                                                                                                                                                                                                                                                                                                                                                                  EIF3D;RRP9;TAF15;EIF2S1
+fallopian B_subset_BRCA1m_sample_level 38        14     478    SMG9 0.0005    0.1120             0.1109                 0                                                                                                                                                                                                                                                                                                                                                                                                                         
+fallopian B_subset_BRCA2m_sample_level 35        11     478    YBX3 0.0000    0.0219             0.0080                 3                                                                                                                                                                                                                                                                                                                                                                                                         TAF15;RRP9;EIF3D
+   breast               A_sample_level 30        15     478 CWF19L2 0.0002    0.1002             0.0529                 0                                                                                                                                                                                                                                                                                                                                                                                                                         
+   breast           C_clean_dictionary 30        15     478     ADK 0.0003    0.1328             0.0939                 0                                                                                                                                                                                                                                                                                                                                                                                                                         
+   breast                 D_expression 30        15     474   U2AF2 0.0000    0.0029             0.0010                49                                                                                                          U2AF2;EIF3D;DDX39B;PRPF8;SF3A2;NCBP2;NSUN4;U2AF1;PCBP2;SF3B2;HNRNPL;PABPN1;RRP9;SRFBP1;PSMA1;RAVER1;YTHDC2;XRCC6;SSB;SNRNP200;KIF1C;FUBP1;EIF4G2;RBM39;LSM7;NKRF;NAA15;EIF4A3;CNOT2;MAGOH;SF3B1;DICER1;SRSF9;FXR2;SNRNP70;MARK2;SUPV3L1;RPL29;PPP1R8;SNW1;PCBP1;SFPQ;EIF2AK1;ZC3H8;WBP11;QKI;CDC5L;EIF4E;TARDBP
+DONE

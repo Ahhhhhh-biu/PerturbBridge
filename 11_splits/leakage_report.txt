@@ -1,0 +1,49 @@
+RBPs: 478 | runs: 876
+runs per tier: {'B': 625, 'A': 251} | RBPs with any tier-A run: 165
+tier A by cell line: {'HepG2': 100, 'K562': 138}
+fold sizes (RBPs): {0: 104, 1: 88, 2: 109, 3: 92, 4: 85}
+fold sizes (runs): {0: 190, 1: 161, 2: 196, 3: 176, 4: 153}
+tier-A RBPs per fold: {0: 38, 1: 29, 2: 38, 3: 31, 4: 29}
+check: every RBP in exactly one fold: True
+check: every run in exactly one fold: True
+control experiments reused across folds: 80 / 102 (control BAMs are unlabeled baselines; shared controls are not label leakage but are noted)
+family counts: {'other': 317, 'RRM': 80, 'DEAD': 34, 'KH': 15, 'dsRBD': 7, 'zf-CCCH': 5, 'zf-C2H2': 5, 'S1': 3, 'zf-RanBP': 3, 'zf-CCHC': 2, 'R3H': 2, 'PUF': 2, 'LSM': 1, 'Nup': 1, 'TUDOR': 1}
+families by fold:
+fold       0   1   2   3   4
+family                      
+DEAD      13   4   6   9   2
+KH        12   0   1   1   1
+LSM        0   1   0   0   0
+Nup        0   0   0   0   1
+PUF        0   0   2   0   0
+R3H        0   0   1   0   1
+RRM        7  13  30  17  13
+S1         0   0   0   1   2
+TUDOR      0   0   1   0   0
+dsRBD      1   3   1   1   1
+other     68  62  66  59  62
+zf-C2H2    1   2   0   1   1
+zf-CCCH    1   2   1   0   1
+zf-CCHC    1   0   0   1   0
+zf-RanBP   0   1   0   2   0
+
+paralog groups (BLASTP identity >= 40%, coverage >= 30%): 410 | groups with >1 member: 28 | largest: ['CIRBP,CSTF2,CSTF2T,DAZAP1,HNRNPA0,HNRNPA1,HNRNPA2B1,HNRNPAB,HNRNPD,MSI2,NCL,PABPC1,PABPC4,RBM19,RBM3,RBM39,RBM8A,SF3B4,TARDBP,TIA1,TIAL1,TRA2A', 'DDX17,DDX23,DDX27,DDX3X,DDX42,DDX43,DDX47,DDX5', 'SRSF1,SRSF3,SRSF4,SRSF5,SRSF7,SRSF9', 'HNRNPK,PCBP1,PCBP2,PCBP3', 'GRSF1,HNRNPF,HNRNPH1']
+
+highest-identity BLAST hits across folds (should all be < 40% identity or < 30% coverage):
+      q       s  pident  cov       evalue  q_fold  s_fold
+ ZRANB2   TAF15  70.833 0.07 7.510000e-10       1       0
+  TAF15  ZRANB2  70.833 0.07 2.050000e-08       0       1
+ ZRANB2   EWSR1  66.667 0.07 8.410000e-08       1       0
+   SAFB    SLTM  60.000 0.12 2.120000e-36       4       0
+  EWSR1  ZRANB2  56.667 0.09 5.020000e-06       0       1
+   NKRF   SUGP2  52.000 0.07 2.570000e-09       2       1
+  CXXC1   DNMT1  50.000 0.06 4.380000e-07       0       4
+  DNMT1   CXXC1  50.000 0.06 1.050000e-06       4       0
+   ADAR EIF2AK2  49.231 0.12 8.350000e-08       0       1
+EIF2AK2    ADAR  49.231 0.12 8.420000e-12       1       0
+   RBM5   AGGF1  45.455 0.06 2.560000e-06       1       3
+  EIF4B   RBM34  45.205 0.17 5.850000e-11       4       1
+  RBM34   EIF4B  45.205 0.17 1.650000e-07       1       4
+  SAFB2    SLTM  44.726 0.25 4.700000e-41       4       0
+  AGGF1   SUGP2  44.681 0.07 2.990000e-07       3       1
+cross-fold pairs with identity >= 40% and coverage >= 0.3: 0

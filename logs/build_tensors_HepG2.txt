@@ -1,0 +1,1 @@
+HepG2 events 46476 runs 419 targets 406 rows 16195085 | Xe (46476, 23) K (46476, 3, 1024) EC (98, 46476, 6) | targets with eCLIP 98 with motif 90

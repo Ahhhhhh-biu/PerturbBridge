@@ -1,0 +1,5 @@
+cohort	layer	n_cov	p_familywise	n_calls_full	n_prev	n_surviving	surviving
+fallopian	A_sample_level	14	0.2418	0	5	0	
+fallopian	D_expression	14	0.2727	0	66	0	
+breast	A_sample_level	9	0.01698	1	0	0	
+breast	D_expression	9	0.1369	0	49	0	

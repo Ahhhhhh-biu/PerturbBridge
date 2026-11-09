@@ -1,0 +1,46 @@
+HepG2 runs per control: n controls 50 | singletons 10 | median 8.0 | max 23
+same_control     False   True 
+r_raw count   2925.000  75.000
+      mean       0.034   0.472
+      std        0.050   0.092
+      min       -0.114   0.203
+      50%        0.029   0.475
+      90%        0.097   0.577
+      max        0.413   0.651
+r_cc  count   2925.000  75.000
+      mean       0.000  -0.095
+      std        0.052   0.117
+      min       -0.194  -0.753
+      50%       -0.001  -0.075
+      90%        0.055   0.014
+      max        0.442   0.146
+cross-assay CIRBP: raw r=0.012  centred r=-0.016
+cross-assay CNOT7: raw r=-0.047  centred r=-0.007
+cross-assay CPSF7: raw r=0.007  centred r=0.025
+cross-assay EIF4A3: raw r=0.296  centred r=0.291
+cross-assay EIF4B: raw r=0.069  centred r=0.008
+cross-assay NIP7: raw r=0.028  centred r=-0.016
+cross-assay RBM25: raw r=0.349  centred r=0.431
+cross-assay RPL23A: raw r=0.026  centred r=0.031
+cross-assay SRSF9: raw r=0.056  centred r=0.014
+cross-assay XRCC6: raw r=0.148  centred r=0.241
+control-centred dPSI available for 16195085 of 16268894 covered pairs
+K562 runs per control: n controls 52 | singletons 11 | median 8.5 | max 27
+same_control     False   True 
+r_raw count   2919.000  80.000
+      mean       0.010   0.497
+      std        0.062   0.099
+      min       -0.299   0.221
+      50%        0.007   0.509
+      90%        0.077   0.609
+      max        0.506   0.710
+r_cc  count   2919.000  80.000
+      mean       0.000  -0.081
+      std        0.063   0.109
+      min       -0.273  -0.427
+      50%        0.001  -0.072
+      90%        0.069   0.035
+      max        0.518   0.236
+cross-assay FXR2: raw r=0.073  centred r=0.049
+cross-assay POLR2G: raw r=0.039  centred r=0.067
+control-centred dPSI available for 19038008 of 19121698 covered pairs

@@ -1,0 +1,78 @@
+== runs per cell line / assay ==
+ cell_line  assay         
+HepG2      CRISPR RNA-seq    187
+           shRNA RNA-seq     232
+K562       CRISPR RNA-seq    229
+           shRNA RNA-seq     228
+
+== per-run covered events and significant events (FDR<0.05, |dPSI|>0.1) ==
+cell_line               HepG2                         K562              
+assay          CRISPR RNA-seq shRNA RNA-seq CRISPR RNA-seq shRNA RNA-seq
+n_cov    count        187.000       232.000        229.000       228.000
+         mean       66153.957     48189.534      69264.659     53822.079
+         std        15052.265      6507.685      13417.002     11886.829
+         min        17903.000     31357.000      28852.000     26097.000
+         10%        48012.200     41091.000      55338.600     40901.200
+         50%        68382.000     47829.000      69303.000     52556.500
+         90%        83998.400     55551.700      81547.000     67882.800
+         max       106805.000     72867.000     129957.000    106109.000
+n_sig    count        187.000       232.000        229.000       228.000
+         mean         772.080       962.319       1248.179      1034.526
+         std          709.806       923.856       2019.493      1211.281
+         min          144.000       139.000        134.000        69.000
+         10%          247.200       238.300        360.800       178.900
+         50%          613.000       688.000        822.000       572.000
+         90%         1522.400      2104.000       2161.800      2981.600
+         max         6159.000      6619.000      22148.000      8509.000
+sig_frac count        187.000       232.000        229.000       228.000
+         mean           0.012         0.019          0.017         0.019
+         std            0.011         0.017          0.017         0.020
+         min            0.002         0.002          0.002         0.001
+         10%            0.003         0.005          0.005         0.004
+         50%            0.010         0.014          0.012         0.011
+         90%            0.022         0.043          0.033         0.049
+         max            0.102         0.138          0.170         0.099
+
+== top 15 runs by n_sig ==
+                        run cell_line target          assay  n_events  n_cov  n_sig  sig_frac
+ENCSR034FLW_vs_ENCSR271ZAB      K562  SF3B3 CRISPR RNA-seq    152084 129957  22148    0.1704
+ENCSR544ZCR_vs_ENCSR292PXV      K562  SF3B1 CRISPR RNA-seq    137065 118338  13375    0.1130
+ENCSR547ICR_vs_ENCSR516TLX      K562  SF3A1 CRISPR RNA-seq    140737 122849   9886    0.0805
+ENCSR070AYA_vs_ENCSR877JEM      K562  WBP11 CRISPR RNA-seq    133746 115513   9380    0.0812
+ENCSR624OUI_vs_ENCSR718EWL      K562    AQR  shRNA RNA-seq    124773 106109   8509    0.0802
+ENCSR426UUG_vs_ENCSR104ABF     HepG2  U2AF2  shRNA RNA-seq     61403  47955   6619    0.1380
+ENCSR372UWV_vs_ENCSR067GHD     HepG2  U2AF1  shRNA RNA-seq     87275  71672   6431    0.0897
+ENCSR484QEX_vs_ENCSR704VPL     HepG2  WBP11 CRISPR RNA-seq    104711  92639   6159    0.0665
+ENCSR354DVY_vs_ENCSR015KGT      K562  CDC40 CRISPR RNA-seq    117693 101699   5779    0.0568
+ENCSR458FLK_vs_ENCSR271ZAB      K562   SNW1 CRISPR RNA-seq    126538 110114   5682    0.0516
+ENCSR562CCA_vs_ENCSR164MUK      K562    SF1  shRNA RNA-seq     68673  55627   5526    0.0993
+ENCSR544ZMX_vs_ENCSR220DTX      K562  CDC5L CRISPR RNA-seq    113061  97132   5365    0.0552
+ENCSR618IQH_vs_ENCSR143COQ      K562   PUS1  shRNA RNA-seq     81988  68216   5364    0.0786
+ENCSR914IEV_vs_ENCSR015KGT      K562  SRSF3 CRISPR RNA-seq    103785  89015   5221    0.0587
+ENCSR163RXI_vs_ENCSR347NKX      K562  RBM8A CRISPR RNA-seq     96424  80288   5171    0.0644
+
+== bottom 10 runs by n_sig ==
+                        run cell_line  target         assay  n_events  n_cov  n_sig  sig_frac
+ENCSR395FYF_vs_ENCSR718EWL      K562     AUH shRNA RNA-seq     88314  76639     69    0.0009
+ENCSR286OKW_vs_ENCSR815CVQ      K562  CSTF2T shRNA RNA-seq     65617  54407     91    0.0017
+ENCSR560RSZ_vs_ENCSR661HEL      K562   DDX52 shRNA RNA-seq     60648  48689    102    0.0021
+ENCSR608IAI_vs_ENCSR084SCN      K562 FASTKD2 shRNA RNA-seq     57977  45991    104    0.0023
+ENCSR351CNN_vs_ENCSR081EST      K562   CELF1 shRNA RNA-seq     38664  26097    112    0.0043
+ENCSR004RGI_vs_ENCSR084SCN      K562   RPS10 shRNA RNA-seq     58265  46307    113    0.0024
+ENCSR675KPR_vs_ENCSR936VPP      K562    RBM3 shRNA RNA-seq     57385  45561    116    0.0025
+ENCSR047AJA_vs_ENCSR815CVQ      K562    SUB1 shRNA RNA-seq     64548  53554    119    0.0022
+ENCSR936TED_vs_ENCSR942UNX      K562  POLR2G shRNA RNA-seq     45895  33490    120    0.0036
+ENCSR770LYW_vs_ENCSR154OBA      K562   SAFB2 shRNA RNA-seq     69784  59184    127    0.0021
+
+== events covered (both groups >=10 reads) in a fraction of runs, per cell line ==
+HepG2 >= 50% of 419 runs: 46,476 events {'SE': 32271, 'A3SS': 4542, 'RI': 3492, 'MXE': 3308, 'A5SS': 2863}
+HepG2 >= 80% of 419 runs: 28,978 events {'SE': 18971, 'A3SS': 3367, 'RI': 2909, 'A5SS': 2128, 'MXE': 1603}
+HepG2 >= 100% of 419 runs: 6,809 events {'SE': 3773, 'RI': 1087, 'A3SS': 961, 'A5SS': 573, 'MXE': 415}
+K562 >= 50% of 457 runs: 50,190 events {'SE': 35318, 'A3SS': 4626, 'MXE': 3708, 'RI': 3504, 'A5SS': 3034}
+K562 >= 80% of 457 runs: 31,170 events {'SE': 20767, 'A3SS': 3408, 'RI': 2954, 'A5SS': 2277, 'MXE': 1764}
+K562 >= 100% of 457 runs: 7,926 events {'SE': 4597, 'RI': 1148, 'A3SS': 1045, 'A5SS': 680, 'MXE': 456}
+both cell lines >=50%: 34139
+
+== covered (event, run) pairs: 51683803 | |dPSI|>0.1: 0.0838 | sig: 0.0172 | |dPSI|>0.05: 0.2055
+dPSI quantiles among covered: {0.01: -0.201, 0.05: -0.091, 0.25: -0.016, 0.5: 0.0, 0.75: 0.014, 0.95: 0.089, 0.99: 0.198}
+events significant in >=1 run: 94952 | >=5 runs: 39418 | >=20 runs: 13912 | max: 253

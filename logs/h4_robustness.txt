@@ -1,0 +1,76 @@
+/well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:17: RuntimeWarning: Mean of empty slice
+  return pd.DataFrame(np.nanmean(np.stack([A.values, B.values]), 0), index=idx, columns=cols)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/11_h4_robustness.py:14: RuntimeWarning: Mean of empty slice
+  gi = ex[0].index.union(ex[1].index); gc = ex[0].columns.union(ex[1].columns); PE = pd.DataFrame(np.nanmean(np.stack([m.reindex(index=gi, columns=gc).values for m in ex]), 0), index=gi, columns=gc)
+/well/blagden/users/eic789/PerturbBridge/14_inverse/11_h4_robustness.py:54: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = T.pivot_table(index="sample", columns="event_id", values="psi", aggfunc="first").reindex(samples); W = W.loc[:, W.notna().mean(0) >= 0.7]
+/well/blagden/users/eic789/PerturbBridge/14_inverse/11_h4_robustness.py:30: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cpm = M.div(M.sum(1), axis=0) * 1e6; L = np.log2(cpm + 1); return L.loc[:, cpm.mean(0) >= 1]
+/well/blagden/users/eic789/PerturbBridge/14_inverse/11_h4_robustness.py:30: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  cpm = M.div(M.sum(1), axis=0) * 1e6; L = np.log2(cpm + 1); return L.loc[:, cpm.mean(0) >= 1]
+/well/blagden/users/eic789/PerturbBridge/14_inverse/11_h4_robustness.py:65: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = T.pivot_table(index="sample", columns="event_id", values="psi", aggfunc="first").reindex(samples); W = W.loc[:, W.notna().mean(0) >= 0.7]
+/well/blagden/users/eic789/PerturbBridge/14_inverse/11_h4_robustness.py:30: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  cpm = M.div(M.sum(1), axis=0) * 1e6; L = np.log2(cpm + 1); return L.loc[:, cpm.mean(0) >= 1]
+/well/blagden/users/eic789/PerturbBridge/14_inverse/11_h4_robustness.py:30: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  cpm = M.div(M.sum(1), axis=0) * 1e6; L = np.log2(cpm + 1); return L.loc[:, cpm.mean(0) >= 1]
+== fallopian: full covariates = 13 columns -> 14
+
+-- fallopian / A_sample_level FULL adjustment (p = 16 columns): family-wise p 0.242 | positive calls 0 | previous calls surviving 0/5: [] | lost: ['SRSF3', 'RRP9', 'EIF3D', 'EIF2S1', 'SUGP2']
+    rbp    beta       t   q_bh  perm_p repro_class
+ CSNK1E  0.0124  3.3219 0.6513   0.002         low
+ EIF2S2 -0.0123 -2.5253 0.9350   0.017         low
+  DDX42 -0.0097 -2.4886 0.9350   0.017         low
+CWF19L2  0.0079  2.4526 0.9350   0.014         low
+  ROCK2  0.0081  2.1828 0.9350   0.031         low
+  SEC62 -0.0082 -2.1706 0.9350   0.034         low
+  PSIP1  0.0081  2.1241 0.9350   0.032         low
+ EXOSC9  0.0083  2.1021 0.9350   0.044         low
+   [fallopian A_sample_level] 5 positive RBPs: PC1 explains 49% of their activity variance (PC2 20%); r(PC1, group) = -0.31; r(PC1, composition scores) = {'epithelial': np.float64(-0.44), 'ft_secretory': np.float64(-0.3), 'ft_ciliated': np.float64(-0.67), 'breast_luminal': np.float64(-0.22), 'breast_basal': np.float64(0.23), 'stroma': np.float64(0.59), 'smooth_muscle': np.float64(0.67), 'immune': np.float64(0.47), 'endothelial': np.float64(0.62), 'adipose': np.float64(0.13)}
+   mean |r| of positive RBPs' activity with each composition score: {'epithelial': np.float64(0.34), 'ft_secretory': np.float64(0.25), 'ft_ciliated': np.float64(0.41), 'breast_luminal': np.float64(0.25), 'breast_basal': np.float64(0.16), 'stroma': np.float64(0.4), 'smooth_muscle': np.float64(0.45), 'immune': np.float64(0.3), 'endothelial': np.float64(0.42), 'adipose': np.float64(0.15)}
+
+-- fallopian / D_expression FULL adjustment (p = 16 columns): family-wise p 0.273 | positive calls 0 | previous calls surviving 0/66: [] | lost: ['FXR2', 'APOBEC3C', 'SRSF9', 'DICER1', 'HNRNPU', 'MAGOH', 'RPS15A', 'SRFBP1', 'EIF4A3', 'AGFG1', 'U2AF2', 'PUM2', 'DDX39B', 'RPS19', 'SNRNP200']
+    rbp    beta       t   q_bh  perm_p repro_class
+   FXR2  0.0196  2.8469 0.9938   0.009         mid
+    FBL -0.0216 -2.6221 0.9938   0.010         low
+FASTKD2  0.0149  2.6055 0.9938   0.014         low
+  DDX42 -0.0222 -2.3685 0.9938   0.023         low
+   NFX1 -0.0148 -2.2918 0.9938   0.023         low
+SYNCRIP -0.0384 -2.2593 0.9938   0.023         low
+  PDCD4  0.0174  2.2291 0.9938   0.028         low
+ PAPOLA  0.0319  2.1631 0.9938   0.039         low
+   [fallopian D_expression] 66 positive RBPs: PC1 explains 56% of their activity variance (PC2 21%); r(PC1, group) = -0.37; r(PC1, composition scores) = {'epithelial': np.float64(0.02), 'ft_secretory': np.float64(0.07), 'ft_ciliated': np.float64(-0.17), 'breast_luminal': np.float64(0.19), 'breast_basal': np.float64(0.18), 'stroma': np.float64(0.3), 'smooth_muscle': np.float64(0.54), 'immune': np.float64(0.34), 'endothelial': np.float64(0.66), 'adipose': np.float64(0.0)}
+   mean |r| of positive RBPs' activity with each composition score: {'epithelial': np.float64(0.17), 'ft_secretory': np.float64(0.16), 'ft_ciliated': np.float64(0.26), 'breast_luminal': np.float64(0.19), 'breast_basal': np.float64(0.14), 'stroma': np.float64(0.23), 'smooth_muscle': np.float64(0.4), 'immune': np.float64(0.3), 'endothelial': np.float64(0.48), 'adipose': np.float64(0.07)}
+
+== breast: full covariates -> 9 columns (n = 30, so kept to 9)
+
+-- breast / A_sample_level FULL adjustment (p = 11 columns): family-wise p 0.017 | positive calls 1 | previous calls surviving 0/0: [] | lost: []
+    rbp    beta       t   q_bh  perm_p repro_class
+   NPM1 -0.0256 -5.3066 0.0193   0.002         mid
+CWF19L2  0.0297  3.5280 0.3696   0.003         low
+  RPL28 -0.0294 -3.1388 0.3696   0.005         mid
+ PTGES3 -0.0337 -3.1265 0.3696   0.006         low
+    PKM -0.0333 -2.9807 0.3696   0.007         low
+  SRSF4 -0.0252 -2.9001 0.3696   0.010         low
+ POLR2A  0.0252  2.8523 0.3696   0.011         mid
+  CCAR1 -0.0322 -2.7883 0.3696   0.016         low
+
+-- breast / D_expression FULL adjustment (p = 11 columns): family-wise p 0.137 | positive calls 0 | previous calls surviving 0/49: [] | lost: ['EIF3D', 'SF3A2', 'U2AF2', 'U2AF1', 'NSUN4', 'DDX39B', 'HNRNPL', 'SF3B1', 'PRPF8', 'RAVER1', 'RRP9', 'PABPN1', 'FUBP1', 'CDC5L', 'TARDBP']
+    rbp    beta       t   q_bh  perm_p repro_class
+  EIF3D  0.0942  3.6765 0.2663   0.004         mid
+  SF3A2  0.0700  3.0858 0.2663   0.006        high
+  U2AF2  0.0662  3.0660 0.2663   0.008        high
+    PKM -0.0906 -3.0478 0.2663   0.004         low
+  SMAD5 -0.0910 -2.9691 0.2663   0.008         low
+KHDRBS1 -0.0551 -2.8602 0.2663   0.010         low
+  PSIP1 -0.1104 -2.8292 0.2663   0.005         low
+  U2AF1  0.0894  2.8040 0.2663   0.011        high
+   [breast D_expression] 49 positive RBPs: PC1 explains 46% of their activity variance (PC2 23%); r(PC1, group) = +0.66; r(PC1, composition scores) = {'epithelial': np.float64(-0.07), 'ft_secretory': np.float64(-0.1), 'ft_ciliated': np.float64(-0.19), 'breast_luminal': np.float64(-0.04), 'breast_basal': np.float64(-0.01), 'stroma': np.float64(0.36), 'smooth_muscle': np.float64(0.07), 'immune': np.float64(0.28), 'endothelial': np.float64(0.4), 'adipose': np.float64(0.09)}
+   mean |r| of positive RBPs' activity with each composition score: {'epithelial': np.float64(0.38), 'ft_secretory': np.float64(0.37), 'ft_ciliated': np.float64(0.31), 'breast_luminal': np.float64(0.38), 'breast_basal': np.float64(0.38), 'stroma': np.float64(0.26), 'smooth_muscle': np.float64(0.32), 'immune': np.float64(0.26), 'endothelial': np.float64(0.34), 'adipose': np.float64(0.31)}
+
+    cohort          layer  n_cov  p_familywise  n_calls_full  n_prev  n_surviving surviving
+fallopian A_sample_level     14      0.241758             0       5            0          
+fallopian   D_expression     14      0.272727             0      66            0          
+   breast A_sample_level      9      0.016983             1       0            0          
+   breast   D_expression      9      0.136863             0      49            0          
+DONE

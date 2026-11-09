@@ -1,0 +1,30 @@
+gsm	title	source	tissue	tissue_type	srx	runs	n_runs
+GSM8792791	Tubular_Adenoma_1	Adenoma	Adenoma	Tubular adenomas	SRX27664035	SRR32329117	1
+GSM8792792	Tubular_Adenoma_2	Adenoma	Adenoma	Tubular adenomas	SRX27664040	SRR32329112	1
+GSM8792793	Tubular_Adenoma_3	Adenoma	Adenoma	Tubular adenomas	SRX27664041	SRR32329111	1
+GSM8792794	Tubular_Adenoma_4	Adenoma	Adenoma	Tubular adenomas	SRX27664042	SRR32329110	1
+GSM8792795	Tubular_Adenoma_5	Adenoma	Adenoma	Tubular adenomas	SRX27664043	SRR32329109	1
+GSM8792796	Tubular_Adenoma_6	Adenoma	Adenoma	Tubular adenomas	SRX27664044	SRR32329108	1
+GSM8792797	Tubular_Adenoma_7	Adenoma	Adenoma	Tubular adenomas	SRX27664045	SRR32329107	1
+GSM8792798	Tubular_Adenoma_8	Adenoma	Adenoma	Tubular adenomas	SRX27664046	SRR32329106	1
+GSM8792799	Tubular_Adenoma_9	Adenoma	Adenoma	Tubular adenomas	SRX27664047	SRR32329105	1
+GSM8792800	Tubular_Adenoma_10	Adenoma	Adenoma	Tubular adenomas	SRX27664048	SRR32329104	1
+GSM8792801	Adenocarcinoma_1	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664049	SRR32329103	1
+GSM8792802	Adenocarcinoma_2	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664050	SRR32329102	1
+GSM8792803	Adenocarcinoma_3	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664051	SRR32329101	1
+GSM8792804	Adenocarcinoma_4	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664052	SRR32329100	1
+GSM8792805	Adenocarcinoma_5	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664053	SRR32329099	1
+GSM8792806	Adenocarcinoma_6	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664054	SRR32329098	1
+GSM8792807	Adenocarcinoma_7	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664055	SRR32329097	1
+GSM8792808	Adenocarcinoma_8	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664056	SRR32329096	1
+GSM8792809	Adenocarcinoma_9	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664057	SRR32329095	1
+GSM8792810	Adenocarcinoma_10	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664058	SRR32329094	1
+GSM8792811	Adenocarcinoma_11	Carcinoma	Carcinoma	Adenocarcinoma	SRX27664059	SRR32329093	1
+GSM8792812	Carcinoma_In_Situ_1	Carcinoma In Situ	Carcinoma In Situ	High Dysplesia Carcinoma In Situ	SRX27664060	SRR32329092	1
+GSM8792813	Carcinoma_In_Situ_2	Carcinoma In Situ	Carcinoma In Situ	High Dysplesia Carcinoma In Situ	SRX27664061	SRR32329091	1
+GSM8792814	Carcinoma_In_Situ_3	Carcinoma In Situ	Carcinoma In Situ	High Dysplesia Carcinoma In Situ	SRX27664062	SRR32329090	1
+GSM8792815	Carcinoma_In_Situ_4	Carcinoma In Situ	Carcinoma In Situ	High Dysplesia Carcinoma In Situ	SRX27664063	SRR32329089	1
+GSM8792816	Carcinoma_In_Situ_5	Carcinoma In Situ	Carcinoma In Situ	High Dysplesia Carcinoma In Situ	SRX27664036	SRR32329116	1
+GSM8792817	Carcinoma_In_Situ_6	Carcinoma In Situ	Carcinoma In Situ	High Dysplesia Carcinoma In Situ	SRX27664037	SRR32329115	1
+GSM8792818	Carcinoma_In_Situ_7	Carcinoma In Situ	Carcinoma In Situ	High Dysplesia Carcinoma In Situ	SRX27664038	SRR32329114	1
+GSM8792819	Carcinoma_In_Situ_8	Carcinoma In Situ	Carcinoma In Situ	High Dysplesia Carcinoma In Situ	SRX27664039	SRR32329113	1

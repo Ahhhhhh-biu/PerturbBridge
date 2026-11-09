@@ -1,0 +1,99 @@
+34369805 encode_download
+34369806 GSE274628_fastq
+34369807 GSE166044_fastq
+34369888 suppa_events
+34369894 encode_download (resubmit, fixed manifest parsing)
+34370200 suppa_events (resubmit after statsmodels import patch)
+34370549 encode_download (resubmit 2: old curl, no --retry-all-errors)
+34370550 GSE274628_fastq (resubmit 2)
+34370551 GSE166044_fastq (resubmit 2)
+34373969 build_psi
+34373973 GSE274628_fastq resubmit indices 7,9,10
+34373974 GSE166044_fastq resubmit indices 54,60,65,67
+34374043 build_psi (resubmit: handle kallisto/RSEM formats)
+34375410 build_psi (resubmit 3: float32 preallocated matrix, 128G)
+34376480 eclip_event_features
+34376484 STAR GSE166044 (first pass; incomplete samples skip and rerun later)
+34376504 build_psi (resubmit 4: SUPPA header fix, RSEM-only input, reuse built matrices)
+34376527 build_psi (resubmit 5: scoping fix)
+34378146 h2_check
+34378152 GSE166044_fastq resubmit indices 74,75,78,79,83,84,88,89
+34378574 h2_stratified
+34378720 h2_proper_ceiling
+34378735 bam_download 12-pair set (80 BAMs)
+34378736 rmats pairs (24), afterok 34378735
+34378835 STAR GSE166044 rerun for remaining 6 samples, afterany 34378152
+34385031 GSE274628_fastq resubmit indices 16,17,22,24,25,28,34,36,41,47,50,52,53,62,65
+34386375 rMATS prep/post split test (RBM25 shRNA)
+34386476 rMATS GSE166044 Susceptible(15) vs Healthy(15), v47, RL38
+34386513 rMATS prep/post split test v2 (symlink paths, post without BAMs)
+34387808 ENCODE BAM streaming prep (1956 BAMs, %15)
+34387809 ENCODE rMATS post (876 pairs), afterany 34387808
+34387810 GSE274628 STAR+rMATS prep (94 samples, %6, RL101)
+34390192 GSE274628 fastp+STAR+rMATS prep v2 (94 samples, %6, RL101; replaces 34387810)
+34394332 ESM2 650M embeddings for RBP sequences (installs torch cpu + transformers)
+34394333 GenePT embeddings download (Zenodo 10833191)
+34399136  ESM2 embeddings resubmit (fasta header fix) Thu Nov  5 00:04:04 GMT 2026
+34419463  fallopian rMATS post carrier(41) vs noncarrier(53) Thu Nov  5 13:49:54 GMT 2026
+34422207  feature resources: MaxEntScan + phastCons100way hg38 + bigWigAverageOverBed Thu Nov  5 14:32:35 GMT 2026
+34465226  GPU access test (gpu_blagden.prj / gpu_bmrc_4hr / gpu_a100_80gb) Thu Nov  5 22:45:30 GMT 2026
+34465672  build envs/pb_gpu_venv (torch cu128) Thu Nov  5 22:49:37 GMT 2026
+34465673  GPU env test, afterok:34465672 Thu Nov  5 22:49:37 GMT 2026
+34387808 pb_bamprep array 0-1955: finished 2026-11-06 20:57, 1956 done / 0 fail
+34587830 pb_universe slurm/22_event_universe.sh: full event universe + features + eCLIP from 876 post runs, submitted 2026-11-06 22:44
+34387809 pb_bampost array 0-875: finished 2026-11-06 22:44, 876 done / 0 fail, 37 GB
+34683340 pb_ceiling slurm/23_ceiling.sh: H2 ceilings (split-half, cross-assay, null pairs) on train tables, submitted 2026-11-07 10:47
+34683364 pb_baselines array 0-1 slurm/24_baselines.sh: forward-task baselines per cell line (zero, event mean, ESM2/GenePT/eCLIP NN, ridge), submitted 2026-11-07 10:48
+34683568 pb_baselines array 0-1 resubmitted after bool-dtype fix (34683364 cancelled) 2026-11-07 10:55
+34683663 pb_baselines array 0-1 resubmitted after NaN-prediction fix (34683568 cancelled) 2026-11-07 11:02
+34683663 cancelled (pending); baselines resubmitted as 4-task array (raw + control-centred) after centring
+34683830 pb_baselines array 0-3 slurm/24_baselines.sh: baselines HepG2/K562 x raw/control-centred dPSI, submitted 2026-11-07 11:07
+34683924 pb_kmer slurm/25_kmer_counts.sh: 5-mer counts for up/seg/dn regions of all 546,917 events, submitted 2026-11-07 11:09
+34684466 pb_train smoke test (--test, HepG2 f0 A) on A100, submitted 2026-11-07 11:53
+34684916 pb_train array 0-29 slurm/26_train_array.sh: forward model, 2 cell lines x 5 folds x 3 tiers, 12 epochs, A100 4h QOS, submitted 2026-11-07 12:10 — finished 13:30, all 30 COMPLETED (~3.5 min each)
+34685848 pb_train array 0-29 seed-1 replicate (--seed 1 --tag _s1), runs/<cl>_f<k>_<tier>_s1, submitted 2026-11-07 13:50 — finished ~15:20, 30 COMPLETED
+34685849 pb_train array 0-29 seed-2 replicate (--seed 2 --tag _s2), runs/<cl>_f<k>_<tier>_s2, submitted 2026-11-07 13:50 — finished ~15:30, 30 COMPLETED
+34688894 pb_sweep_smoke: --test run of 01_train.py with the new options (sel weighted, sigw, rpca, rdrop, cos), submitted 2026-11-07 16:05
+34688895 pb_sweep array 0-63 slurm/27_sweep.sh: training-optimisation sweep, 8 configs x 2 cells x folds 0-1 x seeds 0-1, tier A, afterok:34688894, submitted 2026-11-07 16:05 — finished 18:18, 64 COMPLETED
+34693838 pb_sweep array 64-127 slurm/27_sweep.sh round 2: cfg 8-15 (sigw 30-1000, lr 1e-4, wd 1e-2, d 64, batch 2048), tier A, folds 0-1, seeds 0-1, submitted 2026-11-07 18:18 — finished 23:45, 64 COMPLETED
+34707033 pb_train array 0-29 full run v2 seed 0 (cfg-15 training: --sel weighted --sigw 100 --rpca 32 --rdrop 0.3 --cos --lr 3e-4 --epochs 20 --batch 2048), runs/<cl>_f<k>_<tier>_v2_s0, submitted 2026-11-07 22:55
+34707034 pb_train array 0-29 full run v2 seed 1 (cfg-15 training: --sel weighted --sigw 100 --rpca 32 --rdrop 0.3 --cos --lr 3e-4 --epochs 20 --batch 2048), runs/<cl>_f<k>_<tier>_v2_s1, submitted 2026-11-07 22:55
+34707035 pb_train array 0-29 full run v2 seed 2 (cfg-15 training: --sel weighted --sigw 100 --rpca 32 --rdrop 0.3 --cos --lr 3e-4 --epochs 20 --batch 2048), runs/<cl>_f<k>_<tier>_v2_s2, submitted 2026-11-07 22:55
+34707036 pb_sweep array 128-159 slurm/27_sweep.sh round 3: cfg 16-19 (sigw 300/1000 with batch 2048, lr 1e-4, batch 1024), submitted 2026-11-07 22:55
+23:50 jobs 34707033/34/35/36 widened to partitions gpu_a100_80gb,gpu_a100_40gb,gpu_rtx8000_48gb,gpu_v100_32gb via scontrol update (a100_80 had 624 pending jobs)
+34715022 pb_train array 0-2: resubmission of 34707033_0-2 (failed on V100: PyTorch cu128 build has no sm_70 kernels), v2 seed 0, partitions a100_80/a100_40/rtx8000, 23:54
+2026-11-08 02:14 all of 34707033/34/35, 34715022 (v2 full run, 90 tasks, 8.0 min avg, A100+RTX8000) and 34707036 (sweep round 3, 32 tasks) COMPLETED; 34707033_0-2 FAILED on V100 (resubmitted as 34715022, done)
+2026-11-08 02:30 aggregation: TAG=_v2 13_model/02_aggregate.py -> results_*_v2.tsv (logs/aggregate_v2.txt); 13_model/04_calibration.py -> calibration.tsv; 03_sweep_summary.py -> logs/sweep_summary_round3.txt
+34865240 pb_ctrl array 0-19 slurm/28_controls.sh: RBP-specificity controls (rbp_mode none = event-only, shuffle = permuted RBP features), tier A, v2 recipe, seed 0, runs/<cl>_f<k>_A_ctrl_{none,shuf}_s0, submitted 2026-11-08 03:05
+34865488 pb_ceiling slurm/29_ceiling.sh: 13_model/05_split_half_ceiling.py (within-run split-half and cross-run same-RBP direction ceilings vs model v2), CPU short, submitted 2026-11-08 03:05
+34879134 pb_ceiling resubmission after merge-suffix bug (dpsi_a -> dpsi), 2026-11-08 12:50
+34880679 pb_clean slurm/30_clean_target.sh: 13_model/07_clean_target.py control-independent replicate-consistent target prototype, scored for rule / v2 / event-only / shuffled, submitted 2026-11-08 13:20
+34881544 pb_cleanflag slurm/31_clean_flags.sh: 13_model/08_clean_flags_and_ceiling.py (row_clean flags for training + clean-set cross-run ceiling and zero point), submitted 2026-11-08 13:45
+34881666 pb_v3 array 0-49 slurm/32_train_v3.sh: v3 = v2 recipe + --target clean + --no_psi; 30 main (A/B/C x 5 folds x 2 cells, _v3_s0) + 10 event-only + 10 shuffled controls; depends on 34881544; submitted 2026-11-08 13:50
+2026-11-08 14:30 v3 aggregation and comparison done: logs/aggregate_v3*.txt, logs/v3_comparison.txt, 13_model/v3_vs_controls_by_rbp.tsv; verdict: forward model narrowed to reproducible RBPs (STATUS 14:30)
+34923618 pb_exprT array 0-1 slurm/33_expr_tensors.sh: 13_model/10_build_expr_tensors.py gene-expression layer tensors (control-centred dlog2TPM, replicate-consistent flags, gene-level eCLIP, ceilings), submitted 2026-11-08 16:23
+34923738 pb_expr array 0-39 slurm/34_train_expr.sh: 13_model/11_train_expr.py expression layer, tier A/B + gene-only + shuffled controls x 5 folds x 2 cells; depends on 34923618; submitted 2026-11-08 16:24
+34924272 pb_exprT resubmitted after bedtools sort-order error (dropped -sorted); 34924273 pb_expr resubmitted with dependency afterok:34924272; 34923618/34923738 cancelled; 2026-11-08 16:29
+34924272 pb_exprT array 0-1 (resubmitted) completed 2026-11-08 16:36: tensors_expr_<cell>.npz + expression measurement references
+34924273 pb_expr array 0-39 completed 2026-11-08 ~17:10 (2-3 min/task); aggregated 2026-11-09: 13_model/expr_vs_controls_by_rbp.tsv, expr_results_summary.tsv, logs/expr_comparison.txt; verdict: expression layer fails the pre-registered +0.05 rule (STATUS 2026-11-09)
+35037122 pb_snap array 0-47 slurm/35_snaptron_tcga.sh: Snaptron TCGA per-sample PSI for 58.5k events (SE/A3SS/A5SS/MXE), 6 projects, submitted 2026-11-09 12:07
+35037812 pb_dict slurm/36_dictionary_h3.sh: 14_inverse/02_build_dictionary.py (block 1) + 03_h3_encode_retrieval.py (block 2a, same-cell LORO and cross-cell retrieval), submitted 2026-11-09 12:09
+35039444 pb_h4 slurm/37_h4_heya8.sh: 14_inverse/06_heya8_validation.py + 05_h4_cohort_mapping.py (blocks 4a, 3), depends on dictionary 35037812, submitted 2026-11-09 12:12
+35039913 pb_h3tcga slurm/38_h3_tcga.sh: 14_inverse/07_h3_tcga.py (block 2b: TCGA mutant-vs-wild-type retrieval, tumour vs normal), depends on 35037122 and 35037812, submitted 2026-11-09 12:13
+35040644 pb_tma slurm/39_tma.sh: 14_inverse/08_tma_consistency.py (block 4b, TMA221/222 set-level consistency), depends on 35039444, submitted 2026-11-09 12:15
+2026-11-09 12:18 short partition saturated (104/115 nodes allocated): cancelled 35037812/35037122/35039444/35039913/35040644 and resubmitted the whole inverse-mapping chain on the GPU partitions (QOS priority 100): dict+h3 35041997, snaptron array 0-15 35041998, h4+heya8 35041999 (after 35041997), h3_tcga 35042000 (after 35041998,35041997), tma 35042001 (after 35041999)
+35043553 pb_h3x 14_inverse/03b_h3_cross_technology.py (reagent/off-target control for cross-cell retrieval), submitted 2026-11-09 12:22
+2026-11-09 12:47 fixes: Snaptron shards failed (server closed connections at 128 concurrent requests) -> resumable, 8 shards x 2 threads (35046629); H4 crashed on pyarrow string dtype for batch covariate -> fixed (35046630; heya8 query relaxed to p<0.01 after FDR<0.05 gave 66 events); h3_tcga 35046631 afterany:35046629; tma 35046632 after 35046630
+35046953 pb_snap shards 5-7 moved to short partition (GPU slots scarce), NTASK=8, 2026-11-09 12:50
+35047226 pb_h3tcga resubmitted with dependency on both Snaptron arrays (35046629 GPU shards 0-4, 35046953 short shards 5-7), 2026-11-09 12:52
+35048306 pb_h3tcga (self-resuming wrapper for timed-out Snaptron shards) after 35046629,35046953, 2026-11-09 13:02
+35057809 pb_tma resubmitted after NaN gene-name fix, 2026-11-09 13:55
+35058612 pb_tma resubmitted (second NaN fix), 2026-11-09 13:57
+2026-11-09 14:08 Snaptron puller switched to bulk POST (10 events/request, ~3x faster); shards resumed from checkpoints: GPU 0-4 35062466, short 5-7 35062467; h3_tcga wrapper 35062468
+35069726 pb_h4ext 14_inverse/10_h4_extended.py (pre-registered second-stage H4: sample-level, clean dictionary, expression layer, homogeneous subset), 2026-11-09 14:40
+2026-11-09 15:16 new cohorts (user request): GSE182338 (120 SE 51bp HMEC LEP/MEP; RM 72 / CLTT 24 / PM 16 / PTT 8; BRCA1 16, BRCA2 6) download 35072666 -> STAR/rMATS prep 35072668 (RL 51); GSE289499 (29 SE Ion Torrent; adenoma 10 / CIS 8 / carcinoma 11, no normal) download 35072667 -> prep 35072669 (RL 109)
+35073700 pb_h4rob 14_inverse/11_h4_robustness.py (full composition/age adjustment, PCA axis check for second-stage H4 positives), 2026-11-09 15:31
+35074422 pb_h3tcga moved to GPU queue (Snaptron complete, short queue stalled), 2026-11-09 15:41
+35076125 pb_seq 13_model/benchmark/00_event_sequences.py (900-nt windows); 35076126 pb_cnn array 0-19 13_model/benchmark/01_train_cnn.py v4 1D-CNN event encoder + shuffled control, 2026-11-09 16:05
+35076169 pb_ridge array 0-19 13_model/benchmark/02_ridge_baseline.py (linear baseline, same folds/target as v3; + shuffled control), 2026-11-09 16:06
+35076687 pb_cnn resubmitted after docstring syntax error, 2026-11-09 16:12

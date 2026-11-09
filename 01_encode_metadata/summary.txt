@@ -1,0 +1,43 @@
+== experiments by assay / cell line (targeted only) ==
+assay           cell_line     
+CRISPR RNA-seq  HepG2             187
+                K562              229
+shRNA RNA-seq   HepG2             232
+                K562              228
+                whole organism     71
+
+== control experiments by assay / cell line ==
+assay           cell_line       control_type       
+CRISPR RNA-seq  HepG2           non-specific target    24
+                K562            non-specific target    21
+shRNA RNA-seq   HepG2           non-specific target    27
+                K562            non-specific target    35
+                whole organism  control                34
+
+== unique RBP targets ==
+shRNA targets 278 | CRISPR targets 262 | union KD 501 | shRNA∩CRISPR 39
+eCLIP targets 168 | KD∩eCLIP 168 | shRNA∩eCLIP 137 | CRISPR∩eCLIP 50
+same RBP+cell line with BOTH shRNA and CRISPR (positive-control pairs): 12
+
+== eCLIP by cell line ==
+cell_line
+HepG2            105
+K562             145
+adrenal gland      2
+
+== quantification files: annotation versions ==
+assay           output_type                 genome_annotation
+CRISPR RNA-seq  gene quantifications        V24                    88
+                                            V29                   922
+                transcript quantifications  V24                    88
+                                            V29                  1844
+eCLIP           transcript quantifications  V29                    54
+shRNA RNA-seq   gene quantifications        V24                   984
+                                            V29                  1044
+                transcript quantifications  V24                   984
+                                            V29                  2088
+
+== missing controls ==
+targeted KD experiments without possible_controls: 0
+
+manifest rows 6708; quant files 5952 (V29); eCLIP peak files 756; total 141.5 GB

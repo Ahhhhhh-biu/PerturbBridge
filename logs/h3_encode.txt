@@ -1,0 +1,110 @@
+HepG2 profile matrix (46476, 406)
+K562 profile matrix (50190, 444)
+
+== H3 retrieval summary ==
+ setting query_cell repro_class  n_queries  n_rbps  median_rank  median_rank_frac  top1  top5  top10  expected_top5  expected_top10  family_top5  n_candidates
+  cross      HepG2         all        385     372         56.0             0.126 0.169 0.255  0.291          0.011           0.023        0.268         444.0
+  cross      HepG2        high         11      11          1.0             0.002 0.818 0.818  0.818          0.011           0.023        0.818         444.0
+  cross      HepG2         mid         49      46         11.0             0.025 0.327 0.490  0.490          0.011           0.023        0.510         444.0
+  cross      HepG2         low        325     315         86.0             0.194 0.123 0.200  0.243          0.011           0.023        0.212         444.0
+  cross       K562         all        382     372         51.0             0.126 0.139 0.249  0.317          0.012           0.025        0.259         406.0
+  cross       K562        high         16      16          1.0             0.002 0.562 0.625  0.625          0.012           0.025        0.625         406.0
+  cross       K562         mid         51      48         26.0             0.064 0.235 0.353  0.392          0.012           0.025        0.373         406.0
+  cross       K562         low        315     308         64.0             0.158 0.102 0.213  0.289          0.012           0.025        0.222         406.0
+   same      HepG2         all         26      13         76.5             0.188 0.269 0.346  0.385          0.012           0.025        0.346         406.0
+   same      HepG2         mid          6       3          2.0             0.005 0.333 0.667  0.667          0.012           0.025        0.667         406.0
+   same      HepG2         low         20      10         90.0             0.222 0.250 0.250  0.300          0.012           0.025        0.250         406.0
+   same       K562         all         25      12         44.0             0.099 0.280 0.320  0.320          0.011           0.023        0.400         444.0
+   same       K562         mid          6       3          1.0             0.002 0.833 1.000  1.000          0.011           0.023        1.000         444.0
+   same       K562         low         19       9         74.0             0.167 0.105 0.105  0.105          0.011           0.023        0.211         444.0
+
+== most frequent wrong top-1 (attractors) ==
+cross HepG2 {'FXR1': 18, 'GSK3B': 16, 'IGF2BP2': 10, 'EFTUD2': 9, 'DROSHA': 8}
+cross K562 {'DDX6': 30, 'RPS3A': 17, 'DDX42': 14, 'FXR2': 14, 'TAF15': 11}
+same HepG2 {'DDX52': 2, 'EXOSC9': 2, 'MAGOH': 2, 'DDX42': 1, 'PPP1R10': 1}
+same K562 {'FXR1': 4, 'IGF2BP2': 2, 'CIZ1': 2, 'RPL11': 1, 'SMAD2': 1}
+
+== cross-cell, high-reproducibility RBPs ==
+ query_cell target          assay  n_query_events  rank  n_candidates  score_true   top1                             top5
+     HepG2  SRSF1  shRNA RNA-seq            4650     1           444       0.760  SRSF1 SRSF1;FXR1;SYNCRIP;SNW1;APOBEC3C
+     HepG2  RBM22  shRNA RNA-seq            3140     1           444       0.399  RBM22      RBM22;SNW1;CDC5L;AQR;CACTIN
+     HepG2  U2AF1  shRNA RNA-seq            6457     1           444       0.641  U2AF1    U2AF1;U2AF2;SF3B3;SF3A1;SF3B1
+     HepG2  SF3A2 CRISPR RNA-seq            3405     1           444       0.751  SF3A2    SF3A2;SF3A1;SF3B3;SF3B1;SF3B4
+     HepG2  WBP11 CRISPR RNA-seq            4136     1           444       0.809  WBP11   WBP11;CDC5L;EFTUD2;AQR;SAP30BP
+     HepG2  U2AF2  shRNA RNA-seq            5343     1           444       0.699  U2AF2    U2AF2;U2AF1;SF3B3;SF3A1;SF3B1
+     HepG2  PUF60  shRNA RNA-seq            4780     1           444       0.739  PUF60   PUF60;SF3B3;SF3A1;SF3B1;EFTUD2
+     HepG2  SF3A1 CRISPR RNA-seq            2921     1           444       0.771  SF3A1    SF3A1;SF3B3;SF3B1;SF3B2;SF3B4
+      K562  WBP11 CRISPR RNA-seq            7037     1           406       0.766  WBP11    WBP11;SF3A3;U2AF1;SF3A2;CKAP4
+      K562  SF3B4  shRNA RNA-seq            4897     1           406       0.597  SF3B4    SF3B4;SF3A2;SF3A1;SF3B1;SF3A3
+     HepG2 HNRNPK  shRNA RNA-seq            4083     1           444       0.695 HNRNPK   HNRNPK;SLTM;SF3B3;EFTUD2;PRPF8
+      K562  SRSF1  shRNA RNA-seq            4945     1           406       0.750  SRSF1     SRSF1;SRSF5;PSMA1;RPS15A;SF1
+      K562  SF3A2 CRISPR RNA-seq            2414     1           406       0.773  SF3A2    SF3A2;SF3A1;SF3B4;SF3B1;SF3A3
+      K562  U2AF2  shRNA RNA-seq            4295     1           406       0.725  U2AF2    U2AF2;U2AF1;SF3A3;SF3A1;WBP11
+      K562  SF3A1 CRISPR RNA-seq            6487     1           406       0.749  SF3A1    SF3A1;SF3A3;SF3A2;SF3B1;SF3B4
+      K562  PUF60  shRNA RNA-seq            4197     1           406       0.724  PUF60    PUF60;SF3A3;SF3A1;SF3A2;PRPF8
+      K562  SRSF3 CRISPR RNA-seq            4149     1           406       0.673  SRSF3   SRSF3;G3BP1;LARP7;SMNDC1;SRSF5
+      K562  RPL11 CRISPR RNA-seq            1943     1           406       0.455  RPL11   RPL11;RPS3A;NELFE;PCBP1;ZNF574
+      K562  SF3B1 CRISPR RNA-seq            8370     4           406       0.557  SF3A1    SF3A1;SF3A3;SF3A2;SF3B1;SF3B4
+     HepG2  SF3A3  shRNA RNA-seq            4803    11           444       0.522  SF3A1   SF3A1;SF3B3;SF3B1;EFTUD2;WBP11
+      K562    AQR  shRNA RNA-seq            7125    20           406       0.282  SF3A3   SF3A3;SF3A1;SF3A2;CACTIN;U2AF1
+      K562  CDC40 CRISPR RNA-seq            4276    34           406       0.173  SF3A1   SF3A1;SF3A3;SF3A2;U2AF1;CACTIN
+      K562  AGGF1  shRNA RNA-seq            1920    98           406       0.053  AKAP8   AKAP8;PRPF8;HNRNPK;RBM25;U2AF2
+      K562 AKAP8L  shRNA RNA-seq            1675   109           406       0.052   DDX6       DDX6;QKI;CXXC1;SF3A2;SF3B1
+      K562  RBM15  shRNA RNA-seq            1707   223           406      -0.025  WBP11     WBP11;SF3A3;U2AF2;LSM7;SF3A2
+     HepG2 SRFBP1  shRNA RNA-seq            4306   322           444      -0.104  PCBP2    PCBP2;WBP11;SF3B3;SF3B1;SF3A1
+      K562   PUS1  shRNA RNA-seq            3411   343           406      -0.134  SF3A3     SF3A3;WBP11;U2AF2;CKAP4;LSM7
+
+== same-cell leave-one-run-out ==
+ query_cell  target          assay  n_query_events  rank  n_candidates  score_true    top1 repro_class
+     HepG2   XRCC6 CRISPR RNA-seq             402     1           406       0.606   XRCC6         low
+     HepG2   AGGF1 CRISPR RNA-seq            1796     1           406       0.192   AGGF1         low
+     HepG2   XRCC6  shRNA RNA-seq            1884     1           406       0.415   XRCC6         low
+     HepG2   SRSF4 CRISPR RNA-seq            1919     1           406       0.192   SRSF4         low
+     HepG2   RBM25  shRNA RNA-seq            2907     1           406       0.599   RBM25         mid
+      K562  HNRNPU  shRNA RNA-seq            3744     1           444       0.414  HNRNPU         mid
+     HepG2   SRSF4 CRISPR RNA-seq            1610     1           406       0.234   SRSF4         low
+     HepG2   RBM25 CRISPR RNA-seq            3434     1           406       0.558   RBM25         mid
+      K562  TARDBP  shRNA RNA-seq            3138     1           444       0.519  TARDBP         mid
+      K562   CELF1  shRNA RNA-seq            1110     1           444       0.477   CELF1         low
+      K562   CELF1  shRNA RNA-seq            1640     1           444       0.327   CELF1         low
+      K562  HNRNPC  shRNA RNA-seq            5528     1           444       0.525  HNRNPC         mid
+      K562  HNRNPC  shRNA RNA-seq            2684     1           444       0.492  HNRNPC         mid
+      K562  TARDBP  shRNA RNA-seq            2567     1           444       0.486  TARDBP         mid
+     HepG2  EIF4A3 CRISPR RNA-seq            1557     2           406       0.543   MAGOH         mid
+     HepG2  EIF4A3  shRNA RNA-seq            2299     2           406       0.440   MAGOH         mid
+      K562  HNRNPU  shRNA RNA-seq            1996     2           444       0.418    FXR1         mid
+     HepG2   AGGF1 CRISPR RNA-seq            1519     9           406       0.158   SF3B1         low
+     HepG2   EIF3H CRISPR RNA-seq            1883    16           406       0.067  DNAJC2         low
+      K562   DGCR8 CRISPR RNA-seq            2067    17           444       0.064   SMAD2         low
+      K562  POLR2G CRISPR RNA-seq            2054    19           444       0.145   PCBP3         low
+      K562  POLR2G  shRNA RNA-seq            1217    35           444       0.107 IGF2BP2         low
+     HepG2   EIF3H CRISPR RNA-seq            1472    38           406       0.076    FXR2         low
+      K562   TAF15  shRNA RNA-seq            1922    40           444       0.100   G3BP2         low
+      K562   TAF15  shRNA RNA-seq            1289    44           444       0.101    FXR1         low
+      K562   RECQL  shRNA RNA-seq            1364    47           444       0.107   RPL11         low
+     HepG2   EIF4B CRISPR RNA-seq             579    68           406       0.073  GTF2F1         low
+      K562    FXR2 CRISPR RNA-seq            2707    70           444       0.069  ZNF106         low
+      K562     SF1  shRNA RNA-seq            3816    74           444       0.135   SF3A1         low
+      K562     SF1  shRNA RNA-seq            2452    78           444       0.125    CIZ1         low
+      K562    FXR2  shRNA RNA-seq            1729    82           444       0.113    FXR1         low
+     HepG2  RPL23A CRISPR RNA-seq            1486    85           406       0.066   RPL11         low
+     HepG2   CPSF7  shRNA RNA-seq            1224    95           406       0.058   PCBP1         low
+      K562   RECQL  shRNA RNA-seq            2131   111           444       0.113    BMS1         low
+     HepG2  RPL23A  shRNA RNA-seq            1129   128           406       0.041   DDX52         low
+     HepG2   EIF4B  shRNA RNA-seq            1680   135           406       0.030   CELF1         low
+     HepG2   SRSF9  shRNA RNA-seq            2649   146           406       0.024 SNRNP70         mid
+     HepG2   CNOT7 CRISPR RNA-seq             960   171           406       0.030   NAA15         low
+     HepG2   SRSF9 CRISPR RNA-seq            1056   178           406       0.017  EXOSC9         mid
+     HepG2   CPSF7 CRISPR RNA-seq             963   187           406       0.004     PKM         low
+      K562   DGCR8 CRISPR RNA-seq            2398   214           444       0.003    HDGF         low
+     HepG2   CNOT7  shRNA RNA-seq            2097   228           406      -0.018   AKAP1         low
+      K562   DGCR8 CRISPR RNA-seq            2512   247           444      -0.004  DROSHA         low
+     HepG2   CIRBP  shRNA RNA-seq            2033   256           406      -0.037 PPP1R10         low
+     HepG2    NIP7 CRISPR RNA-seq             686   305           406      -0.075   DDX52         low
+     HepG2    NIP7  shRNA RNA-seq            1330   324           406      -0.066  EXOSC9         low
+     HepG2   CIRBP CRISPR RNA-seq            1385   340           406      -0.048   DDX42         low
+      K562 IGF2BP3  shRNA RNA-seq            2727   363           444      -0.120    FXR1         low
+      K562 IGF2BP3  shRNA RNA-seq            1797   397           444      -0.177 IGF2BP2         low
+      K562   DDX47  shRNA RNA-seq            2283   399           444      -0.230    CIZ1         low
+      K562   DDX47  shRNA RNA-seq            3566   419           444      -0.224   RPS19         low
+DONE /well/blagden/users/eic789/PerturbBridge/14_inverse/h3_encode_retrieval.tsv /well/blagden/users/eic789/PerturbBridge/14_inverse/h3_encode_summary.tsv

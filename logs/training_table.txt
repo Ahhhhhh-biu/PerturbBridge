@@ -1,0 +1,2 @@
+HepG2 events: 46476 runs: 419 targets: 406 rows: 16268894 | rows per event median: 374 | |dpsi|>0.1: 0.0872 | sig: 0.0182
+K562 events: 50190 runs: 457 targets: 444 rows: 19121698 | rows per event median: 405 | |dpsi|>0.1: 0.0866 | sig: 0.0208

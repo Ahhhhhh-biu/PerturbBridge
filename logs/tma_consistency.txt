@@ -1,0 +1,36 @@
+ROIs: {'NM': 45, 'ST': 46, 'TM': 37} | proteins 6974
+                       set  n_genes  n_measured     axis                                        statistic  observed  null_mean  null_p95  empirical_p  frac_expected_direction        note
+     H4_fallopian_selected       30          24 ST_vs_NM signed mean log2FC (expected direction positive)    -0.082      0.060     0.218        0.941                    0.333 perm_p<0.05
+     H4_fallopian_selected       30          24 TM_vs_NM signed mean log2FC (expected direction positive)    -0.143      0.062     0.242        0.974                    0.292 perm_p<0.05
+     dictionary_high_repro       25          24 ST_vs_NM                                    mean |log2FC|     0.094      0.352     0.480        1.000                      NaN            
+     dictionary_high_repro       25          24 TM_vs_NM                                    mean |log2FC|     0.125      0.405     0.549        1.000                      NaN            
+ribosomal_positive_control       87          84 ST_vs_NM                                    mean |log2FC|     0.089      0.376     0.453        1.000                      NaN            
+ribosomal_positive_control       87          84 TM_vs_NM                                    mean |log2FC|     0.096      0.439     0.525        1.000                      NaN            
+
+selected set: perm_p<0.05
+                  set     gene protein  expected_sign  ST_vs_NM  TM_vs_NM  abundance  detection
+H4_fallopian_selected   SEC31A  O94979           -1.0     0.012     0.055     13.490      1.000
+H4_fallopian_selected  FAM120A  Q9NZB2           -1.0    -0.537    -0.628     13.247      1.000
+H4_fallopian_selected    DDX24  Q9GZR7           -1.0     0.351     0.553     11.771      1.000
+H4_fallopian_selected   ELAVL1  Q15717           -1.0    -0.085    -0.163     15.867      1.000
+H4_fallopian_selected     SLBP  Q14493           -1.0     0.720     1.077     10.642      0.812
+H4_fallopian_selected    GPKOW  Q92917           -1.0     0.009     0.217     11.831      0.953
+H4_fallopian_selected   SETD1A  O15047           -1.0    -0.008     0.084     11.650      0.961
+H4_fallopian_selected    YWHAG  P61981           -1.0     0.303     0.623     15.232      1.000
+H4_fallopian_selected    DDX10  Q13206           -1.0     0.315     0.315     11.061      0.961
+H4_fallopian_selected   EIF2S1  P05198           -1.0     0.301     0.399     14.684      1.000
+H4_fallopian_selected    RBM19  Q9Y4C8           -1.0     0.294     0.423     10.867      0.945
+H4_fallopian_selected    TBRG4  Q969Z0           -1.0     0.390     0.503     11.479      0.961
+H4_fallopian_selected   EXOSC2  Q13868           -1.0    -0.198    -0.247     11.896      0.984
+H4_fallopian_selected    PDCD4  Q53EL6           -1.0    -0.828    -0.939     14.198      1.000
+H4_fallopian_selected    ROCK2  O75116           -1.0     0.000     0.038     12.532      1.000
+H4_fallopian_selected    GSK3B  P49841           -1.0     0.381     0.442     11.974      0.914
+H4_fallopian_selected   NUSAP1  Q9BXS6           -1.0     0.186     0.251     11.634      0.375
+H4_fallopian_selected    CEBPZ  Q03701           -1.0     0.511     0.354     11.893      0.938
+H4_fallopian_selected   CHCHD3  Q9NX63           -1.0     0.082     0.102     14.412      1.000
+H4_fallopian_selected    FKBP4  Q02790           -1.0     0.148     0.517     15.186      1.000
+H4_fallopian_selected  EXOSC10  Q01780           -1.0    -0.167    -0.202     11.680      0.992
+H4_fallopian_selected    SEC63  Q9UGP8           -1.0     0.042     0.015     11.672      1.000
+H4_fallopian_selected RNASEH2A  O75792           -1.0    -0.144    -0.126     11.002      0.922
+H4_fallopian_selected   HNRNPL  P14866           -1.0    -0.121    -0.225     15.953      1.000
+DONE

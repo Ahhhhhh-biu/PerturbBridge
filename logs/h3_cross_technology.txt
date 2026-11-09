@@ -1,0 +1,23 @@
+HepG2 shRNA RNA-seq (46476, 232)
+HepG2 CRISPR RNA-seq (46476, 184)
+K562 shRNA RNA-seq (50190, 219)
+K562 CRISPR RNA-seq (50190, 227)
+
+== cross-cell retrieval by technology pairing (all RBPs) ==
+ query_assay dict_assay  same_technology  n_queries  n_rbps  n_candidates  median_rank  top1  top5  top10
+     CRISPR     CRISPR             True        300     149         227.0         38.5 0.150 0.260  0.317
+     CRISPR      shRNA            False         39      38         232.0         48.0 0.154 0.256  0.282
+      shRNA     CRISPR            False         38      38         227.0         49.5 0.184 0.237  0.237
+      shRNA      shRNA             True        401     196         232.0         18.0 0.209 0.334  0.426
+
+== by reproducibility class ==
+  same_technology repro_class  n_queries  median_rank  top1  top5  top10
+           False        high          7          3.0 0.286 0.571  0.571
+           False         low         46         51.5 0.065 0.109  0.130
+           False         mid         24         55.5 0.333 0.417  0.417
+            True        high         36          1.0 0.667 0.722  0.722
+            True         low        517         38.0 0.128 0.244  0.317
+            True         mid        148         10.0 0.264 0.405  0.514
+
+queries with both dictionaries: 11 | median rank same-tech 11 vs cross-tech 66 | top5 same 0.455 vs cross 0.273 | cross-tech top5 for high-repro: 0.571 (n=7)
+DONE

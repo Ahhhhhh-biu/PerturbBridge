@@ -1,0 +1,5 @@
+cohort	adjustment	n_samples	n_events_tested	n_query	n_rbps	top_rbp	top_score	top_perm_p	p_top_vs_maxnull	n_rbp_perm_p05	n_high_perm_p05	expected_p05
+GSE274628_fallopian	adjusted	94	77096	500	478	SEC31A	0.2625	0.0100	0.2886	30	0	23.9000
+GSE274628_fallopian	unadjusted	94	77092	500	478	RUVBL1	0.3134	0.0050	0.1393	33	2	23.9000
+GSE166044_breast	adjusted	30	48736	500	478	PPP1R10	0.2787	0.0050	0.1244	31	3	23.9000
+GSE166044_breast	unadjusted	30	48731	500	478	SYNCRIP	0.2412	0.0249	0.4677	31	6	23.9000

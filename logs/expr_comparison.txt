@@ -1,0 +1,120 @@
+HepG2 A folds 5 RBPs 396
+HepG2 B folds 5 RBPs 396
+HepG2 none folds 5 RBPs 396
+HepG2 shuf folds 5 RBPs 396
+
+== HepG2: RBP-mean held-out metrics (expression layer) ==
+A_r_all              0.0148
+A_r_sig              0.0591
+A_sign_sig           0.5291
+A_r_all_resid        0.0218
+B_r_all              0.0114
+B_r_sig              0.0533
+B_sign_sig           0.5211
+B_r_all_resid        0.0192
+none_r_all          -0.0072
+none_r_sig           0.0555
+none_sign_sig        0.5062
+none_r_all_resid     0.0222
+shuf_r_all          -0.0004
+shuf_r_sig           0.0305
+shuf_sign_sig        0.5094
+shuf_r_all_resid     0.0077
+r_all_meanbase      -0.0532
+r_sig_meanbase      -0.0823
+sign_sig_meanbase    0.4631
+
+-- by RBP expression reproducibility (split-half r) --
+          A_r_all       A_sign_sig       none_r_all       shuf_r_all       r_all_meanbase       A_r_all_resid      
+             mean count       mean count       mean count       mean count           mean count          mean count
+repro_bin                                                                                                          
+<0.2       -0.013    61      0.542    61     -0.016    61     -0.003    61         -0.046    61        -0.002    61
+0.2-0.4     0.005    95      0.520    95     -0.004    95      0.001    95         -0.029    95         0.012    95
+0.4-0.6     0.026   102      0.546   102     -0.006   102      0.018   102         -0.051   102         0.032   102
+>0.6        0.026   138      0.517   138     -0.006   138     -0.013   138         -0.074   138         0.032   138
+
+-- paired differences (RBP level, bootstrap 95% CI) --
+HepG2 A_r_all - shuf_r_all: +0.0152 [-0.0087,+0.0400] n=396
+HepG2 A_r_all - none_r_all: +0.0220 [+0.0029,+0.0422] n=396
+HepG2 A_r_all - r_all_meanbase: +0.0680 [+0.0445,+0.0903] n=396
+HepG2 A_r_all - B_r_all: +0.0034 [-0.0066,+0.0136] n=396
+HepG2 A_sign_sig - shuf_sign_sig: +0.0197 [+0.0006,+0.0400] n=396
+HepG2 A_sign_sig - sign_sig_meanbase: +0.0660 [+0.0487,+0.0832] n=396
+HepG2 A_r_sig - r_sig_meanbase: +0.1414 [+0.1095,+0.1735] n=396
+
+-- named RBPs --
+target  r_split_half  A_r_all  B_r_all  none_r_all  shuf_r_all  r_all_meanbase  A_r_all_resid  A_sign_sig  shuf_sign_sig  sign_sig_meanbase  n_sig
+  DDX6         0.831    0.472    0.434      -0.128       0.097          -0.179          0.476       0.577          0.364              0.341   6445
+EXOSC5         0.261    0.034    0.105      -0.139       0.022          -0.039          0.049       0.648          0.228              0.420    714
+HNRNPC         0.740   -0.054   -0.146      -0.095       0.283          -0.119         -0.045       0.468          0.760              0.487   3511
+ LARP4         0.722    0.042   -0.028      -0.058       0.042          -0.266          0.063       0.422          0.217              0.410   5486
+PABPC4         0.747    0.235    0.204       0.101      -0.360          -0.125          0.251       0.633          0.297              0.419   2804
+ PRPF8         0.680   -0.175   -0.233       0.021      -0.156          -0.031         -0.184       0.333          0.219              0.416   4807
+ PTBP1         0.823    0.008    0.018       0.010      -0.222          -0.091          0.018       0.259          0.451              0.445   2908
+ SF3A1         0.738    0.194    0.178      -0.029      -0.061           0.390          0.160       0.646          0.501              0.792   1506
+ SF3B1         0.819   -0.045   -0.008      -0.001      -0.018          -0.083         -0.044       0.472          0.510              0.457   2604
+ SRSF1         0.887    0.435    0.390      -0.016       0.095          -0.160          0.442       0.728          0.611              0.398   5679
+ U2AF2         0.714    0.453    0.476      -0.041       0.175           0.098          0.452       0.668          0.654              0.632   5031
+  UPF1         0.739   -0.171   -0.034      -0.037      -0.008          -0.403         -0.156       0.500          0.635              0.266   3163
+  XRN2         0.797    0.302    0.434      -0.141      -0.369          -0.274          0.309       0.666          0.396              0.376   4537
+K562 A folds 5 RBPs 437
+K562 B folds 5 RBPs 437
+K562 none folds 5 RBPs 437
+K562 shuf folds 5 RBPs 437
+
+== K562: RBP-mean held-out metrics (expression layer) ==
+A_r_all              0.0355
+A_r_sig              0.0909
+A_sign_sig           0.5501
+A_r_all_resid        0.0412
+B_r_all              0.0351
+B_r_sig              0.0897
+B_sign_sig           0.5484
+B_r_all_resid        0.0410
+none_r_all          -0.0068
+none_r_sig           0.0642
+none_sign_sig        0.5188
+none_r_all_resid     0.0134
+shuf_r_all           0.0049
+shuf_r_sig           0.0528
+shuf_sign_sig        0.5196
+shuf_r_all_resid     0.0127
+r_all_meanbase      -0.0470
+r_sig_meanbase      -0.0782
+sign_sig_meanbase    0.4628
+
+-- by RBP expression reproducibility (split-half r) --
+          A_r_all       A_sign_sig       none_r_all       shuf_r_all       r_all_meanbase       A_r_all_resid      
+             mean count       mean count       mean count       mean count           mean count          mean count
+repro_bin                                                                                                          
+<0.2        0.037    99      0.570    99     -0.011    99     -0.009    99         -0.026    99         0.041    99
+0.2-0.4     0.024   129      0.537   129     -0.008   129      0.010   129         -0.062   129         0.033   129
+0.4-0.6     0.041   139      0.559   139     -0.005   139      0.009   139         -0.040   139         0.046   139
+>0.6        0.043    70      0.528    70     -0.002    70      0.008    70         -0.064    70         0.048    70
+
+-- paired differences (RBP level, bootstrap 95% CI) --
+K562 A_r_all - shuf_r_all: +0.0306 [+0.0088,+0.0518] n=437
+K562 A_r_all - none_r_all: +0.0423 [+0.0238,+0.0594] n=437
+K562 A_r_all - r_all_meanbase: +0.0825 [+0.0606,+0.1044] n=437
+K562 A_r_all - B_r_all: +0.0004 [-0.0071,+0.0077] n=437
+K562 A_sign_sig - shuf_sign_sig: +0.0306 [+0.0090,+0.0520] n=437
+K562 A_sign_sig - sign_sig_meanbase: +0.0874 [+0.0701,+0.1063] n=437
+K562 A_r_sig - r_sig_meanbase: +0.1691 [+0.1417,+0.1970] n=437
+
+-- named RBPs --
+target  r_split_half  A_r_all  B_r_all  none_r_all  shuf_r_all  r_all_meanbase  A_r_all_resid  A_sign_sig  shuf_sign_sig  sign_sig_meanbase  n_sig
+  DDX6         0.720   -0.244   -0.189      -0.018       0.204          -0.044         -0.231       0.488          0.469              0.484   2199
+EXOSC5         0.364   -0.169   -0.070      -0.039       0.101           0.106         -0.164       0.411          0.717              0.643   1718
+HNRNPC         0.547   -0.348   -0.361      -0.053      -0.081          -0.348         -0.338       0.223          0.636              0.212   8956
+ LARP4         0.297   -0.182   -0.217       0.153       0.054           0.079         -0.180       0.376          0.457              0.574   2013
+PABPC4         0.155    0.308    0.261      -0.108      -0.132          -0.268          0.320       0.705          0.662              0.266   1342
+ PRPF8         0.457    0.232    0.189       0.025      -0.111          -0.061          0.239       0.656          0.189              0.392   1792
+ PTBP1         0.698   -0.204   -0.227      -0.022      -0.152          -0.176         -0.206       0.364          0.431              0.354   2783
+ SF3A1         0.718    0.589    0.586       0.044       0.097           0.208          0.583       0.916          0.707              0.641   1661
+ SF3B1         0.732    0.602    0.620       0.051       0.285          -0.143          0.600       0.889          0.718              0.377   3222
+ SRSF1         0.707   -0.081   -0.084      -0.045      -0.016          -0.223         -0.078       0.422          0.484              0.345   2841
+ U2AF2         0.596    0.285    0.309      -0.042       0.096          -0.222          0.290       0.771          0.658              0.305   1924
+  UPF1         0.668    0.123   -0.026       0.027       0.036           0.024          0.118       0.616          0.515              0.480   1464
+  XRN2         0.523    0.261    0.297      -0.054       0.220           0.048          0.256       0.799          0.811              0.624    905
+
+files: /well/blagden/users/eic789/PerturbBridge/13_model/expr_vs_controls_by_rbp.tsv /well/blagden/users/eic789/PerturbBridge/13_model/expr_results_summary.tsv

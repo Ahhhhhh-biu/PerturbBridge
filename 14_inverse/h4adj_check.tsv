@@ -1,0 +1,6 @@
+adjustment	n_covariates	familywise_p	max_abs_t	t_RRP9	t_EIF3D	t_EIF2S1	t_SRSF3	t_SUGP2	t_TAF15
+none	0	0.013289036544850499	4.27	-2.39	-1.96	2.15	-3.55	2.38	1.76
+batch+menopause	3	0.07641196013289037	3.65	-3.12	-2.97	2.47	-3.0	3.3	2.73
++epithelial	4	0.016611295681063124	4.28	-4.28	-3.67	3.34	-3.24	3.14	2.41
++ciliated,stroma,smooth muscle,endothelial	8	0.5415282392026578	2.98	-0.97	-0.61	0.62	-2.39	0.87	2.03
+all 10 + age	14	0.3023255813953488	3.32	-0.92	-0.61	0.47	-1.98	0.39	1.57
