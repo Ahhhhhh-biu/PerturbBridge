@@ -19,9 +19,9 @@ parts = sorted(glob.glob(f"{O}/tcga_psi/part_*.parquet")); X = pd.concat([pd.rea
 X = X[X.inc + X["skip"] >= 10].merge(S[["rail_id", "sid", "project", "stype"]], on="rail_id")
 tests, ranks = [], []
 def run_test(label, project, Wp, is_case, n_case_label):
-    Y = Wp.values; a = Y[is_case]; b = Y[~is_case]
+    Y = Wp.values; tot = R.nan_totals(Y)   # totals once; each (permuted) split then costs O(n_case x events) (retrieval.welch_split)
     def query_from(mask):
-        A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
+        t, p, d = R.welch_split(Y, mask, tot)
         sel = np.where((p < 0.01) & (np.abs(d) > 0.05))[0]
         if len(sel) > 500: sel = sel[np.argsort(p[sel])[:500]]
         return pd.Series(d[sel], index=Wp.columns[sel]), d, p

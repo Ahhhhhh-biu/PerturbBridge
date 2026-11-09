@@ -99,3 +99,7 @@
 35076687 pb_cnn resubmitted after docstring syntax error, 2026-11-09 16:12
 35091667 pb_h3tcga_b backup on gpu 24hr QOS (unbuffered log logs/h3_tcga_b.txt) in case 35074422 hits the 3:55 limit, 2026-11-09 18:38
 2026-11-09 18:39 short queue stalled: cohort download/prep moved to GPU partitions (4hr QOS). GSE182338 download 35091737 (tasks 24-119) -> prep 35091739 (RL 51); GSE289499 download 35091738 -> prep 35091740 (RL 109). Old 35072666-69 cancelled.
+35113642 pb_h3tcga resubmitted with vectorised Welch test (welch_split; scipy nan_policy t-test was the 4h bottleneck), GPU 4hr QOS; backup 35091667 cancelled, 2026-11-09 21:41
+2026-11-09 21:41 starprep split across queues: GPU 35091739 keeps GSE182338 tasks 52-85, short 35113643 takes 86-119; GPU 35091740 keeps GSE289499 0-14, short 35113644 takes 15-28
+2026-11-09 21:44 rMATS post (45_rmats_post_any.sh, GPU 4hr): GSE182338 carriers(24) vs rest(96) 35113796 after prep arrays 35091739+35113643; GSE289499 CIS+carcinoma(19) vs adenoma(10) 35113797 after 35091740+35113644
+35113971 pb_h4new (46_h4_new_cohorts.sh: summarise + composition + 14_h4_new_cohorts.py) after post jobs 35113796+35113797, 2026-11-09 21:46

@@ -43,7 +43,24 @@ def score_against(q, P, min_shared=50):
     return pd.Series(r, index=M.columns), pd.Series(n, index=M.columns)
 def ols_group_effect(Y, X):
     """Y: samples x events (NaN allowed), X: samples x p design with the group indicator in column 1 (column 0 = intercept).
-    Returns per-event coefficient, t statistic and two-sided p of the group column (events with < p+3 complete samples -> NaN)."""
+    Returns per-event coefficient, t statistic and two-sided p of the group column (events with < p+3 complete samples -> NaN).
+    Vectorised over events: per-event masked normal equations (XtX_e = X' diag(m_e) X) solved in a batch; identical to a per-event OLS."""
+    from scipy import stats
+    n_s, n_e = Y.shape; p = X.shape[1]; M = np.isfinite(Y); Yz = np.where(M, Y, 0.0); Mf = M.astype(float); nobs = Mf.sum(0)
+    XtX = np.einsum("si,sj,se->eij", X, X, Mf); Xty = np.einsum("si,se->ei", X, Yz)
+    ok = nobs >= p + 3; beta = np.full(n_e, np.nan); tval = np.full(n_e, np.nan); pval = np.full(n_e, np.nan)
+    if ok.any():
+        A = XtX[ok]; A = A + np.eye(p)[None] * 1e-10
+        try: inv = np.linalg.inv(A)
+        except np.linalg.LinAlgError: inv = np.linalg.pinv(A)
+        B = np.einsum("eij,ej->ei", inv, Xty[ok])                                  # e x p coefficients
+        res = (Yz[:, ok] - X @ B.T) * Mf[:, ok]; dof = nobs[ok] - p; s2 = (res ** 2).sum(0) / dof
+        se = np.sqrt(s2 * inv[:, 1, 1]); good = s2 > 1e-20   # zero residual variance (all observed PSI identical): no test, t and p -> NaN
+        beta[ok] = B[:, 1]; tt = np.where(good, B[:, 1] / np.where(good, se, 1.0), np.nan); tval[ok] = tt; pval[ok] = np.where(good, 2 * stats.t.sf(np.abs(tt), dof), np.nan)
+    return beta, tval, pval
+def ols_group_effect_slow(Y, X):
+    """Reference per-event implementation (kept for checks)."""
+
     from scipy import stats
     n_s, n_e = Y.shape; p = X.shape[1]; beta = np.full(n_e, np.nan); tval = np.full(n_e, np.nan); pval = np.full(n_e, np.nan)
     ok = np.isfinite(Y); full = ok.all(0)
@@ -60,3 +77,29 @@ def ols_group_effect(Y, X):
 def rank_report(scores, info, label, top=15):
     s = scores.dropna().sort_values(ascending=False); d = pd.DataFrame({"rbp": s.index, "score": s.values, "rank": np.arange(1, len(s) + 1)}).set_index("rbp").join(info)
     d["query"] = label; return d.reset_index()
+def welch_nan(A, B):
+    """Column-wise Welch t-test between rows of A and rows of B (NaN allowed). Returns (t, p, mean difference A - B).
+    Same result as scipy.stats.ttest_ind(..., equal_var=False, nan_policy='omit') but vectorised over columns with masked sums."""
+    from scipy import stats
+    def msd(M):
+        ok = np.isfinite(M); n = ok.sum(0).astype(float); Z = np.where(ok, M, 0.0); m = Z.sum(0) / np.maximum(n, 1)
+        v = ((np.where(ok, M - m, 0.0)) ** 2).sum(0) / np.maximum(n - 1, 1); return n, m, v
+    na, ma, va = msd(A); nb, mb, vb = msd(B); sa = va / np.maximum(na, 1); sb = vb / np.maximum(nb, 1); se = np.sqrt(sa + sb)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        t = (ma - mb) / se; df = (sa + sb) ** 2 / (sa ** 2 / np.maximum(na - 1, 1) + sb ** 2 / np.maximum(nb - 1, 1))
+    bad = (na < 2) | (nb < 2) | ~np.isfinite(t); t = np.where(bad, np.nan, t); p = np.where(bad, np.nan, 2 * stats.t.sf(np.abs(t), df))
+    return t, p, ma - mb
+def nan_totals(Y):
+    """Per-column (count, sum, sum of squares) over finite entries of Y; feeds welch_split for repeated label permutations."""
+    ok = np.isfinite(Y); Z = np.where(ok, Y, 0.0); return ok.sum(0).astype(float), Z.sum(0), (Z ** 2).sum(0)
+def welch_split(Y, mask, tot):
+    """Welch t-test of rows Y[mask] against rows Y[~mask] using precomputed totals (nan_totals(Y)); only the case rows are touched,
+    so a permutation costs O(n_case x events). Returns (t, p, mean difference case - control). Agrees with welch_nan."""
+    from scipy import stats
+    A = Y[mask]; ok = np.isfinite(A); Z = np.where(ok, A, 0.0); na = ok.sum(0).astype(float); s1a = Z.sum(0); s2a = (Z ** 2).sum(0)
+    n, s1, s2 = tot; nb = n - na; s1b = s1 - s1a; s2b = s2 - s2a
+    with np.errstate(divide="ignore", invalid="ignore"):
+        ma = s1a / na; mb = s1b / nb; va = np.maximum(s2a - na * ma ** 2, 0) / (na - 1); vb = np.maximum(s2b - nb * mb ** 2, 0) / (nb - 1)
+        sa = va / na; sb = vb / nb; t = (ma - mb) / np.sqrt(sa + sb); df = (sa + sb) ** 2 / (sa ** 2 / (na - 1) + sb ** 2 / (nb - 1))
+    bad = (na < 2) | (nb < 2) | ~np.isfinite(t); t = np.where(bad, np.nan, t); p = np.where(bad, np.nan, 2 * stats.t.sf(np.abs(t), df))
+    return t, p, ma - mb

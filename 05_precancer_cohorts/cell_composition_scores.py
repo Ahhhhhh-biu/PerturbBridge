@@ -15,10 +15,15 @@ for l in open(GTF):
     f = l.split("\t")
     if f[2] != "gene": continue
     sym[re.search('gene_id "([^"]+)"', f[8]).group(1)] = re.search('gene_name "([^"]+)"', f[8]).group(1)
+def strand_col(path):
+    # STAR ReadsPerGene columns: 1 unstranded, 2 forward, 3 reverse. A stranded library has far fewer N_noFeature reads in its own column.
+    nf = pd.read_csv(path, sep="\t", header=None, nrows=4, index_col=0).loc["N_noFeature"]
+    return 2 if nf[2] < nf[3] / 3 else 3 if nf[3] < nf[2] / 3 else 1
+col = strand_col(f"{cohort}/star/{st.index[0]}.ReadsPerGene.out.tab"); print("count column", col, {1: "unstranded", 2: "forward", 3: "reverse"}[col])
 cnt = {}
 for g in st.index:
     t = pd.read_csv(f"{cohort}/star/{g}.ReadsPerGene.out.tab", sep="\t", header=None, index_col=0, skiprows=4)
-    cnt[g] = t[3]  # column 4 = reverse-stranded (checked: lowest N_noFeature in both cohorts)
+    cnt[g] = t[col]
 C = pd.DataFrame(cnt); C.index = C.index.map(sym); C = C.groupby(level=0).sum()
 L = np.log2(C / C.sum() * 1e6 + 1)
 S = pd.DataFrame({k: L.reindex(v).dropna().mean() for k, v in MARK.items()}).T
