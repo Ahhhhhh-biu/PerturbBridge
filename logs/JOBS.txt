@@ -103,3 +103,4 @@
 2026-11-09 21:41 starprep split across queues: GPU 35091739 keeps GSE182338 tasks 52-85, short 35113643 takes 86-119; GPU 35091740 keeps GSE289499 0-14, short 35113644 takes 15-28
 2026-11-09 21:44 rMATS post (45_rmats_post_any.sh, GPU 4hr): GSE182338 carriers(24) vs rest(96) 35113796 after prep arrays 35091739+35113643; GSE289499 CIS+carcinoma(19) vs adenoma(10) 35113797 after 35091740+35113644
 35113971 pb_h4new (46_h4_new_cohorts.sh: summarise + composition + 14_h4_new_cohorts.py) after post jobs 35113796+35113797, 2026-11-09 21:46
+2026-11-09 23:37 starprep short arrays 35113643 (GSE182338 99-119) and 35113644 (GSE289499 17-28) stuck on short (Priority); held, resubmitted on GPU partitions as 35124189 and 35124190; post jobs 35113796/35113797 dependencies repointed to the new arrays; short arrays cancelled
