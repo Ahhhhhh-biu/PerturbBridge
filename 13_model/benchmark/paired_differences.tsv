@@ -1,0 +1,11 @@
+cell_line	comparison	d_sign_acc	ci_lo	ci_hi	d_spearman	sp_ci_lo	sp_ci_hi	n
+HepG2	v3 deep - ridge	-0.0036	-0.0125	0.0046	-0.0710	-0.0894	-0.0531	406
+K562	v3 deep - ridge	0.0123	0.0015	0.0232	-0.0356	-0.0585	-0.0137	444
+HepG2	v3 deep - v3 shuffled RBP	0.0018	-0.0079	0.0108	0.0017	-0.0179	0.0214	406
+K562	v3 deep - v3 shuffled RBP	0.0197	0.0063	0.0330	0.0393	0.0138	0.0646	444
+HepG2	ridge - ridge shuffled RBP	0.0005	-0.0038	0.0046	0.0004	-0.0037	0.0047	406
+K562	ridge - ridge shuffled RBP	-0.0004	-0.0044	0.0035	-0.0039	-0.0088	0.0013	444
+HepG2	v4 CNN - v3 deep	0.0024	-0.0032	0.0081	0.0050	-0.0056	0.0154	406
+K562	v4 CNN - v3 deep	0.0029	-0.0039	0.0103	0.0089	-0.0058	0.0235	444
+HepG2	v4 CNN - v4 CNN shuffled RBP	0.0031	-0.0067	0.0122	-0.0063	-0.0263	0.0136	406
+K562	v4 CNN - v4 CNN shuffled RBP	0.0218	0.0090	0.0351	0.0462	0.0190	0.0719	444

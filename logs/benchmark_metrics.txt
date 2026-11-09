@@ -1,0 +1,68 @@
+== master table (RBP mean on clean held-out rows) ==
+              model cell_line  n_rbp  sign_acc  sign_ci_lo  sign_ci_hi  pearson  spearman  mae_clean  mae_null  mean_abs_pred_clean
+              ridge     HepG2    406    0.5175      0.5110      0.5241   0.0864    0.1002     0.1554    0.0360               0.0173
+              ridge      K562    444    0.5077      0.4991      0.5160   0.0575    0.0719     0.1553    0.0389               0.0201
+ ridge shuffled RBP     HepG2    406    0.5171      0.5108      0.5238   0.0861    0.0998     0.1556    0.0365               0.0176
+ ridge shuffled RBP      K562    444    0.5080      0.5001      0.5168   0.0606    0.0758     0.1558    0.0396               0.0203
+            v3 deep     HepG2    406    0.5139      0.5058      0.5218   0.0292    0.0292     0.1560    0.0443               0.0439
+            v3 deep      K562    444    0.5200      0.5102      0.5306   0.0397    0.0363     0.1536    0.0468               0.0495
+      v3 event-only     HepG2    406    0.5026      0.4967      0.5082   0.0285    0.0365     0.1567    0.0304               0.0178
+      v3 event-only      K562    444    0.5048      0.4965      0.5131   0.0180    0.0296     0.1561    0.0356               0.0214
+    v3 shuffled RBP     HepG2    406    0.5121      0.5061      0.5177   0.0267    0.0275     0.1559    0.0486               0.0509
+    v3 shuffled RBP      K562    444    0.5003      0.4919      0.5091  -0.0030   -0.0030     0.1586    0.0491               0.0565
+             v4 CNN     HepG2    406    0.5163      0.5090      0.5234   0.0341    0.0342     0.1552    0.0409               0.0455
+             v4 CNN      K562    444    0.5229      0.5137      0.5323   0.0490    0.0452     0.1531    0.0420               0.0481
+v4 CNN shuffled RBP     HepG2    406    0.5131      0.5061      0.5203   0.0367    0.0405     0.1554    0.0434               0.0429
+v4 CNN shuffled RBP      K562    444    0.5011      0.4916      0.5101  -0.0006   -0.0010     0.1581    0.0444               0.0599
+
+== paired RBP-level differences (bootstrap 95% CI) ==
+cell_line                   comparison  d_sign_acc   ci_lo  ci_hi  d_spearman  sp_ci_lo  sp_ci_hi   n
+    HepG2              v3 deep - ridge     -0.0036 -0.0125 0.0046     -0.0710   -0.0894   -0.0531 406
+     K562              v3 deep - ridge      0.0123  0.0015 0.0232     -0.0356   -0.0585   -0.0137 444
+    HepG2    v3 deep - v3 shuffled RBP      0.0018 -0.0079 0.0108      0.0017   -0.0179    0.0214 406
+     K562    v3 deep - v3 shuffled RBP      0.0197  0.0063 0.0330      0.0393    0.0138    0.0646 444
+    HepG2   ridge - ridge shuffled RBP      0.0005 -0.0038 0.0046      0.0004   -0.0037    0.0047 406
+     K562   ridge - ridge shuffled RBP     -0.0004 -0.0044 0.0035     -0.0039   -0.0088    0.0013 444
+    HepG2             v4 CNN - v3 deep      0.0024 -0.0032 0.0081      0.0050   -0.0056    0.0154 406
+     K562             v4 CNN - v3 deep      0.0029 -0.0039 0.0103      0.0089   -0.0058    0.0235 444
+    HepG2 v4 CNN - v4 CNN shuffled RBP      0.0031 -0.0067 0.0122     -0.0063   -0.0263    0.0136 406
+     K562 v4 CNN - v4 CNN shuffled RBP      0.0218  0.0090 0.0351      0.0462    0.0190    0.0719 444
+
+== difficulty: by RBP reproducibility and by sequence distance to the training set ==
+model                ridge  ridge shuffled RBP  v3 deep  v3 event-only  v3 shuffled RBP  v4 CNN
+cell_line repro_bin                                                                            
+HepG2     <0.55      0.503               0.502    0.509          0.496            0.510   0.512
+          0.55-0.6   0.522               0.517    0.511          0.505            0.515   0.516
+          0.6-0.7    0.554               0.565    0.509          0.522            0.513   0.518
+          >0.7       0.674               0.673    0.678          0.557            0.546   0.623
+K562      <0.55      0.483               0.482    0.509          0.484            0.500   0.513
+          0.55-0.6   0.513               0.510    0.508          0.502            0.510   0.510
+          0.6-0.7    0.571               0.572    0.530          0.557            0.503   0.535
+          >0.7       0.689               0.721    0.694          0.685            0.463   0.692
+model                ridge
+cell_line repro_bin       
+HepG2     <0.55      267.0
+          0.55-0.6    80.0
+          0.6-0.7     48.0
+          >0.7        11.0
+K562      <0.55      299.0
+          0.55-0.6    71.0
+          0.6-0.7     54.0
+          >0.7        20.0
+model               ridge  ridge shuffled RBP  v3 deep  v3 event-only  v3 shuffled RBP  v4 CNN
+cell_line near_bin                                                                            
+HepG2     20-30     0.522               0.523    0.493          0.508            0.518   0.502
+          30-40     0.524               0.527    0.513          0.506            0.509   0.513
+          no hit    0.514               0.512    0.519          0.500            0.512   0.521
+K562      20-30     0.509               0.508    0.533          0.507            0.504   0.516
+          30-40     0.507               0.512    0.517          0.509            0.515   0.522
+          no hit    0.508               0.506    0.519          0.502            0.493   0.525
+model               ridge
+cell_line near_bin       
+HepG2     20-30      55.0
+          30-40     102.0
+          no hit    249.0
+K562      20-30      56.0
+          30-40     115.0
+          no hit    273.0
+files: /well/blagden/users/eic789/PerturbBridge/13_model/benchmark/master_table.tsv /well/blagden/users/eic789/PerturbBridge/13_model/benchmark/master_by_rbp.tsv /well/blagden/users/eic789/PerturbBridge/13_model/benchmark/paired_differences.tsv /well/blagden/users/eic789/PerturbBridge/13_model/benchmark/difficulty_table.tsv /well/blagden/users/eic789/PerturbBridge/13_model/benchmark/fig_benchmark.png

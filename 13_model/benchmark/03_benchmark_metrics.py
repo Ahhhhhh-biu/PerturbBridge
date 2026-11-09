@@ -112,14 +112,14 @@ for a, b in pairs:
         w = W.loc[cl]
         m, lo, hi = boot(w[a] - w[b])
         ms, los, his = boot(Wr.loc[cl][a] - Wr.loc[cl][b])
-        diff_rows.append(dict(cell_line=cl, comparison=f"{a} - {b}", d_sign_acc=m, ci_lo=lo, ci_hi=hi, d_spearman=ms, sp_ci_lo=los, sp_ci_hi=his, n=int(np.isfinite(w[a] - w[b]).sum()))
+        diff_rows.append(dict(cell_line=cl, comparison=f"{a} - {b}", d_sign_acc=m, ci_lo=lo, ci_hi=hi, d_spearman=ms, sp_ci_lo=los, sp_ci_hi=his, n=int(np.isfinite(w[a] - w[b]).sum())))
 D = pd.DataFrame(diff_rows)
 D.to_csv(f"{B}/paired_differences.tsv", sep="\t", index=False, float_format="%.4f")
 print(D.round(4).to_string(index=False))
 
 # difficulty analysis
 print("\n== difficulty: by RBP reproducibility and by sequence distance to the training set ==")
-keep = [m for m in ("v3 deep", "ridge", "v4 CNN", "v3 shuffled RBP") if m in tables]
+keep = [m for m in ("v3 deep", "ridge", "v4 CNN", "v3 event-only", "ridge shuffled RBP", "v3 shuffled RBP") if m in tables]
 diff = []
 for key in ("repro_bin", "near_bin"):
     g = R[R.model.isin(keep)].groupby(["cell_line", key, "model"], observed=True).agg(n=("target", "size"), sign_acc=("sign_acc", "mean"), spearman=("spearman", "mean"), mae_clean=("mae_clean", "mean")).reset_index()
@@ -144,14 +144,14 @@ a.set_xticks(range(len(order)))
 a.set_xticklabels(order, rotation=35, ha="right", fontsize=6)
 a.set_ylim(0.45, 0.6)
 a.set_ylabel("direction accuracy, clean held-out rows (RBP mean, 95% CI)")
-a.set_title("All models on the same held-out RBPs (dark HepG2, light K562)", fontsize=8, loc="left")
+a.set_title("Same held-out RBPs (dark HepG2, light K562)", fontsize=8, loc="left")
 for i, (key, lab) in enumerate((("repro_bin", "RBP reproducibility (within-run direction agreement)"), ("near_bin", "max BLASTP identity to a training RBP"))):
     a = ax[0, 1] if i == 0 else ax[1, 0]
     g = R[R.model.isin(keep)].groupby([key, "model"], observed=True).sign_acc.agg(["mean", "sem", "size"]).reset_index()
     cats = list(g[key].cat.categories) if hasattr(g[key], "cat") else sorted(g[key].unique())
     for k, m in enumerate(keep):
         s = g[g.model == m].set_index(key).reindex(cats)
-        a.errorbar(np.arange(len(cats)) + (k - 1.5) * 0.15, s["mean"], yerr=s["sem"], fmt="o", ms=3, color=colors[m], label=m, lw=0.8)
+        a.errorbar(np.arange(len(cats)) + (k - (len(keep) - 1) / 2) * 0.11, s["mean"], yerr=s["sem"], fmt="o", ms=3, color=colors[m], label=m, lw=0.8)
     a.axhline(0.5, color="k", lw=0.5)
     ns = g[g.model == keep[0]].set_index(key).reindex(cats)["size"]
     a.set_xticks(range(len(cats)))

@@ -1,0 +1,85 @@
+cell_line	repro_bin	model	n	sign_acc	spearman	mae_clean	stratum	near_bin
+HepG2	<0.55	ridge	267	0.5031	0.0661	0.1534	repro_bin	
+HepG2	<0.55	ridge shuffled RBP	267	0.5022	0.0649	0.1534	repro_bin	
+HepG2	<0.55	v3 deep	267	0.5089	0.0159	0.1536	repro_bin	
+HepG2	<0.55	v3 event-only	267	0.4961	0.0150	0.1541	repro_bin	
+HepG2	<0.55	v3 shuffled RBP	267	0.5096	0.0223	0.1531	repro_bin	
+HepG2	<0.55	v4 CNN	267	0.5117	0.0253	0.1529	repro_bin	
+HepG2	0.55-0.6	ridge	80	0.5219	0.0992	0.1544	repro_bin	
+HepG2	0.55-0.6	ridge shuffled RBP	80	0.5168	0.1001	0.1550	repro_bin	
+HepG2	0.55-0.6	v3 deep	80	0.5109	0.0232	0.1561	repro_bin	
+HepG2	0.55-0.6	v3 event-only	80	0.5050	0.0231	0.1559	repro_bin	
+HepG2	0.55-0.6	v3 shuffled RBP	80	0.5153	0.0406	0.1548	repro_bin	
+HepG2	0.55-0.6	v4 CNN	80	0.5157	0.0328	0.1544	repro_bin	
+HepG2	0.6-0.7	ridge	48	0.5543	0.2182	0.1639	repro_bin	
+HepG2	0.6-0.7	ridge shuffled RBP	48	0.5646	0.2167	0.1640	repro_bin	
+HepG2	0.6-0.7	v3 deep	48	0.5087	0.0427	0.1675	repro_bin	
+HepG2	0.6-0.7	v3 event-only	48	0.5219	0.1117	0.1664	repro_bin	
+HepG2	0.6-0.7	v3 shuffled RBP	48	0.5129	0.0330	0.1664	repro_bin	
+HepG2	0.6-0.7	v4 CNN	48	0.5182	0.0448	0.1656	repro_bin	
+HepG2	>0.7	ridge	11	0.6744	0.4191	0.1752	repro_bin	
+HepG2	>0.7	ridge shuffled RBP	11	0.6733	0.4334	0.1793	repro_bin	
+HepG2	>0.7	v3 deep	11	0.6783	0.3381	0.1635	repro_bin	
+HepG2	>0.7	v3 event-only	11	0.5570	0.3270	0.1846	repro_bin	
+HepG2	>0.7	v3 shuffled RBP	11	0.5464	0.0348	0.1849	repro_bin	
+HepG2	>0.7	v4 CNN	11	0.6232	0.2131	0.1691	repro_bin	
+K562	<0.55	ridge	299	0.4828	0.0249	0.1551	repro_bin	
+K562	<0.55	ridge shuffled RBP	299	0.4818	0.0240	0.1551	repro_bin	
+K562	<0.55	v3 deep	299	0.5095	0.0204	0.1538	repro_bin	
+K562	<0.55	v3 event-only	299	0.4840	-0.0118	0.1553	repro_bin	
+K562	<0.55	v3 shuffled RBP	299	0.5001	-0.0007	0.1566	repro_bin	
+K562	<0.55	v4 CNN	299	0.5126	0.0271	0.1531	repro_bin	
+K562	0.55-0.6	ridge	71	0.5131	0.0792	0.1523	repro_bin	
+K562	0.55-0.6	ridge shuffled RBP	71	0.5102	0.0919	0.1524	repro_bin	
+K562	0.55-0.6	v3 deep	71	0.5077	0.0091	0.1521	repro_bin	
+K562	0.55-0.6	v3 event-only	71	0.5016	0.0291	0.1530	repro_bin	
+K562	0.55-0.6	v3 shuffled RBP	71	0.5098	0.0161	0.1537	repro_bin	
+K562	0.55-0.6	v4 CNN	71	0.5095	0.0276	0.1525	repro_bin	
+K562	0.6-0.7	ridge	54	0.5712	0.1989	0.1592	repro_bin	
+K562	0.6-0.7	ridge shuffled RBP	54	0.5716	0.2121	0.1602	repro_bin	
+K562	0.6-0.7	v3 deep	54	0.5303	0.0432	0.1595	repro_bin	
+K562	0.6-0.7	v3 event-only	54	0.5573	0.1428	0.1605	repro_bin	
+K562	0.6-0.7	v3 shuffled RBP	54	0.5028	-0.0071	0.1670	repro_bin	
+K562	0.6-0.7	v4 CNN	54	0.5350	0.0546	0.1596	repro_bin	
+K562	>0.7	ridge	20	0.6892	0.4069	0.1589	repro_bin	
+K562	>0.7	ridge shuffled RBP	20	0.7206	0.4251	0.1655	repro_bin	
+K562	>0.7	v3 deep	20	0.6935	0.3517	0.1412	repro_bin	
+K562	>0.7	v3 event-only	20	0.6851	0.3460	0.1668	repro_bin	
+K562	>0.7	v3 shuffled RBP	20	0.4626	-0.0952	0.1840	repro_bin	
+K562	>0.7	v4 CNN	20	0.6915	0.3529	0.1381	repro_bin	
+HepG2		ridge	55	0.5217	0.1071	0.1567	near_bin	20-30
+HepG2		ridge shuffled RBP	55	0.5233	0.1056	0.1569	near_bin	20-30
+HepG2		v3 deep	55	0.4933	-0.0179	0.1606	near_bin	20-30
+HepG2		v3 event-only	55	0.5076	0.0402	0.1576	near_bin	20-30
+HepG2		v3 shuffled RBP	55	0.5180	0.0466	0.1563	near_bin	20-30
+HepG2		v4 CNN	55	0.5022	0.0059	0.1588	near_bin	20-30
+HepG2		ridge	102	0.5245	0.1166	0.1603	near_bin	30-40
+HepG2		ridge shuffled RBP	102	0.5269	0.1206	0.1602	near_bin	30-40
+HepG2		v3 deep	102	0.5132	0.0267	0.1610	near_bin	30-40
+HepG2		v3 event-only	102	0.5064	0.0389	0.1619	near_bin	30-40
+HepG2		v3 shuffled RBP	102	0.5091	0.0195	0.1612	near_bin	30-40
+HepG2		v4 CNN	102	0.5127	0.0331	0.1604	near_bin	30-40
+HepG2		ridge	249	0.5137	0.0919	0.1532	near_bin	no hit
+HepG2		ridge shuffled RBP	249	0.5116	0.0900	0.1535	near_bin	no hit
+HepG2		v3 deep	249	0.5187	0.0407	0.1529	near_bin	no hit
+HepG2		v3 event-only	249	0.4999	0.0347	0.1544	near_bin	no hit
+HepG2		v3 shuffled RBP	249	0.5120	0.0266	0.1536	near_bin	no hit
+HepG2		v4 CNN	249	0.5208	0.0409	0.1522	near_bin	no hit
+K562		ridge	56	0.5086	0.0722	0.1542	near_bin	20-30
+K562		ridge shuffled RBP	56	0.5083	0.0814	0.1544	near_bin	20-30
+K562		v3 deep	56	0.5329	0.0581	0.1514	near_bin	20-30
+K562		v3 event-only	56	0.5075	0.0321	0.1541	near_bin	20-30
+K562		v3 shuffled RBP	56	0.5041	0.0024	0.1566	near_bin	20-30
+K562		v4 CNN	56	0.5164	0.0276	0.1531	near_bin	20-30
+K562		ridge	115	0.5072	0.0649	0.1589	near_bin	30-40
+K562		ridge shuffled RBP	115	0.5116	0.0886	0.1589	near_bin	30-40
+K562		v3 deep	115	0.5168	0.0293	0.1576	near_bin	30-40
+K562		v3 event-only	115	0.5094	0.0370	0.1591	near_bin	30-40
+K562		v3 shuffled RBP	115	0.5151	0.0368	0.1596	near_bin	30-40
+K562		v4 CNN	115	0.5223	0.0387	0.1567	near_bin	30-40
+K562		ridge	273	0.5077	0.0749	0.1540	near_bin	no hit
+K562		ridge shuffled RBP	273	0.5065	0.0693	0.1548	near_bin	no hit
+K562		v3 deep	273	0.5187	0.0348	0.1524	near_bin	no hit
+K562		v3 event-only	273	0.5023	0.0260	0.1552	near_bin	no hit
+K562		v3 shuffled RBP	273	0.4932	-0.0209	0.1586	near_bin	no hit
+K562		v4 CNN	273	0.5245	0.0516	0.1517	near_bin	no hit

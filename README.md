@@ -20,7 +20,7 @@ Design notes and status log are kept locally (Chinese); the English summary of m
 | `10_event_universe/` | Coordinate-keyed event universe (546,917 events), event features, eCLIP features, per-run and training tables, 5-mer counts |
 | `11_splits/` | Run tiers, paralog-grouped RBP folds (BLASTP), leakage report |
 | `12_baselines/` | Measurement ceilings, shared-control artefact, control-centring, simple baselines |
-| `13_model/` | Forward model (`01_train.py`), aggregation, calibration, ceilings, clean target, stratified report, expression layer (`10`–`12`), results tables and figures |
+| `13_model/` | Forward model (`01_train.py`), aggregation, calibration, ceilings, clean target, stratified report, expression layer (`10`–`12`), baseline benchmark (`benchmark/`: ridge, 1D-CNN, unified metrics, difficulty), results tables and figures |
 | `14_inverse/` | RBP response dictionary, H3 retrieval (ENCODE, cross-technology control, TCGA via Snaptron + cBioPortal), H4 precancer cohorts, HeyA8 and TMA validation, figure |
 | `15_manuscript/` | Manuscript draft (`MANUSCRIPT_DRAFT.md`) |
 | `envs/` | `pb_venv` (pip: pandas/scipy/statsmodels/SUPPA deps), `SUPPA/` (git clone), SRA-toolkit settings |
