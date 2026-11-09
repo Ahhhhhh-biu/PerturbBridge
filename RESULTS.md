@@ -1,6 +1,6 @@
 # PerturbBridge: results on one page
 
-Status 2026-11-09. Every number below comes from a file in this repository; the file is named in brackets. The TCGA line is pending.
+Status 2026-11-09. Every number below comes from a file in this repository; the file is named in brackets.
 
 ## Question
 
@@ -39,12 +39,12 @@ Ceilings for context [12_baselines/, 13_model/]: same-RBP independent experiment
 ## Inverse mapping [14_inverse/]
 
 - H3, ENCODE retrieval across cell lines (query HepG2 profile against the K562 dictionary and vice versa, 406 / 444 candidates): top-5 0.255 / 0.249 versus 0.011 expected; for the high-reproducibility class median rank 1, top-1 0.82 / 0.56. Same-technology versus cross-technology (shRNA vs CRISPR) top-5 0.334 / 0.260 vs 0.237 / 0.256, so most of the signal is biology, not reagent [h3_encode_summary.tsv, h3_cross_technology.tsv].
-- H3, TCGA tumours with splicing-factor mutations (SF3B1 K700E / R625, U2AF1 S34F, RBM10 truncating, QKI / PRPF8 truncating): pending [h3_tcga_tests.tsv].
+- H3, TCGA tumours (Snaptron junction counts, cBioPortal mutations; 52 mutant-vs-wild-type tests in five projects, 45 with the gene in the dictionary): negative overall, median rank fraction 0.44 against 0.50 under a uniform null, 4 of 45 in the top 10 % (expected 4.5). The exception is the SF3B1 hotspot in uveal melanoma (17 mutant tumours), whose splicing shift retrieves SF3B3, SF3B1, RBM25 and SF3A3 at the top, the same core-spliceosome class that is nameable in ENCODE. SF3B1 and U2AF1 hotspots in breast, melanoma, lung and leukaemia are not retrieved [h3_tcga_tests.tsv].
 - H4, premalignant cohorts (BRCA-carrier fallopian tube GSE274628; pre-diagnosis breast GSE166044): pre-registered group-level test negative (p_top 0.29 / 0.12 against the maximum of the null). A second-stage activity-score analysis produced calls that disappeared under cell-composition adjustment; the composition-matched residue (SRSF3, CSNK1E) is weak, opposite in sign between the two cohorts and without mRNA support. Status: suggestive, unreplicated. Two further cohorts (GSE182338 sorted HMEC from BRCA carriers; GSE289499 adenoma → carcinoma in situ → carcinoma) are being processed [h4_summary.tsv, h4rob_summary.tsv, logs/h4_adjustment_check.txt].
 
 ## Conclusion
 
-For an RBP the model has never seen, a linear baseline matches the deep models in direction accuracy and beats them in rank correlation, and no model separates from its shuffled-RBP control by more than two points. The one class predicted well, the core spliceosome, is predicted mostly through an RBP-independent event prior. The measured responses themselves are informative: a splicing shift names its RBP across cell lines far above chance. This is the splicing-layer counterpart of the expression-layer result of Ahlmann-Eltze, Huber and Anders (Nature Methods 2025) that deep perturbation models do not consistently beat linear baselines on unseen perturbations.
+For an RBP the model has never seen, a linear baseline matches the deep models in direction accuracy and beats them in rank correlation, and no model separates from its shuffled-RBP control by more than two points. The one class predicted well, the core spliceosome, is predicted mostly through an RBP-independent event prior. The measured responses themselves are informative: a splicing shift names its RBP across cell lines far above chance, and in tumours the one frequent, strong splicing driver tested (SF3B1 hotspot, uveal melanoma) retrieves its own class. This is the splicing-layer counterpart of the expression-layer result of Ahlmann-Eltze, Huber and Anders (Nature Methods 2025) that deep perturbation models do not consistently beat linear baselines on unseen perturbations.
 
 ## Reproduce
 

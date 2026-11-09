@@ -1,586 +1,163 @@
 /well/blagden/users/eic789/PerturbBridge/14_inverse/retrieval.py:17: RuntimeWarning: Mean of empty slice
   return pd.DataFrame(np.nanmean(np.stack([A.values, B.values]), 0), index=idx, columns=cols)
+psi rows 138416740 events 58437 parts 8
 /well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:44: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
   W = prim.pivot_table(index="sid", columns="event_id", values="psi", aggfunc="mean"); W = W.loc[:, W.notna().mean(0) >= 0.7]
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: SmallSampleWarning: After omitting NaNs, one or more axis-slices of one or more sample arguments is too small; corresponding elements of returned arrays will be NaN. See documentation for sample size requirements.
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:24: RuntimeWarning: Mean of empty slice
-  A = Y[mask]; B = Y[~mask]; t, p = stats.ttest_ind(A, B, axis=0, equal_var=False, nan_policy="omit"); d = np.nanmean(A, 0) - np.nanmean(B, 0)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
-/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:651: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
-  return result_to_tuple(hypotest_fun_out(*samples, **kwds), n_out)
+
+== TCGA-BRCA: primary samples with junctions and mutation calls 1061, events 37252
+TCGA-BRCA_CCAR1_truncating: cases 6 query 134 | gene rank 82 score 0.119 perm_p 0.208 | top5 RPS21;ACO2;UTP3;YBX3;EIF4G1
+TCGA-BRCA_CTCF_truncating: cases 9 query 93 | gene rank 132 score 0.105 perm_p 0.303 | top5 CNOT2;RPS5;RECQL;AKAP8L;MECP2
+TCGA-BRCA_DHX30_truncating: cases 5 query 108 | gene rank 405 score -0.170 perm_p 0.930 | top5 SNRNP70;ACO1;AKAP1;RRP9;AATF
+TCGA-BRCA_NIPBL_truncating: cases 10 query 65 | gene rank nan score nan perm_p nan | top5 DDX3X;SMN1;YWHAG;QKI;RBM22
+TCGA-BRCA_PSIP1_truncating: cases 6 query 104 | gene rank 311 score -0.039 perm_p 0.638 | top5 AUH;HNRNPLL;EIF2AK2;CIRBP;MBNL1
+TCGA-BRCA_SF3B1_hotspot: cases 13 query 465 | gene rank 307 score -0.017 perm_p 0.361 | top5 AKAP8L;CPEB4;EEF2;ETF1;CDK9
+TCGA-BRCA_SMAD4_truncating: cases 5 query 137 | gene rank 245 score 0.010 perm_p 0.682 | top5 EIF2S1;CNOT10;ATP5A1;ABT1;PABPC4
+TCGA-BRCA_ZNF106_truncating: cases 5 query 103 | gene rank 2 score 0.370 perm_p 0.010 | top5 DCTN2;ZNF106;RPL23A;PRPF3;POLR2A
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:56: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  Wn = Xp[Xp.stype.str.contains("Primary|Normal", na=False)].pivot_table(index=["sid", "stype"], columns="event_id", values="psi", aggfunc="mean"); Wn = Wn.loc[:, Wn.notna().mean(0) >= 0.7]
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:36: RuntimeWarning: Mean of empty slice
+  rk = rk.merge(pd.DataFrame({"rbp": P.columns, "perm_p": emp, "null_mean": np.nanmean(null, 0), "null_sd": np.nanstd(null, 0)}), on="rbp"); rk["z_vs_null"] = (rk.score - rk.null_mean) / rk.null_sd
+/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+TCGA-BRCA_tumour_vs_normal: cases 1093 query 500 | gene rank nan score nan perm_p nan | top5 HNRNPM;DKC1;CNOT8;STIP1;NCBP2
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:44: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = prim.pivot_table(index="sid", columns="event_id", values="psi", aggfunc="mean"); W = W.loc[:, W.notna().mean(0) >= 0.7]
+
+== TCGA-LAML: primary samples with junctions and mutation calls 126, events 30106
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:36: RuntimeWarning: Mean of empty slice
+  rk = rk.merge(pd.DataFrame({"rbp": P.columns, "perm_p": emp, "null_mean": np.nanmean(null, 0), "null_sd": np.nanstd(null, 0)}), on="rbp"); rk["z_vs_null"] = (rk.score - rk.null_mean) / rk.null_sd
+/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+TCGA-LAML_NPM1_truncating: cases 31 query 159 | gene rank 103 score 0.122 perm_p 0.333 | top5 SEC31A;SMNDC1;EIF2B3;NONO;ADAT3
+TCGA-LAML_U2AF1_hotspot: cases 5 query 329 | gene rank 117 score 0.051 perm_p 0.060 | top5 RBM3;HNRNPU;ESF1;SART1;GRSF1
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:44: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = prim.pivot_table(index="sid", columns="event_id", values="psi", aggfunc="mean"); W = W.loc[:, W.notna().mean(0) >= 0.7]
+
+== TCGA-LUAD: primary samples with junctions and mutation calls 511, events 32056
+TCGA-LUAD_BMS1_truncating: cases 5 query 64 | gene rank 41 score 0.206 perm_p 0.196 | top5 RPL23A;SLBP;HNRNPH1;CNOT10;CACTIN
+TCGA-LUAD_DDX10_truncating: cases 6 query 75 | gene rank 427 score -0.174 perm_p 0.901 | top5 RBM26;AUH;CSTF3;CALR;MSI2
+TCGA-LUAD_EIF4G1_truncating: cases 5 query 103 | gene rank 455 score -0.228 perm_p 0.945 | top5 SDAD1;SNRPC;NAA15;ALDH18A1;ASCC1
+TCGA-LUAD_LARP4_truncating: cases 5 query 101 | gene rank 348 score -0.072 perm_p 0.795 | top5 ATP5C1;MARK2;CCAR2;PPIG;SRP68
+TCGA-LUAD_NIPBL_truncating: cases 7 query 76 | gene rank 92 score 0.160 perm_p 0.164 | top5 RAVER1;SRFBP1;AKAP8;EXOSC5;YWHAG
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:36: RuntimeWarning: Mean of empty slice
+  rk = rk.merge(pd.DataFrame({"rbp": P.columns, "perm_p": emp, "null_mean": np.nanmean(null, 0), "null_sd": np.nanstd(null, 0)}), on="rbp"); rk["z_vs_null"] = (rk.score - rk.null_mean) / rk.null_sd
+/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+TCGA-LUAD_RBM10_truncating: cases 30 query 500 | gene rank nan score nan perm_p nan | top5 GSPT2;CNOT2;G3BP1;RPL18;RPS19
+TCGA-LUAD_SCAF8_truncating: cases 6 query 93 | gene rank 101 score 0.137 perm_p 0.315 | top5 DBNL;SMG8;EIF2B3;CAPRIN1;SPATS2
+TCGA-LUAD_SMAD4_truncating: cases 7 query 66 | gene rank 314 score -0.070 perm_p 0.776 | top5 TAF15;CAST;PA2G4;CXXC1;MBNL1
+TCGA-LUAD_SND1_truncating: cases 5 query 135 | gene rank 81 score 0.125 perm_p 0.307 | top5 HNRNPA1;DDX3X;HNRNPM;PPP1R10;SUCLG1
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:36: RuntimeWarning: Mean of empty slice
+  rk = rk.merge(pd.DataFrame({"rbp": P.columns, "perm_p": emp, "null_mean": np.nanmean(null, 0), "null_sd": np.nanstd(null, 0)}), on="rbp"); rk["z_vs_null"] = (rk.score - rk.null_mean) / rk.null_sd
+/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+TCGA-LUAD_U2AF1_hotspot: cases 12 query 500 | gene rank 400 score -0.071 perm_p 0.333 | top5 FASTKD2;ETF1;SRSF4;TIA1;SFPQ
+TCGA-LUAD_ZNF800_truncating: cases 8 query 73 | gene rank 246 score -0.002 perm_p 0.635 | top5 XRCC5;PRPF39;NUFIP2;RPL29;AKAP8L
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:56: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  Wn = Xp[Xp.stype.str.contains("Primary|Normal", na=False)].pivot_table(index=["sid", "stype"], columns="event_id", values="psi", aggfunc="mean"); Wn = Wn.loc[:, Wn.notna().mean(0) >= 0.7]
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:36: RuntimeWarning: Mean of empty slice
+  rk = rk.merge(pd.DataFrame({"rbp": P.columns, "perm_p": emp, "null_mean": np.nanmean(null, 0), "null_sd": np.nanstd(null, 0)}), on="rbp"); rk["z_vs_null"] = (rk.score - rk.null_mean) / rk.null_sd
+/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+TCGA-LUAD_tumour_vs_normal: cases 516 query 500 | gene rank nan score nan perm_p nan | top5 HNRNPM;NCBP2;STIP1;YBX3;QKI
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:44: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = prim.pivot_table(index="sid", columns="event_id", values="psi", aggfunc="mean"); W = W.loc[:, W.notna().mean(0) >= 0.7]
+
+== TCGA-OV: primary samples with junctions and mutation calls 398, events 44242
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:44: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = prim.pivot_table(index="sid", columns="event_id", values="psi", aggfunc="mean"); W = W.loc[:, W.notna().mean(0) >= 0.7]
+
+== TCGA-SKCM: primary samples with junctions and mutation calls 439, events 34914
+TCGA-SKCM_ACTN4_truncating: cases 5 query 81 | gene rank 57 score 0.156 perm_p 0.095 | top5 REXO2;TRIP6;SAMHD1;IGF2BP1;HNRNPAB
+TCGA-SKCM_AGO1_truncating: cases 5 query 132 | gene rank 425 score -0.151 perm_p 0.891 | top5 RBFOX2;SUCLG1;RPS28;RPL18;ROCK2
+TCGA-SKCM_ALDH18A1_truncating: cases 6 query 59 | gene rank nan score nan perm_p nan | top5 RAVER1;TRA2A;PCBP1;HNRNPA0;DCPS
+TCGA-SKCM_BCLAF1_truncating: cases 8 query 63 | gene rank 278 score -0.075 perm_p 0.705 | top5 SLTM;ABCF1;QKI;DDX6;HNRNPF
+TCGA-SKCM_CCAR1_truncating: cases 8 query 67 | gene rank 13 score 0.299 perm_p 0.060 | top5 AKAP8L;CHD3;SERBP1;EWSR1;U2AF2
+TCGA-SKCM_CHD3_truncating: cases 5 query 142 | gene rank 98 score 0.117 perm_p 0.219 | top5 CD2BP2;SRA1;CPEB4;BOP1;CXXC1
+TCGA-SKCM_CPSF3_truncating: cases 5 query 132 | gene rank 195 score 0.042 perm_p 0.443 | top5 CCDC124;ZNF106;EXOSC10;CNOT2;DROSHA
+TCGA-SKCM_DDX20_truncating: cases 5 query 112 | gene rank 169 score 0.046 perm_p 0.378 | top5 LARP4;RPS8;RPS5;AGO3;HNRNPLL
+TCGA-SKCM_DDX3X_truncating: cases 15 query 73 | gene rank 177 score 0.038 perm_p 0.514 | top5 NKRF;ACTN4;EIF3A;NSUN5;PUM1
+TCGA-SKCM_DICER1_truncating: cases 14 query 53 | gene rank nan score nan perm_p nan | top5 ZC3H8;G3BP2;TIA1;CELF1;NIP7
+TCGA-SKCM_DNMT1_truncating: cases 6 query 69 | gene rank 348 score -0.087 perm_p 0.694 | top5 EIF3G;ACO2;CCT3;TFIP11;SLTM
+TCGA-SKCM_EFTUD2_truncating: cases 8 query 83 | gene rank 68 score 0.167 perm_p 0.098 | top5 CD2BP2;MBNL1;RPS11;PTBP1;EIF2S2
+TCGA-SKCM_GEMIN5_truncating: cases 9 query 58 | gene rank nan score nan perm_p nan | top5 MATR3;CKAP4;UTP3;CHTOP;THOC1
+TCGA-SKCM_NFX1_truncating: cases 5 query 69 | gene rank 433 score -0.216 perm_p 0.925 | top5 SRSF9;CCT4;SMN1;BMS1;RPS25
+TCGA-SKCM_PRPF8_truncating: cases 6 query 78 | gene rank 210 score 0.022 perm_p 0.279 | top5 EIF6;CHTOP;CENPI;SMN1;AARS
+TCGA-SKCM_PUM1_truncating: cases 5 query 130 | gene rank 246 score 0.001 perm_p 0.642 | top5 ETF1;KHSRP;GRWD1;ABCF1;BCCIP
+TCGA-SKCM_QKI_truncating: cases 6 query 80 | gene rank 172 score 0.054 perm_p 0.430 | top5 RECQL;RPS2;RPL29;NONO;SF3B4
+TCGA-SKCM_ROCK2_truncating: cases 5 query 92 | gene rank 448 score -0.222 perm_p 0.940 | top5 MATR3;CPSF6;CSTF3;CCDC124;CCT3
+TCGA-SKCM_SAMHD1_truncating: cases 6 query 75 | gene rank 262 score -0.013 perm_p 0.706 | top5 CD2BP2;CCT2;CCDC124;DDX47;CTTN
+TCGA-SKCM_SCAF8_truncating: cases 7 query 118 | gene rank 72 score 0.185 perm_p 0.156 | top5 CNOT2;ZC3H8;AUH;POLR2G;RPS5
+TCGA-SKCM_SF3B1_hotspot: cases 8 query 407 | gene rank 423 score -0.082 perm_p 0.511 | top5 CCDC47;RPL28;ABT1;TFIP11;GNB2L1
+TCGA-SKCM_SND1_truncating: cases 5 query 110 | gene rank 198 score 0.027 perm_p 0.607 | top5 RBM39;CSTF3;DDX20;ATP5A1;ROCK2
+TCGA-SKCM_SRP68_truncating: cases 6 query 76 | gene rank 61 score 0.171 perm_p 0.124 | top5 CENPI;SF3B4;CDC40;RPL23A;UTP3
+TCGA-SKCM_SUPT6H_truncating: cases 8 query 122 | gene rank 276 score -0.001 perm_p 0.598 | top5 CDK9;YBX3;AKAP8;DHX57;DUS3L
+TCGA-SKCM_TUFM_truncating: cases 5 query 102 | gene rank 41 score 0.154 perm_p 0.269 | top5 RPS28;SMG9;CSTF2;SEC62;XRCC5
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:36: RuntimeWarning: Mean of empty slice
+  rk = rk.merge(pd.DataFrame({"rbp": P.columns, "perm_p": emp, "null_mean": np.nanmean(null, 0), "null_sd": np.nanstd(null, 0)}), on="rbp"); rk["z_vs_null"] = (rk.score - rk.null_mean) / rk.null_sd
+/well/blagden/users/eic789/PerturbBridge/envs/pb_gpu_venv/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+TCGA-SKCM_XRN1_truncating: cases 12 query 65 | gene rank 403 score -0.257 perm_p 0.863 | top5 RBM34;DCP1A;RPS8;ADAT3;XPO1
+TCGA-SKCM_YTHDC2_truncating: cases 5 query 109 | gene rank 394 score -0.134 perm_p 0.871 | top5 PCBP1;TARDBP;PABPN1;YBX1;FAM120A
+TCGA-SKCM_ZNF106_truncating: cases 8 query 54 | gene rank 215 score -0.165 perm_p 0.892 | top5 PPP1R10;RPL11;AIMP1;ZC3H11A;AARS
+/well/blagden/users/eic789/PerturbBridge/14_inverse/07_h3_tcga.py:44: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  W = prim.pivot_table(index="sid", columns="event_id", values="psi", aggfunc="mean"); W = W.loc[:, W.notna().mean(0) >= 0.7]
+
+== TCGA-UVM: primary samples with junctions and mutation calls 80, events 27094
+TCGA-UVM_SF3B1_hotspot: cases 17 query 500 | gene rank 2 score 0.222 perm_p 0.188 | top5 SF3B3;SF3B1;RBM25;SF3A3;PCBP2
+
+== summary ==
+                          test   project  n_case  n_control  n_events_tested  n_query  n_rbps    top1  top1_score  top1_perm_p                                top5  n_rbp_perm_p05     gene  gene_rank  gene_score  gene_perm_p gene_repro                   note
+   TCGA-BRCA_CCAR1_truncating TCGA-BRCA       6       1046            36799      134     478   RPS21       0.346        0.005         RPS21;ACO2;UTP3;YBX3;EIF4G1              13    CCAR1       82.0       0.119        0.208        low                    NaN
+    TCGA-BRCA_CTCF_truncating TCGA-BRCA       9       1039            36815       93     476   CNOT2       0.339        0.074       CNOT2;RPS5;RECQL;AKAP8L;MECP2               9     CTCF      132.0       0.105        0.303        low                    NaN
+   TCGA-BRCA_DHX30_truncating TCGA-BRCA       5       1052            36807      108     477 SNRNP70       0.411        0.005        SNRNP70;ACO1;AKAP1;RRP9;AATF              45    DHX30      405.0      -0.170        0.930        low                    NaN
+   TCGA-BRCA_NIPBL_truncating TCGA-BRCA      10       1035            36834       65     397   DDX3X       0.425        0.011          DDX3X;SMN1;YWHAG;QKI;RBM22              19    NIPBL        NaN         NaN          NaN        NaN gene not in dictionary
+   TCGA-BRCA_PSIP1_truncating TCGA-BRCA       6       1051            36826      104     476     AUH       0.349        0.035     AUH;HNRNPLL;EIF2AK2;CIRBP;MBNL1              10    PSIP1      311.0      -0.039        0.638        low                    NaN
+      TCGA-BRCA_SF3B1_hotspot TCGA-BRCA      13       1040            36839      465     478  AKAP8L       0.209        0.202         AKAP8L;CPEB4;EEF2;ETF1;CDK9               0    SF3B1      307.0      -0.017        0.361       high                    NaN
+   TCGA-BRCA_SMAD4_truncating TCGA-BRCA       5       1052            36724      137     477  EIF2S1       0.332        0.035    EIF2S1;CNOT10;ATP5A1;ABT1;PABPC4              15    SMAD4      245.0       0.010        0.682        low                    NaN
+  TCGA-BRCA_ZNF106_truncating TCGA-BRCA       5       1049            36811      103     477   DCTN2       0.371        0.005    DCTN2;ZNF106;RPL23A;PRPF3;POLR2A              39   ZNF106        2.0       0.370        0.010        low                    NaN
+   TCGA-BRCA_tumour_vs_normal TCGA-BRCA    1093        112            37069      500     478  HNRNPM       0.518        1.000       HNRNPM;DKC1;CNOT8;STIP1;NCBP2               0     none        NaN         NaN          NaN        NaN gene not in dictionary
+    TCGA-LAML_NPM1_truncating TCGA-LAML      31         94            29386      159     478  SEC31A       0.341        0.067     SEC31A;SMNDC1;EIF2B3;NONO;ADAT3               5     NPM1      103.0       0.122        0.333        mid                    NaN
+      TCGA-LAML_U2AF1_hotspot TCGA-LAML       5        121            29376      329     478    RBM3       0.211        0.025        RBM3;HNRNPU;ESF1;SART1;GRSF1               9    U2AF1      117.0       0.051        0.060       high                    NaN
+    TCGA-LUAD_BMS1_truncating TCGA-LUAD       5        488            31645       64     396  RPL23A       0.480        0.005   RPL23A;SLBP;HNRNPH1;CNOT10;CACTIN              33     BMS1       41.0       0.206        0.196        low                    NaN
+   TCGA-LUAD_DDX10_truncating TCGA-LUAD       6        499            31659       75     477   RBM26       0.405        0.006           RBM26;AUH;CSTF3;CALR;MSI2              21    DDX10      427.0      -0.174        0.901        low                    NaN
+  TCGA-LUAD_EIF4G1_truncating TCGA-LUAD       5        493            31570      103     477   SDAD1       0.392        0.005    SDAD1;SNRPC;NAA15;ALDH18A1;ASCC1              24   EIF4G1      455.0      -0.228        0.945        low                    NaN
+   TCGA-LUAD_LARP4_truncating TCGA-LUAD       5        502            31575      101     477  ATP5C1       0.324        0.015       ATP5C1;MARK2;CCAR2;PPIG;SRP68              20    LARP4      348.0      -0.072        0.795        low                    NaN
+   TCGA-LUAD_NIPBL_truncating TCGA-LUAD       7        485            31649       76     476  RAVER1       0.445        0.012    RAVER1;SRFBP1;AKAP8;EXOSC5;YWHAG              38    NIPBL       92.0       0.160        0.164        low                    NaN
+   TCGA-LUAD_RBM10_truncating TCGA-LUAD      30        474            31663      500     478   GSPT2       0.240        0.500       GSPT2;CNOT2;G3BP1;RPL18;RPS19               0    RBM10        NaN         NaN          NaN        NaN gene not in dictionary
+   TCGA-LUAD_SCAF8_truncating TCGA-LUAD       6        496            31666       93     476    DBNL       0.548        0.005     DBNL;SMG8;EIF2B3;CAPRIN1;SPATS2              32    SCAF8      101.0       0.137        0.315        low                    NaN
+   TCGA-LUAD_SMAD4_truncating TCGA-LUAD       7        488            31653       66     465   TAF15       0.456        0.006        TAF15;CAST;PA2G4;CXXC1;MBNL1              34    SMAD4      314.0      -0.070        0.776        low                    NaN
+    TCGA-LUAD_SND1_truncating TCGA-LUAD       5        497            31342      135     478 HNRNPA1       0.424        0.005 HNRNPA1;DDX3X;HNRNPM;PPP1R10;SUCLG1              23     SND1       81.0       0.125        0.307        low                    NaN
+      TCGA-LUAD_U2AF1_hotspot TCGA-LUAD      12        498            31668      500     478 FASTKD2       0.202        0.091        FASTKD2;ETF1;SRSF4;TIA1;SFPQ               0    U2AF1      400.0      -0.071        0.333       high                    NaN
+  TCGA-LUAD_ZNF800_truncating TCGA-LUAD       8        493            31664       73     466   XRCC5       0.376        0.022    XRCC5;PRPF39;NUFIP2;RPL29;AKAP8L              20   ZNF800      246.0      -0.002        0.635        low                    NaN
+   TCGA-LUAD_tumour_vs_normal TCGA-LUAD     516         59            31139      500     478  HNRNPM       0.444        1.000         HNRNPM;NCBP2;STIP1;YBX3;QKI               0     none        NaN         NaN          NaN        NaN gene not in dictionary
+   TCGA-SKCM_ACTN4_truncating TCGA-SKCM       5        419            34444       81     476   REXO2       0.336        0.010  REXO2;TRIP6;SAMHD1;IGF2BP1;HNRNPAB              16    ACTN4       57.0       0.156        0.095        low                    NaN
+    TCGA-SKCM_AGO1_truncating TCGA-SKCM       5        413            34399      132     477  RBFOX2       0.415        0.010     RBFOX2;SUCLG1;RPS28;RPL18;ROCK2              22     AGO1      425.0      -0.151        0.891        low                    NaN
+TCGA-SKCM_ALDH18A1_truncating TCGA-SKCM       6        415            34467       59     333  RAVER1       0.457        0.005     RAVER1;TRA2A;PCBP1;HNRNPA0;DCPS              30 ALDH18A1        NaN         NaN          NaN        NaN gene not in dictionary
+  TCGA-SKCM_BCLAF1_truncating TCGA-SKCM       8        361            34438       63     399    SLTM       0.441        0.022          SLTM;ABCF1;QKI;DDX6;HNRNPF              28   BCLAF1      278.0      -0.075        0.705        low                    NaN
+   TCGA-SKCM_CCAR1_truncating TCGA-SKCM       8        416            34466       67     466  AKAP8L       0.472        0.005      AKAP8L;CHD3;SERBP1;EWSR1;U2AF2              16    CCAR1       13.0       0.299        0.060        low                    NaN
+    TCGA-SKCM_CHD3_truncating TCGA-SKCM       5        413            34453      142     478  CD2BP2       0.400        0.005        CD2BP2;SRA1;CPEB4;BOP1;CXXC1              25     CHD3       98.0       0.117        0.219        low                    NaN
+   TCGA-SKCM_CPSF3_truncating TCGA-SKCM       5        424            34437      132     477 CCDC124       0.365        0.025 CCDC124;ZNF106;EXOSC10;CNOT2;DROSHA              26    CPSF3      195.0       0.042        0.443        low                    NaN
+   TCGA-SKCM_DDX20_truncating TCGA-SKCM       5        423            34462      112     477   LARP4       0.495        0.005        LARP4;RPS8;RPS5;AGO3;HNRNPLL              35    DDX20      169.0       0.046        0.378        low                    NaN
+   TCGA-SKCM_DDX3X_truncating TCGA-SKCM      15        401            34472       73     474    NKRF       0.441        0.015         NKRF;ACTN4;EIF3A;NSUN5;PUM1              19    DDX3X      177.0       0.038        0.514        mid                    NaN
+  TCGA-SKCM_DICER1_truncating TCGA-SKCM      14        389            34466       53     226   ZC3H8       0.467        0.011         ZC3H8;G3BP2;TIA1;CELF1;NIP7              16   DICER1        NaN         NaN          NaN        NaN gene not in dictionary
+   TCGA-SKCM_DNMT1_truncating TCGA-SKCM       6        404            34453       69     469   EIF3G       0.399        0.005         EIF3G;ACO2;CCT3;TFIP11;SLTM              27    DNMT1      348.0      -0.087        0.694        low                    NaN
+  TCGA-SKCM_EFTUD2_truncating TCGA-SKCM       8        416            34461       83     477  CD2BP2       0.412        0.042     CD2BP2;MBNL1;RPS11;PTBP1;EIF2S2              23   EFTUD2       68.0       0.167        0.098        mid                    NaN
+  TCGA-SKCM_GEMIN5_truncating TCGA-SKCM       9        403            34450       58     321   MATR3       0.462        0.011        MATR3;CKAP4;UTP3;CHTOP;THOC1              19   GEMIN5        NaN         NaN          NaN        NaN gene not in dictionary
+    TCGA-SKCM_NFX1_truncating TCGA-SKCM       5        405            34453       69     465   SRSF9       0.422        0.005          SRSF9;CCT4;SMN1;BMS1;RPS25              45     NFX1      433.0      -0.216        0.925        low                    NaN
+   TCGA-SKCM_PRPF8_truncating TCGA-SKCM       6        397            34446       78     475    EIF6       0.372        0.010          EIF6;CHTOP;CENPI;SMN1;AARS              28    PRPF8      210.0       0.022        0.279        mid                    NaN
+    TCGA-SKCM_PUM1_truncating TCGA-SKCM       5        413            34434      130     478    ETF1       0.371        0.015        ETF1;KHSRP;GRWD1;ABCF1;BCCIP              27     PUM1      246.0       0.001        0.642        low                    NaN
+     TCGA-SKCM_QKI_truncating TCGA-SKCM       6        429            34455       80     475   RECQL       0.441        0.010         RECQL;RPS2;RPL29;NONO;SF3B4              33      QKI      172.0       0.054        0.430        mid                    NaN
+   TCGA-SKCM_ROCK2_truncating TCGA-SKCM       5        416            34440       92     476   MATR3       0.403        0.015      MATR3;CPSF6;CSTF3;CCDC124;CCT3              28    ROCK2      448.0      -0.222        0.940        low                    NaN
+  TCGA-SKCM_SAMHD1_truncating TCGA-SKCM       6        418            34449       75     476  CD2BP2       0.419        0.016      CD2BP2;CCT2;CCDC124;DDX47;CTTN              22   SAMHD1      262.0      -0.013        0.706        low                    NaN
+   TCGA-SKCM_SCAF8_truncating TCGA-SKCM       7        417            34456      118     476   CNOT2       0.410        0.025         CNOT2;ZC3H8;AUH;POLR2G;RPS5              17    SCAF8       72.0       0.185        0.156        low                    NaN
+      TCGA-SKCM_SF3B1_hotspot TCGA-SKCM       8        410            34450      407     478  CCDC47       0.221        0.052     CCDC47;RPL28;ABT1;TFIP11;GNB2L1               0    SF3B1      423.0      -0.082        0.511       high                    NaN
+    TCGA-SKCM_SND1_truncating TCGA-SKCM       5        414            34445      110     478   RBM39       0.343        0.005      RBM39;CSTF3;DDX20;ATP5A1;ROCK2              26     SND1      198.0       0.027        0.607        low                    NaN
+   TCGA-SKCM_SRP68_truncating TCGA-SKCM       6        426            34474       76     476   CENPI       0.414        0.005       CENPI;SF3B4;CDC40;RPL23A;UTP3              33    SRP68       61.0       0.171        0.124        low                    NaN
+  TCGA-SKCM_SUPT6H_truncating TCGA-SKCM       8        402            34449      122     478    CDK9       0.288        0.035         CDK9;YBX3;AKAP8;DHX57;DUS3L              14   SUPT6H      276.0      -0.001        0.598        mid                    NaN
+    TCGA-SKCM_TUFM_truncating TCGA-SKCM       5        426            34440      102     477   RPS28       0.362        0.005        RPS28;SMG9;CSTF2;SEC62;XRCC5              14     TUFM       41.0       0.154        0.269        mid                    NaN
+    TCGA-SKCM_XRN1_truncating TCGA-SKCM      12        398            34458       65     426   RBM34       0.463        0.008         RBM34;DCP1A;RPS8;ADAT3;XPO1              13     XRN1      403.0      -0.257        0.863        low                    NaN
+  TCGA-SKCM_YTHDC2_truncating TCGA-SKCM       5        417            34450      109     477   PCBP1       0.385        0.010    PCBP1;TARDBP;PABPN1;YBX1;FAM120A              45   YTHDC2      394.0      -0.134        0.871        mid                    NaN
+  TCGA-SKCM_ZNF106_truncating TCGA-SKCM       8        417            34467       54     265 PPP1R10       0.473        0.005    PPP1R10;RPL11;AIMP1;ZC3H11A;AARS              18   ZNF106      215.0      -0.165        0.892        low                    NaN
+       TCGA-UVM_SF3B1_hotspot  TCGA-UVM      17         62            25277      500     478   SF3B3       0.261        0.111       SF3B3;SF3B1;RBM25;SF3A3;PCBP2               0    SF3B1        2.0       0.222        0.188       high                    NaN
+DONE
