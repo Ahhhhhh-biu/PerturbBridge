@@ -59,3 +59,12 @@ logs/.*_job*
 14_inverse/tcga_mutations.tsv
 14_inverse/tcga_sequenced_samples.tsv
 __pycache__/
+# programme-level model: downloaded resources and large derived matrices
+06_features/rbp_functional/perturbseq/
+06_features/rbp_functional/string/
+06_features/rbp_functional/depmap/
+06_features/rbp_functional/complexportal/
+06_features/rbp_functional/*.npz
+06_features/coexpr/
+13_model/programme/matrices.npz
+envs/

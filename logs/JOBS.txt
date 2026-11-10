@@ -104,3 +104,6 @@
 2026-11-09 21:44 rMATS post (45_rmats_post_any.sh, GPU 4hr): GSE182338 carriers(24) vs rest(96) 35113796 after prep arrays 35091739+35113643; GSE289499 CIS+carcinoma(19) vs adenoma(10) 35113797 after 35091740+35113644
 35113971 pb_h4new (46_h4_new_cohorts.sh: summarise + composition + 14_h4_new_cohorts.py) after post jobs 35113796+35113797, 2026-11-09 21:46
 2026-11-09 23:37 starprep short arrays 35113643 (GSE182338 99-119) and 35113644 (GSE289499 17-28) stuck on short (Priority); held, resubmitted on GPU partitions as 35124189 and 35124190; post jobs 35113796/35113797 dependencies repointed to the new arrays; short arrays cancelled
+35168673 pb_progprep 13_model/programme/00_build_matrices.py + 01_rbp_descriptors.py (programme-level model v5, PLAN.md), 2026-11-10 12:22
+35168705 pb_coexpr 13_model/programme/02_tcga_coexpr.py (TCGA RBP expression x PSI prior) after 35168673, 2026-11-10 12:23
+35168836 pb_prog 03_programme_model.py --no_cx (S0-S3; logs/programme_model_35168836.txt) after 35168673; 35168837 pb_prog full incl. TCGA co-variation block (logs/programme_model_35168837.txt) after 35168705, 2026-11-10 12:24
