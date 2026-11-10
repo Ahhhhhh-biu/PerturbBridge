@@ -1,0 +1,6 @@
+GSE289499 (colorectal adenoma / carcinoma in situ / carcinoma; FFPE; Ion Torrent S5 XL single-end, mean read length ~106 nt; 0.75-9.9 M reads per sample)
+Why the splicing layer is unusable (2026-11-10):
+- STAR: 58-91 % uniquely mapped; 11,311 genes with >= 10 reads per sample (whole-transcriptome, not a panel), but 50 % of assigned reads fall on 699 genes (FFPE 3'-bias / degradation).
+- rMATS prep used 5.4 M reads of 8.0 M (one sample); post with --variable-read-length --allow-clipping. fromGTF.SE 99,340 annotated SE events; SE.MATS.JC.txt has only 2,783 events with any junction reads; inclusion-count median 17 per group, p90 3,789 (highly skewed).
+- Dictionary events with coverage >= 10 in >= 70 % of samples: 1,786-1,985 (GSE182338: ~78,000). Group tests: 49-83 events at p < 0.05; query sizes 3-28 (< 50 needed for retrieval).
+Verdict: no inverse-mapping result possible; the cohort is recorded as not evaluable at the splicing layer. Relaxing coverage cannot help because only ~2,800 SE events carry junction reads at all.
