@@ -1,4 +1,4 @@
-"""Workflow schematic of the PerturbBridge project (five stages, top to bottom).
+"""Workflow schematic of the PerturbBridge project (five stages, top to bottom). Methods only: no result values are shown.
 All coordinates are in millimetres on a 180 mm wide canvas; the y axis points down.
 After drawing, every label is checked against its box (prints FIT WARNING if a label leaves its box).
 Usage: envs/pb_gpu_venv/bin/python 15_manuscript/fig_workflow.py -> 15_manuscript/fig_workflow.png (300 DPI), fig_workflow.pdf"""
@@ -61,86 +61,86 @@ def row(ax, y, widths, gap, specs, key, n_lines, arrows=False, **kw):
 
 # ---------------------------------------------------------------- geometry
 TITLE = 8.2                                           # space taken by the band title row
-h1, h2, h3, h4 = box_h(2), box_h(3), box_h(3), box_h(4)
-h5a, h5b, BUS = box_h(2), box_h(4, extra=4.2), 8.0
-bands_h = [TITLE + h + PAD for h in (h1, h2, h3, h4)] + [TITLE + h5a + BUS + h5b + PAD]
-H = 2.5 + sum(bands_h) + 4 * GAP + 2.5
+h1, h2, h3, h4 = box_h(3), box_h(3), box_h(3), box_h(3)
+h5a, h5b, BUS, LAB = box_h(2), box_h(3), 8.0, 4.0
+bands_h = [TITLE + h + PAD for h in (h1, h2, h3, h4)] + [TITLE + h5a + BUS + LAB + h5b + PAD]
+H = 2.5 + sum(bands_h) + 4 * GAP + 5.5
 fig = plt.figure(figsize=(W / 25.4, H / 25.4)); ax = fig.add_axes([0, 0, 1, 1]); ax.set_xlim(0, W); ax.set_ylim(H, 0); ax.axis("off")
 ys = [2.5]
 for bh in bands_h[:-1]: ys.append(ys[-1] + bh + GAP)
 IN = BW - 2 * PAD                                     # usable width inside a band (160 mm)
-XC = X0 + BW / 2
+XC = X0 + BW / 2; DASH = (0, (3, 2))
 
 # ---------------------------------------------------------------- 1 public data
 band(ax, ys[0], bands_h[0], 1, "Public data", "data")
-row(ax, ys[0] + TITLE, [(IN - 9) / 4] * 4, 3, [
-    ("ENCODE knockdown RNA-seq", ["876 knockdown/control pairs", "478 RBPs, HepG2 + K562"]),
-    ("ENCODE eCLIP", ["252 experiments", "168 RBPs"]),
-    ("RBP descriptors", ["ESM2 protein embedding,", "GenePT text embedding, motifs"]),
-    ("Event descriptors", ["sequence, splice-site strength,", "conservation, 5-mer spectra"])], "data", 2)
+row(ax, ys[0] + TITLE, [(IN - 12) / 5] * 5, 3, [
+    ("Knockdown RNA-seq", ["ENCODE shRNA + CRISPR", "one RBP per experiment", "HepG2 and K562"]),
+    ("eCLIP binding maps", ["ENCODE, same cell lines", "binding sites of the", "knocked-down RBPs"]),
+    ("RBP descriptors", ["protein sequence (ESM2)", "literature text (GenePT)", "binding motifs"]),
+    ("Functional context", ["STRING interaction network", "protein complexes", "DepMap, Perturb-seq"]),
+    ("Event descriptors", ["flanking sequence", "splice-site strength", "conservation, k-mers"])], "data", 3)
 
 # ---------------------------------------------------------------- 2 reprocessing and artefact removal
 band(ax, ys[1], bands_h[1], 2, "Junction-level reprocessing and artefact removal", "art")
 fix = "#8A5A00"
-pos2, _ = row(ax, ys[1] + TITLE, [(IN - 12) / 4] * 4, 4, [
-    ("Junction-level PSI", ["rMATS-turbo on all BAM pairs", "546,917 events", "keyed by coordinates"]),
-    ("Shared-control artefact", ["unrelated RBPs, same control:", "r 0.49–0.51", ("fix: control-centring", fix, "bold")]),
-    ("Regression to the mean", ["control-deviation rule alone:", "direction accuracy 0.83 / 0.79", ("fix: clean target", fix, "bold")]),
-    ("Measurement ceiling", ["same RBP, independent runs:", "direction agreement 0.56", "two thirds not reproducible"])], "art", 3, arrows=True)
+row(ax, ys[1] + TITLE, [(IN - 12) / 4] * 4, 4, [
+    ("Junction-level PSI", ["rMATS-turbo on every", "knockdown/control pair;", "events keyed by coordinates"]),
+    ("Shared-control artefact", ["knockdowns sharing a control", "inherit its noise", ("fix: control-centring", fix, "bold")]),
+    ("Regression to the mean", ["significance calls favour", "runs with a deviant control", ("fix: clean target", fix, "bold")]),
+    ("Measurement ceilings", ["replicate split-half;", "independent experiments", "of the same RBP"])], "art", 3, arrows=True)
 
-# ---------------------------------------------------------------- 3 forward benchmark
-band(ax, ys[2], bands_h[2], 3, "Forward benchmark on held-out RBPs", "fwd")
-y3 = ys[2] + TITLE; w3 = [31, 31, 31, IN - 93 - 12]
-pos3, _ = row(ax, y3, w3[:3], 4, [
-    ("Held-out RBP split", ["paralog-grouped 5-fold", "BLASTP ≥ 40 % identity", "kept in one fold"]),
-    ("Models", ["ridge regression", "deep bilinear (v3)", "1D-CNN (v4)"]),
-    ("Controls", ["shuffled RBP identity", "event-only model", ""])], "fwd", 3, arrows=True)
-xr = pos3[-1][0] + pos3[-1][1] + 4
-box(ax, xr, y3, w3[3], h3, "Result", ["direction accuracy 0.51–0.52; linear = deep", "eCLIP / motif add < 0.7 points",
-                                      "core spliceosome is the one predictable class"], "out", fc=C["out"][1])
-arrow(ax, (xr - 3.5, y3 + h3 / 2), (xr - 0.5, y3 + h3 / 2))
+# ---------------------------------------------------------------- 3 forward benchmark (event level)
+band(ax, ys[2], bands_h[2], 3, "Forward benchmark on held-out RBPs: single events", "fwd")
+row(ax, ys[2] + TITLE, [(IN - 12) / 4] * 4, 4, [
+    ("Held-out RBP split", ["paralog-grouped folds:", "no close homologue of a", "test RBP in training"]),
+    ("Models", ["ridge regression", "deep bilinear model", "1D-CNN on sequence"]),
+    ("Controls", ["shuffled RBP identity", "event-only model", "binding-feature tiers"]),
+    ("Readouts", ["direction accuracy, rank", "correlation, calibration;", "splicing and expression"])], "fwd", 3, arrows=True)
 
-# ---------------------------------------------------------------- 4 programme-level upgrade (in progress)
-band(ax, ys[3], bands_h[3], 4, "Programme-level upgrade", "prog", dashed=True, tag="first results")
-row(ax, ys[3] + TITLE, [60, 52, IN - 112 - 6], 3, [
-    ("a  Programme-level targets", ["10 response programmes (PCA on training RBPs)", "instead of ~50,000 single events",
-                                    "cross-cell-line reproducibility: r 0.52", "(programme 1) vs 0.05 (single events)"]),
-    ("b  Functional RBP descriptors", ["STRING network + protein complexes: kept", "subspace R² 0.02 → 0.06 / 0.08 → 0.18", "Perturb-seq (K562), DepMap:", "no significant added gain"]),
-    ("c  Observational prior", ["RBP expression × event PSI", "co-variation across TCGA tumours:", "no signal at programme level", ""])], "prog", 4, ls=(0, (3, 2)))
+# ---------------------------------------------------------------- 4 programme-level model
+band(ax, ys[3], bands_h[3], 4, "Programme-level model for unseen RBPs", "prog")
+y4 = ys[3] + TITLE; w4 = (IN - 12) / 4
+pos4, _ = row(ax, y4, [w4] * 3, 4, [
+    ("Response programmes", ["principal axes of the", "RBP × event response matrix,", "fitted on training RBPs only"]),
+    ("Descriptor blocks", ["sequence/text, network, DepMap,", "Perturb-seq, tumour co-variation;", "pre-specified keep rule"]),
+    ("Controls and reference", ["permuted descriptors;", "the same RBP measured", "in the other cell line"])], "prog", 3, arrows=True)
+xa = pos4[-1][0] + w4 + 4
+box(ax, xa, y4, w4, h4, "RBP atlas", ["predicted programme scores", "for all annotated human", "RNA-binding proteins"], "prog", ls=DASH); arrow(ax, (xa - 3.5, y4 + h4 / 2), (xa - 0.5, y4 + h4 / 2))
 
 # ---------------------------------------------------------------- 5 inverse mapping
 band(ax, ys[4], bands_h[4], 5, "Inverse mapping: from a splicing shift to the perturbed RBP", "inv")
 y5 = ys[4] + TITLE
-pos5, _ = row(ax, y5, [(IN - 12) / 3] * 3, 6, [
-    ("Dictionary", ["measured control-centred responses", "of 478 RBPs"]),
-    ("Query", ["splicing shift of a sample group", "(case vs control)"]),
-    ("Scoring", ["Pearson r ranking over shared events", "+ label-permutation null"])], "inv", 2, arrows=True)
-y5b = y5 + h5a + BUS; wb = (IN - 9) / 4
-outs = [("ENCODE retrieval", ["across cell lines:", "top-5 25 % vs 1 % by chance", "high-reproducibility RBPs:", "median rank 1"], "retrieved", C["inv"][0]),
-        ("HeyA8 LARP1 knockout", ["in-house, post-freeze", "class-level hit:", "PCBP2, SF3B1, SF3A1", ""], "class-level hit", C["inv"][0]),
-        ("TCGA mutant tumours", ["52 tests, negative overall", "UVM SF3B1 hotspot retrieves", "the core-spliceosome class", ""], "one class-level hit", C["inv"][0]),
-        ("Premalignant cohorts", ["fallopian tube, breast, sorted", "mammary epithelium: negative", "after composition / batch", "adjustment"], "negative", C["out"][0])]
-ybus = y5 + h5a + BUS / 2; xs = []
-for i, (head, lines, tag, tc) in enumerate(outs):
-    x = X0 + PAD + i * (wb + 3); xs.append(x + wb / 2)
-    box(ax, x, y5b, wb, h5b, head, lines, "out", fc=C["out"][1], reserve=4.6)
-    ax.text(x + wb / 2, y5b + h5b - 3.1, tag, ha="center", va="center", fontsize=6, fontweight="bold", color="white",
-            bbox=dict(boxstyle="round,pad=0.45,rounding_size=0.9", fc=tc, ec="none"), zorder=3)
-    arrow(ax, (x + wb / 2, ybus), (x + wb / 2, y5b - 0.5))
-xs_sc = pos5[2][0] + pos5[2][1] / 2                   # centre of the scoring box
+pos5, _ = row(ax, y5, [(IN - 12) / 4] * 4, 4, [
+    ("Dictionary", ["measured, control-centred", "response of every RBP"]),
+    ("Query", ["splicing shift of a sample", "group (case vs control)"]),
+    ("Scoring", ["correlation ranking +", "label-permutation null"]),
+    ("Confound control", ["batch and cell composition;", "matched-pair check"])], "inv", 2, arrows=True)
+ybus = y5 + h5a + BUS / 2; y5b = y5 + h5a + BUS + LAB; wb = (IN - 12) / 5
+outs = [("Cell lines", ["ENCODE retrieval across", "cell lines and across", "knockdown technologies"], "-"),
+        ("In-house models", ["HeyA8 LARP1 knockout", "(post-freeze);", "spatial proteomics (TMA)"], "-"),
+        ("Tumours", ["TCGA tumours carrying", "splicing-factor or", "RBP mutations"], "-"),
+        ("Patient cells", ["MDS CD34+ cells with", "SF3B1, SRSF2 or U2AF1", "mutations"], DASH),
+        ("Premalignant tissue", ["fallopian tube, breast,", "sorted mammary cells,", "Barrett, airway, oral"], DASH)]
+ax.text(X0 + PAD, ybus - 1.9, "Validation: known answers", ha="left", va="center", fontsize=6, style="italic", color=C["inv"][0])
+ax.text(X0 + PAD + IN, ybus - 1.9, "open question", ha="right", va="center", fontsize=6, style="italic", color=C["inv"][0])
+xs = []
+for i, (head_, lines, ls_) in enumerate(outs):
+    x = X0 + PAD + i * (wb + 3); xs.append(x + wb / 2); box(ax, x, y5b, wb, h5b, head_, lines, "out", fc=C["out"][1], ls=ls_); arrow(ax, (x + wb / 2, ybus), (x + wb / 2, y5b - 0.5))
 ax.plot([xs[0], xs[-1]], [ybus, ybus], color=ARROW, lw=0.75, zorder=4, solid_capstyle="round")
+xs_sc = pos5[3][0] + pos5[3][1] / 2
 ax.plot([xs_sc, xs_sc], [y5 + h5a + 0.5, ybus], color=ARROW, lw=0.75, zorder=4)
 
 # ---------------------------------------------------------------- arrows between stages
 for i in range(3): arrow(ax, (XC, ys[i] + bands_h[i] + 0.6), (XC, ys[i + 1] - 0.6))
-ax.text(XC + 2.5, ys[2] + bands_h[2] + GAP / 2, "bottleneck: noisy event-level targets, uninformative RBP descriptors", ha="left", va="center", fontsize=6, style="italic", color="#555555")
-arrow(ax, (XC, ys[3] + bands_h[3] + 0.6), (XC, ys[4] - 0.6), ls=(0, (3, 2)), color=C["prog"][0])
-ax.text(XC + 2.5, ys[3] + bands_h[3] + GAP / 2, "programme activity scores (planned)", ha="left", va="center", fontsize=6, style="italic", color=C["prog"][0])
+ax.text(XC + 2.5, ys[2] + bands_h[2] + GAP / 2, "single events are noisy targets: predict response programmes instead", ha="left", va="center", fontsize=6, style="italic", color="#555555")
+arrow(ax, (XC, ys[3] + bands_h[3] + 0.6), (XC, ys[4] - 0.6), ls=DASH, color=C["prog"][0])
+ax.text(XC + 2.5, ys[3] + bands_h[3] + GAP / 2, "programme activity scores for samples (planned)", ha="left", va="center", fontsize=6, style="italic", color=C["prog"][0])
 # bypass: the dictionary is built from the measured, control-centred responses of stage 2, not from model predictions
 ya = ys[1] + TITLE + h2 / 2; yb = y5 + h5a / 2; xl = 5.5
 ax.plot([X0, xl, xl], [ya, ya, yb], color=C["inv"][0], lw=0.75, zorder=4, solid_joinstyle="round")
 arrow(ax, (xl, yb), (X0 + PAD - 0.5, yb), color=C["inv"][0])
 ax.text(xl - 2.6, (ya + yb) / 2, "measured, control-centred responses", rotation=90, ha="center", va="center", fontsize=6, style="italic", color=C["inv"][0])
+ax.text(X0 + BW, H - 2.4, "dashed outline: analysis in progress", ha="right", va="center", fontsize=5.6, style="italic", color="#666666")
 
 # ---------------------------------------------------------------- fit check, save
 fig.canvas.draw(); inv = ax.transData.inverted(); bad = 0
