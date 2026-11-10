@@ -68,3 +68,4 @@ __pycache__/
 06_features/coexpr/
 13_model/programme/matrices.npz
 envs/
+13_model/programme/records*.parquet

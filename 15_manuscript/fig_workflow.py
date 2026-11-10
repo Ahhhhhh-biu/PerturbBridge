@@ -101,12 +101,12 @@ box(ax, xr, y3, w3[3], h3, "Result", ["direction accuracy 0.51–0.52; linear = 
 arrow(ax, (xr - 3.5, y3 + h3 / 2), (xr - 0.5, y3 + h3 / 2))
 
 # ---------------------------------------------------------------- 4 programme-level upgrade (in progress)
-band(ax, ys[3], bands_h[3], 4, "Programme-level upgrade", "prog", dashed=True, tag="in progress")
+band(ax, ys[3], bands_h[3], 4, "Programme-level upgrade", "prog", dashed=True, tag="first results")
 row(ax, ys[3] + TITLE, [60, 52, IN - 112 - 6], 3, [
     ("a  Programme-level targets", ["10 response programmes (PCA on training RBPs)", "instead of ~50,000 single events",
                                     "cross-cell-line reproducibility: r 0.52", "(programme 1) vs 0.05 (single events)"]),
-    ("b  Functional RBP descriptors", ["genome-wide Perturb-seq (K562)", "STRING network / protein complexes", "DepMap co-dependency", ""]),
-    ("c  Observational prior", ["RBP expression × event PSI", "co-variation across", "TCGA tumours", ""])], "prog", 4, ls=(0, (3, 2)))
+    ("b  Functional RBP descriptors", ["STRING network + protein complexes: kept", "subspace R² 0.02 → 0.06 / 0.08 → 0.18", "Perturb-seq (K562), DepMap:", "no significant added gain"]),
+    ("c  Observational prior", ["RBP expression × event PSI", "co-variation across TCGA tumours:", "no signal at programme level", ""])], "prog", 4, ls=(0, (3, 2)))
 
 # ---------------------------------------------------------------- 5 inverse mapping
 band(ax, ys[4], bands_h[4], 5, "Inverse mapping: from a splicing shift to the perturbed RBP", "inv")

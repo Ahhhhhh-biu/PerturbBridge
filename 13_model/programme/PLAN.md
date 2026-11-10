@@ -25,3 +25,9 @@ Event-level dPSI of one RBP agrees across cell lines with median r 0.05; scores 
 
 ## Scope note
 With S1 the claim changes from "predict from sequence alone" to "predict the splicing response of an RBP never profiled for splicing from its expression-layer perturbation signature and network context". Folds stay sequence-paralog grouped; functional neighbours (same complex) may sit in training folds, which is the intended source of transfer and is reported as such.
+
+## Addendum 2026-11-10, written after the first full run (logs/programme_model_35170815.txt)
+- By the keep rule the Perturb-seq block (S1 - S0), the DepMap block (S3 - S2) and the TCGA co-variation block (S4 - S3) are not kept; the network block (S2 - S1) is kept in both cell lines. The selected descriptor set is therefore sequence/text + network (`seq_net`); it is evaluated as the consequence of the rule, together with `seq_net_dep` for transparency. No other combinations are searched.
+- Post hoc robustness metrics for programme 1, because a few core-spliceosome RBPs have very large scores: Spearman rho, and Pearson r after removing the 5 % of RBPs with the largest absolute measured score.
+- Per-programme paired bootstrap (model minus permuted mean) for programmes 1-10 (05_programme_report.py), and a description of the programmes (04_annotate_programmes.py).
+- The TCGA co-variation block currently uses the five projects whose junction counts are on disk (BRCA, LAML, LUAD, OV, SKCM; 2,247 tumours).

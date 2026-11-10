@@ -107,3 +107,5 @@
 35168673 pb_progprep 13_model/programme/00_build_matrices.py + 01_rbp_descriptors.py (programme-level model v5, PLAN.md), 2026-11-10 12:22
 35168705 pb_coexpr 13_model/programme/02_tcga_coexpr.py (TCGA RBP expression x PSI prior) after 35168673, 2026-11-10 12:23
 35168836 pb_prog 03_programme_model.py --no_cx (S0-S3; logs/programme_model_35168836.txt) after 35168673; 35168837 pb_prog full incl. TCGA co-variation block (logs/programme_model_35168837.txt) after 35168705, 2026-11-10 12:24
+35170814 (S0-S3) and 35170815 (full) pb_prog resubmitted after fixing a pandas aggregation error (string column in groupby mean), 2026-11-10 12:45
+35171864 pb_prog final run: all sets incl. seq_net (selected by rule), Spearman/trimmed r, per-programme bootstrap (05), programme annotation (04); logs/programme_model_35171864.txt, 2026-11-10 13:05

@@ -1,0 +1,60 @@
+
+== HepG2: 406 RBPs x 21077 events; variance explained by programmes 1-10: 0.051 0.035 0.021 0.019 0.017 0.015 0.015 0.014 0.013 0.011 (sum 0.212)
+   programme-1 score vs RMS effect size r 0.46; vs number of clean events r 0.54; mean z by reproducibility class: high +3.43, mid +0.56, low -0.19
+ P1: + U2AF1(7.2), U2AF2(6.7), SF3A3(5.3), SF3B1(4.9), SF3A2(3.7), SRFBP1(3.7), WBP11(3.5), SF3A1(3.5) | - TIA1(-2.1), ZNF622(-1.8), HNRNPLL(-1.7), UTP18(-1.7)
+      top-500 events: SE 0.61 (all 0.62), A3SS 0.06 (all 0.13), RI 0.29 (all 0.12), A5SS 0.04 (all 0.08), MXE 0.01 (all 0.05); fraction with positive loading 0.34; RBPs with |z| > 3: 9
+ P2: + SRSF1(5.1), RPS3A(3.5), LARP4(3.3), RPS15A(2.6), TBRG4(2.5), SRSF5(2.3), MATR3(2.2), RPL29(2.1) | - DDX6(-4.2), HNRNPK(-3.6), CCAR1(-3.3), TIA1(-2.8)
+      top-500 events: SE 0.69 (all 0.62), A3SS 0.06 (all 0.13), RI 0.13 (all 0.12), A5SS 0.09 (all 0.08), MXE 0.03 (all 0.05); fraction with positive loading 0.36; RBPs with |z| > 3: 6
+ P3: + DDX42(10.4), DDX52(2.3), AKAP1(2.3), SF3B1(2.0), DDX3X(1.9), DDX6(1.9), RBM25(1.9), SRSF1(1.8) | - FXR2(-10.4), U2AF2(-2.9), FUBP3(-2.9), TIAL1(-1.7)
+      top-500 events: SE 0.54 (all 0.62), A3SS 0.09 (all 0.13), RI 0.16 (all 0.12), A5SS 0.05 (all 0.08), MXE 0.15 (all 0.05); fraction with positive loading 0.26; RBPs with |z| > 3: 2
+ P4: + FXR2(6.2), DDX6(3.3), SRFBP1(3.2), FUBP1(3.2), AKAP1(3.2), TFIP11(2.5), SRSF3(2.4), RBM25(2.2) | - DDX42(-6.1), FUBP3(-4.3), PRPF8(-3.9), CKAP4(-3.6)
+      top-500 events: SE 0.48 (all 0.62), A3SS 0.08 (all 0.13), RI 0.34 (all 0.12), A5SS 0.05 (all 0.08), MXE 0.05 (all 0.05); fraction with positive loading 0.18; RBPs with |z| > 3: 10
+ P5: + PUF60(5.1), FXR2(3.4), HNRNPU(2.7), SSB(2.4), ZRANB2(2.3), XPO1(2.2), SF3A3(2.2), RPS10(2.0) | - RAVER1(-4.8), SRSF3(-4.0), DDX42(-3.3), SNRNP70(-3.1)
+      top-500 events: SE 0.73 (all 0.62), A3SS 0.05 (all 0.13), RI 0.13 (all 0.12), A5SS 0.06 (all 0.08), MXE 0.04 (all 0.05); fraction with positive loading 0.37; RBPs with |z| > 3: 7
+ P6: + U2AF2(11.4), U2AF1(8.3), ZC3H8(2.4), SSB(1.7), DDX42(1.7), CELF1(1.6), ETF1(1.6), CCAR1(1.5) | - SRFBP1(-4.1), HNRNPC(-3.4), FUBP1(-2.9), SF3B1(-2.8)
+      top-500 events: SE 0.72 (all 0.62), A3SS 0.09 (all 0.13), RI 0.10 (all 0.12), A5SS 0.05 (all 0.08), MXE 0.04 (all 0.05); fraction with positive loading 0.53; RBPs with |z| > 3: 4
+ P7: + SRSF1(5.0), FXR2(4.6), SRSF3(4.3), CCAR1(3.7), PUF60(3.4), EIF4G1(2.6), AQR(2.6), PTBP1(2.4) | - DDX42(-4.6), PCBP1(-3.8), SRFBP1(-3.8), LARP4(-3.7)
+      top-500 events: SE 0.69 (all 0.62), A3SS 0.06 (all 0.13), RI 0.13 (all 0.12), A5SS 0.07 (all 0.08), MXE 0.05 (all 0.05); fraction with positive loading 0.53; RBPs with |z| > 3: 10
+ P8: + PTBP1(3.6), PRPF8(3.5), SNRNP70(3.1), WBP11(3.1), AQR(3.0), ACO1(2.8), RRP9(2.8), SRSF5(2.6) | - FUBP1(-3.4), NSUN2(-2.7), XRN2(-2.7), U2AF1(-2.4)
+      top-500 events: SE 0.68 (all 0.62), A3SS 0.07 (all 0.13), RI 0.12 (all 0.12), A5SS 0.07 (all 0.08), MXE 0.05 (all 0.05); fraction with positive loading 0.61; RBPs with |z| > 3: 5
+ P9: + PUF60(5.9), EXOSC9(3.6), SRSF3(3.1), HNRNPU(2.8), U2AF2(2.8), C1QBP(2.5), RBM15(2.2), PRPF4(2.2) | - WBP11(-2.4), GRWD1(-2.4), PCBP1(-2.3), BOP1(-2.3)
+      top-500 events: SE 0.68 (all 0.62), A3SS 0.06 (all 0.13), RI 0.16 (all 0.12), A5SS 0.05 (all 0.08), MXE 0.05 (all 0.05); fraction with positive loading 0.47; RBPs with |z| > 3: 3
+ P10: + PUF60(8.7), ZC3H8(7.8), SF3A3(3.3), RPLP0(2.8), YWHAG(2.7), SF3A1(2.3), SF3A2(2.2), DDX6(2.1) | - PRPF4(-7.8), HNRNPU(-2.8), FUBP1(-2.7), PTBP1(-2.1)
+      top-500 events: SE 0.68 (all 0.62), A3SS 0.08 (all 0.13), RI 0.12 (all 0.12), A5SS 0.07 (all 0.08), MXE 0.05 (all 0.05); fraction with positive loading 0.49; RBPs with |z| > 3: 4
+
+== K562: 444 RBPs x 21077 events; variance explained by programmes 1-10: 0.097 0.057 0.020 0.018 0.017 0.012 0.011 0.011 0.010 0.010 (sum 0.265)
+   programme-1 score vs RMS effect size r 0.64; vs number of clean events r 0.67; mean z by reproducibility class: high +2.57, mid +0.51, low -0.21
+ P1: + SF3B3(8.6), SF3B1(5.9), AQR(5.2), SF3A1(5.1), WBP11(4.8), CDC5L(4.1), PCBP2(3.8), EFTUD2(3.7) | - CCDC124(-1.9), ZC3H8(-1.9), DROSHA(-1.9), AUH(-1.8)
+      top-500 events: SE 0.50 (all 0.62), A3SS 0.06 (all 0.13), RI 0.40 (all 0.12), A5SS 0.04 (all 0.08), MXE 0.00 (all 0.05); fraction with positive loading 0.48; RBPs with |z| > 3: 9
+ P2: + FXR1(6.2), EIF3G(3.3), EIF3A(3.2), DROSHA(3.2), RBM8A(3.1), RPS19(2.9), RPS3(2.8), PTBP1(2.8) | - IGF2BP2(-2.9), SRSF4(-2.8), CIZ1(-2.4), EXOSC5(-2.3)
+      top-500 events: SE 0.67 (all 0.62), A3SS 0.05 (all 0.13), RI 0.18 (all 0.12), A5SS 0.08 (all 0.08), MXE 0.02 (all 0.05); fraction with positive loading 0.40; RBPs with |z| > 3: 5
+ P3: + SF3B3(8.0), SF3B4(4.8), SF3B1(4.5), SF3A1(3.8), IGF2BP2(1.8), SF3B2(1.7), METAP2(1.7), EIF3G(1.7) | - SNW1(-5.2), CDC5L(-4.8), SAP30BP(-3.9), WBP11(-3.3)
+      top-500 events: SE 0.46 (all 0.62), A3SS 0.03 (all 0.13), RI 0.40 (all 0.12), A5SS 0.06 (all 0.08), MXE 0.05 (all 0.05); fraction with positive loading 0.16; RBPs with |z| > 3: 8
+ P4: + WBP11(5.3), SRSF1(5.1), HNRNPC(5.0), SUPV3L1(3.3), AQR(3.2), SNW1(2.6), MARK2(2.6), CKAP4(2.5) | - HNRNPK(-5.1), U2AF2(-3.1), GSK3B(-2.8), LARP7(-2.8)
+      top-500 events: SE 0.62 (all 0.62), A3SS 0.08 (all 0.13), RI 0.18 (all 0.12), A5SS 0.04 (all 0.08), MXE 0.08 (all 0.05); fraction with positive loading 0.45; RBPs with |z| > 3: 7
+ P5: + SF3B3(4.3), SF3B1(4.0), AQR(3.6), HNRNPC(3.5), NCBP2(2.8), EIF2AK1(2.7), G3BP2(2.6), KHSRP(2.3) | - EFTUD2(-3.3), PCBP2(-2.8), RPS19(-2.8), EIF3D(-2.8)
+      top-500 events: SE 0.63 (all 0.62), A3SS 0.07 (all 0.13), RI 0.16 (all 0.12), A5SS 0.06 (all 0.08), MXE 0.07 (all 0.05); fraction with positive loading 0.71; RBPs with |z| > 3: 5
+ P6: + HNRNPC(8.4), SRSF1(6.0), KPNB1(3.4), U2AF1(3.3), PUS1(3.1), RBM25(2.8), HNRNPM(2.5), GRSF1(2.3) | - SF3B3(-3.0), CPEB4(-3.0), SNW1(-2.6), PCBP2(-2.6)
+      top-500 events: SE 0.61 (all 0.62), A3SS 0.05 (all 0.13), RI 0.23 (all 0.12), A5SS 0.08 (all 0.08), MXE 0.03 (all 0.05); fraction with positive loading 0.19; RBPs with |z| > 3: 6
+ P7: + U2AF2(5.9), SRSF1(3.8), U2AF1(3.6), HNRNPC(3.0), RBM8A(2.8), HNRNPA1(2.7), MATR3(2.7), SFPQ(2.4) | - NCBP2(-3.4), PSIP1(-3.1), TROVE2(-2.9), PRPF8(-2.9)
+      top-500 events: SE 0.67 (all 0.62), A3SS 0.09 (all 0.13), RI 0.15 (all 0.12), A5SS 0.06 (all 0.08), MXE 0.03 (all 0.05); fraction with positive loading 0.61; RBPs with |z| > 3: 5
+ P8: + U2AF2(8.1), U2AF1(5.7), RPS19(4.0), EIF3A(3.5), PRPF4(2.9), PCBP3(2.9), RBM39(2.9), EIF3D(2.8) | - SNW1(-2.9), QKI(-2.8), KPNB1(-2.8), CDC5L(-2.7)
+      top-500 events: SE 0.70 (all 0.62), A3SS 0.07 (all 0.13), RI 0.11 (all 0.12), A5SS 0.09 (all 0.08), MXE 0.03 (all 0.05); fraction with positive loading 0.43; RBPs with |z| > 3: 4
+ P9: + U2AF2(8.3), U2AF1(6.6), SRSF3(3.5), PTBP1(3.3), SRSF4(2.8), SNW1(2.4), CDC5L(2.4), IGF2BP3(2.4) | - HNRNPC(-6.4), PCBP2(-4.0), PCBP1(-3.2), SF3B4(-3.2)
+      top-500 events: SE 0.69 (all 0.62), A3SS 0.08 (all 0.13), RI 0.15 (all 0.12), A5SS 0.06 (all 0.08), MXE 0.02 (all 0.05); fraction with positive loading 0.47; RBPs with |z| > 3: 9
+ P10: + SRSF1(9.7), EIF3A(4.4), CDC40(2.9), RPS3(2.5), EIF2S2(2.2), PUS1(2.1), PKM(2.0), EIF3G(2.0) | - PUF60(-4.1), RBM8A(-4.1), HNRNPK(-3.7), GRSF1(-3.4)
+      top-500 events: SE 0.71 (all 0.62), A3SS 0.05 (all 0.13), RI 0.17 (all 0.12), A5SS 0.05 (all 0.08), MXE 0.02 (all 0.05); fraction with positive loading 0.62; RBPs with |z| > 3: 12
+
+== correspondence between cell lines: |cosine| of loadings, rows HepG2 P1-P10, columns K562 P1-P10
+       K1    K2    K3    K4    K5    K6    K7    K8    K9   K10
+H1   0.78  0.10  0.01  0.01  0.12  0.08  0.07  0.11  0.02  0.07
+H2   0.14  0.60  0.06  0.07  0.12  0.12  0.01  0.05  0.09  0.19
+H3   0.03  0.04  0.18  0.11  0.20  0.14  0.15  0.18  0.06  0.10
+H4   0.17  0.02  0.34  0.07  0.11  0.27  0.23  0.07  0.05  0.08
+H5   0.06  0.11  0.23  0.07  0.29  0.18  0.16  0.08  0.07  0.03
+H6   0.06  0.11  0.01  0.21  0.05  0.02  0.24  0.22  0.30  0.10
+H7   0.10  0.08  0.12  0.26  0.05  0.10  0.04  0.23  0.04  0.08
+H8   0.01  0.10  0.04  0.15  0.28  0.22  0.01  0.04  0.10  0.03
+H9   0.02  0.01  0.40  0.17  0.06  0.01  0.20  0.08  0.28  0.13
+H10  0.07  0.12  0.11  0.09  0.20  0.07  0.02  0.05  0.18  0.01
+DONE

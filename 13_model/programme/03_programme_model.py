@@ -13,7 +13,7 @@ fold = pd.read_csv(f"{PB}/11_splits/rbp_folds.tsv", sep="\t").set_index("target"
 rep = pd.read_csv(f"{PB}/14_inverse/dict_rbps.tsv", sep="\t").set_index(["cell_line", "target"]).repro_class
 cxf = f"{PB}/06_features/coexpr/tcga_coexpr.npz"; CX = np.load(cxf, allow_pickle=True) if os.path.exists(cxf) and not a.no_cx else None
 BLOCKS = ["seq", "ps", "net", "dep"] + (["cx"] if CX is not None else []); cum = {f"S{i}": BLOCKS[:i + 1] for i in range(len(BLOCKS))}
-SETS = dict(cum); SETS.update({f"{b}_only": [b] for b in BLOCKS[1:]}); LAMS = [0.03, 0.1, 0.3, 1, 3, 10, 30, 100, 300]
+SETS = dict(cum); SETS.update({f"{b}_only": [b] for b in BLOCKS[1:]}); SETS.update({"seq_net": ["seq", "net"], "seq_net_dep": ["seq", "net", "dep"]}); LAMS = [0.03, 0.1, 0.3, 1, 3, 10, 30, 100, 300]
 def P(*x): print(*x, flush=True)
 def block(name, idx):
     X = D[name][idx].astype(np.float64); has = D["has_" + name][idx]; mu = X[has].mean(0); sd = X[has].std(0) + 1e-9; X = (X - mu) / sd; X[~has] = 0
@@ -61,13 +61,14 @@ for c, o in (("HepG2", "K562"), ("K562", "HepG2")):
         P(c, "fold", k, "done")
 cols = ["cell", "set", "method", "variant", "target", "fold", "sse", "sst", "event_r", "hit", "n_clean"] + [f"p{j + 1}" for j in range(K)] + [f"t{j + 1}" for j in range(K)]
 R = pd.DataFrame(recs, columns=cols); R["repro"] = [rep.get((c, t), "na") for c, t in zip(R.cell, R.target)]
-R[R.variant == "real"].to_csv(f"{O}/per_rbp{a.tag}.tsv", sep="\t", index=False)
+R[R.variant == "real"].to_csv(f"{O}/per_rbp{a.tag}.tsv", sep="\t", index=False); R.to_parquet(f"{O}/records{a.tag}.parquet")
 def metrics(g):
     g = g.dropna(subset=["p1"]); d = {"n": len(g), "r2_sub": 1 - g.sse.sum() / g.sst.sum(), "event_r": g.event_r.mean(), "dir_acc": (g.hit / g.n_clean)[g.n_clean >= 20].mean()}
     for j in range(K): d[f"r{j + 1}"] = np.corrcoef(g[f"p{j + 1}"], g[f"t{j + 1}"])[0, 1] if g[f"p{j + 1}"].std() > 0 else np.nan
+    keep_ = g.t1.abs() <= g.t1.abs().quantile(0.95); d["rho1"] = g.p1.corr(g.t1, method="spearman") if g.p1.std() > 0 else np.nan; d["r1_trim"] = g.p1[keep_].corr(g.t1[keep_]) if g.p1.std() > 0 else np.nan
     return pd.Series(d)
 M = R.groupby(["cell", "set", "method", "variant"]).apply(metrics).reset_index(); real = M[M.variant == "real"].drop(columns="variant"); perm = M[M.variant != "real"]
-pm = perm.groupby(["cell", "set", "method"]).agg(["mean", lambda x: np.nanpercentile(x, 95)]); pm.columns = [f"{a_}_perm_{'mean' if b == 'mean' else 'p95'}" for a_, b in pm.columns]
+pm = perm.drop(columns="variant").groupby(["cell", "set", "method"]).agg(["mean", lambda x: np.nanpercentile(x, 95)]); pm.columns = [f"{a_}_perm_{'mean' if b == 'mean' else 'p95'}" for a_, b in pm.columns]
 summ = real.merge(pm.reset_index(), on=["cell", "set", "method"], how="left")
 # paired bootstrap over RBPs: model minus mean of permuted controls, for r1 and r2_sub; and consecutive cumulative sets
 def boot(c, s, meth):
@@ -78,7 +79,7 @@ def boot(c, s, meth):
     d1 = br(w.p1.values) - np.mean([br(x.p1.values) for x in pv], 0); d2 = b2(w) - np.mean([b2(x) for x in pv], 0)
     return dict(r1_diff=d1.mean(), r1_lo=np.percentile(d1, 2.5), r1_hi=np.percentile(d1, 97.5), r2_diff=d2.mean(), r2_lo=np.percentile(d2, 2.5), r2_hi=np.percentile(d2, 97.5))
 B = pd.DataFrame([dict(cell=c, set=s, method=m_, **boot(c, s, m_)) for c in ("HepG2", "K562") for s in SETS for m_ in ("ridge", "knn")]); summ = summ.merge(B, on=["cell", "set", "method"], how="left")
-keep = ["cell", "set", "method", "n", "r1", "r1_perm_mean", "r1_perm_p95", "r1_diff", "r1_lo", "r1_hi", "r2_sub", "r2_sub_perm_mean", "r2_sub_perm_p95", "r2_diff", "r2_lo", "r2_hi", "event_r", "event_r_perm_mean", "dir_acc", "dir_acc_perm_mean"]
+keep = ["cell", "set", "method", "n", "r1", "r1_perm_mean", "r1_perm_p95", "r1_diff", "r1_lo", "r1_hi", "rho1", "rho1_perm_p95", "r1_trim", "r1_trim_perm_p95", "r2_sub", "r2_sub_perm_mean", "r2_sub_perm_p95", "r2_diff", "r2_lo", "r2_hi", "event_r", "event_r_perm_mean", "dir_acc", "dir_acc_perm_mean"]
 summ[keep].to_csv(f"{O}/results_summary{a.tag}.tsv", sep="\t", index=False, float_format="%.4f")
 comp = summ[["cell", "set", "method"] + [x for j in range(K) for x in (f"r{j + 1}", f"r{j + 1}_perm_p95")]]; comp.to_csv(f"{O}/results_components{a.tag}.tsv", sep="\t", index=False, float_format="%.3f")
 st = R[R.variant == "real"].groupby(["cell", "set", "method", "repro"]).apply(metrics).reset_index()[["cell", "set", "method", "repro", "n", "r1", "r2_sub", "event_r", "dir_acc"]]; st.to_csv(f"{O}/results_strata{a.tag}.tsv", sep="\t", index=False, float_format="%.4f")

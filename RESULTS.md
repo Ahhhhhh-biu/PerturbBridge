@@ -36,6 +36,25 @@ Ceilings for context [12_baselines/, 13_model/]: same-RBP independent experiment
 - Calibration: on null rows (events the knockdown did not change) MAE is 0.03–0.05; the deep models predict amplitudes about twice as large as ridge and are the worse calibrated.
 - Sequence-specific RBPs with reproducible knockdowns (PTBP1, SRSF1, HNRNPC) are not predicted better than their shuffled controls; eCLIP and motif features add < 0.7 points (tiers A / B / C).
 
+## Programme-level model (v5) [13_model/programme/]
+
+Plan and decision rules were written before the results (PLAN.md). Target: scores of each RBP on 10 response programmes (principal axes of the centred RBP × event matrix, fitted on training-fold RBPs only; 21,077 events covered in both cell lines). Predictor: ridge from RBP descriptors; controls: descriptors permuted across RBPs (20 times) and a cross-cell-line oracle (the same RBP's measured scores in the other cell line).
+
+| Held-out RBPs, HepG2 / K562 | Programme-1 r | Spearman | r without top 5 % | Subspace R² | Programmes 2–10 above control |
+|---|---|---|---|---|---|
+| permuted descriptors (95th pct) | 0.07 / 0.08 | 0.06 / 0.07 | 0.03 / 0.06 | 0.000 / 0.002 | – |
+| sequence + text (as in v3) | 0.35 / 0.43 | 0.09 / 0.15 | 0.03 / 0.15 | 0.023 / 0.076 | 2 / 5 |
+| + network (selected by the rule) | 0.45 / 0.60 | 0.19 / 0.20 | 0.14 / 0.26 | 0.060 / 0.176 | 5 / 9 |
+| + network + DepMap | 0.51 / 0.60 | 0.25 / 0.24 | 0.26 / 0.31 | 0.074 / 0.169 | 2 / 9 |
+| oracle: measured in the other cell line | 0.54 / 0.54 | 0.30 / 0.29 | 0.30 / 0.26 | 0.098 / 0.135 | – |
+
+- Changing the target makes the transferable signal measurable: the same sequence/text descriptors that were indistinguishable from shuffled at the event level predict the programme-1 score with r 0.35 / 0.43 (model minus permuted +0.36 [0.18, 0.51] / +0.43 [0.29, 0.55]).
+- Descriptor blocks, added cumulatively (paired bootstrap of subspace R²): K562 Perturb-seq signature −0.010 [−0.022, +0.002] / −0.009 [−0.036, +0.017], not kept; STRING network + Complex Portal +0.028 [+0.009, +0.048] / +0.101 [+0.038, +0.156], kept; DepMap +0.008 [−0.003, +0.018] / +0.010 [−0.022, +0.046], not kept; TCGA expression × PSI co-variation −0.003 / −0.002, not kept (alone: R² −0.003 / 0.001).
+- With the selected set the model reaches the oracle in K562 and about half of it in HepG2. Both pre-specified conditions for a qualitative change are met (programme-1 r at least half of the oracle; at least three further programmes above control in both cell lines).
+- Caveats. The Pearson r of programme 1 is driven by nine core-spliceosome RBPs with |z| > 3; rank and trimmed correlations are 0.14–0.26. Programme 1 is the core-spliceosome axis (U2AF1/2, SF3A/SF3B, AQR, CDC5L; retained introns 29–40 % of its top events against 12 % overall; loadings agree between cell lines, |cosine| 0.78); programme 2 is shared (0.60); programmes 3–10 are cell-line specific and dominated by single strong knockdowns. Reconstructed event-level direction accuracy is 0.50 / 0.53 (permuted 0.44; ceiling with the 10 measured scores 0.70 / 0.73), so single-event prediction remains weak.
+
+Figure: 13_model/programme/fig_programme.png. Tables: results_summary_final.tsv, results_programme_bootstrap_final.tsv, results_strata_final.tsv, programme_annotation.txt.
+
 ## Inverse mapping [14_inverse/]
 
 - H3, ENCODE retrieval across cell lines (query HepG2 profile against the K562 dictionary and vice versa, 406 / 444 candidates): top-5 0.255 / 0.249 versus 0.011 expected; for the high-reproducibility class median rank 1, top-1 0.82 / 0.56. Same-technology versus cross-technology (shRNA vs CRISPR) top-5 0.334 / 0.260 vs 0.237 / 0.256, so most of the signal is biology, not reagent [h3_encode_summary.tsv, h3_cross_technology.tsv].
@@ -52,6 +71,7 @@ For an RBP the model has never seen, a linear baseline matches the deep models i
 sbatch slurm/42_cnn_seq.sh      # 900-nt event sequences
 sbatch slurm/44_ridge.sh        # ridge baseline, 20 (cell, fold) runs
 sbatch slurm/43_train_cnn.sh    # v4 CNN, 20 runs
+sbatch slurm/47_programme_prep.sh && sbatch slurm/48_tcga_coexpr.sh && sbatch --export=ALL,TAG=_final slurm/49_programme_model.sh   # programme-level model (in this order)
 envs/pb_gpu_venv/bin/python 13_model/benchmark/03_benchmark_metrics.py
 ```
 Outputs: `13_model/benchmark/master_table.tsv`, `master_by_rbp.tsv`, `paired_differences.tsv`, `difficulty_table.tsv`, `fig_benchmark.png`.
