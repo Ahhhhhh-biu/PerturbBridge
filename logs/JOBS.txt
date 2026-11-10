@@ -109,3 +109,12 @@
 35168836 pb_prog 03_programme_model.py --no_cx (S0-S3; logs/programme_model_35168836.txt) after 35168673; 35168837 pb_prog full incl. TCGA co-variation block (logs/programme_model_35168837.txt) after 35168705, 2026-11-10 12:24
 35170814 (S0-S3) and 35170815 (full) pb_prog resubmitted after fixing a pandas aggregation error (string column in groupby mean), 2026-11-10 12:45
 35171864 pb_prog final run: all sets incl. seq_net (selected by rule), Spearman/trimmed r, per-programme bootstrap (05), programme annotation (04); logs/programme_model_35171864.txt, 2026-11-10 13:05
+2026-11-10 20:45 batch-2 cohorts (user request), streaming per-sample pipeline 50_cohort_sample.sh: GSE220518 MDS CD34+ (192 PE; SF3B1 mut 75, SRSF2 mut 31, U2AF1 mut 11, WT 77, healthy 7; progression labels) 35219754 GPU; GSE193946 Barrett LGD 25/HGD 21/EAC 11 35219755 GPU; GSE202048 tongue OPMD 9/margin 20/SCC 11 (SE 51) 35219756 GPU; GSE79209 airway brushings dysplasia 50/normal 25/metaplasia 7 35219757 short; GSE227919 oral premalignant 39/control 18/OSCC 9 35219758 short. Rejected after checking GEO: GSE281303 DCIS and GSE232988 myeloma (no raw data), GSE292971 (single-cell, 2.3 TB), GSE302239 (single-end, median 9.8 M reads), GSE211032 (monosomy 7, not a splicing-factor design)
+35219942 pb_atlas_esm2 13_model/programme/08_atlas_esm2.py (ESM2 for atlas proteins outside ENCODE), 2026-11-10 20:48
+2026-11-10 20:50 short queue has capacity again: cohort arrays split, GSE220518 48-191 -> 35220064 (short), GSE193946 15-56 -> 35220065 (short), GSE202048 10-39 -> 35220066 (short); GPU arrays keep the lower indices. 35220067 pb_atlas 09_atlas_predict.py after ESM2 job 35219942
+35220289 pb_atlas_esm2 moved to short (CPU, 16 threads) because the GPU queue is full; 35220067 pb_atlas now depends on it, 2026-11-10 20:52
+2026-11-10 20:53 GSE220518: rMATS post over all samples 35220340 (after 35219754:35220064) -> 16_h4_batch2.py 35220341 (logs/h4_batch2_GSE220518.txt)
+2026-11-10 20:53 GSE193946: rMATS post over all samples 35220342 (after 35219755:35220065) -> 16_h4_batch2.py 35220343 (logs/h4_batch2_GSE193946.txt)
+2026-11-10 20:53 GSE202048: rMATS post over all samples 35220344 (after 35219756:35220066) -> 16_h4_batch2.py 35220345 (logs/h4_batch2_GSE202048.txt)
+2026-11-10 20:53 GSE79209: rMATS post over all samples 35220346 (after 35219757) -> 16_h4_batch2.py 35220347 (logs/h4_batch2_GSE79209.txt)
+2026-11-10 20:53 GSE227919: rMATS post over all samples 35220348 (after 35219758) -> 16_h4_batch2.py 35220349 (logs/h4_batch2_GSE227919.txt)

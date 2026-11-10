@@ -1,0 +1,67 @@
+gsm	title	source	organism	tissue	group	strategy	srx	runs	n_runs
+GSM7110918	Dysplasia [MK_35]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747179	SRR23937870	1
+GSM7110919	HkNR [MK_39]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747180	SRR23937869	1
+GSM7110920	Dysplasia [MK_47]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747181	SRR23937868	1
+GSM7110921	Control [MK_50]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747182	SRR23937867	1
+GSM7110922	Dysplasia [MK_52]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747183	SRR23937866	1
+GSM7110923	HkNR [MK_53]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747184	SRR23937865	1
+GSM7110924	HkNR [MK_31]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747185	SRR23937864	1
+GSM7110925	HkNR [MK_34]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747186	SRR23937863	1
+GSM7110926	Cancer [MK_42]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747187	SRR23937862	1
+GSM7110927	HkNR [MK_43]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747188	SRR23937861	1
+GSM7110928	Dysplasia [MK_45]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747189	SRR23937860	1
+GSM7110929	Dysplasia [MK_46]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747190	SRR23937859	1
+GSM7110930	Cancer [MK_5]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747191	SRR23937858	1
+GSM7110931	HkNR [MK_7]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747192	SRR23937857	1
+GSM7110932	Dysplasia [MK_8]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747193	SRR23937856	1
+GSM7110933	Dysplasia [MK_9]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747194	SRR23937855	1
+GSM7110934	Control [MK_10]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747203	SRR23937846	1
+GSM7110935	Dysplasia [MK_12]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747204	SRR23937845	1
+GSM7110936	Dysplasia [MK_17]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747205	SRR23937844	1
+GSM7110937	Control [MK_19]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747206	SRR23937843	1
+GSM7110938	HkNR [MK_20]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747207	SRR23937842	1
+GSM7110939	Control [MK_26]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747208	SRR23937841	1
+GSM7110940	Dysplasia [MK_29]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747209	SRR23937840	1
+GSM7110941	HkNR [MK_33]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747210	SRR23937839	1
+GSM7110942	Cancer [MK_16]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747219	SRR23937830	1
+GSM7110943	HkNR [MK_22]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747220	SRR23937829	1
+GSM7110944	HkNR [MK_23]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747221	SRR23937828	1
+GSM7110945	Dysplasia [MK_30]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747222	SRR23937827	1
+GSM7110946	Cancer [MK_37]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747223	SRR23937826	1
+GSM7110947	Cancer [MK_40]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747224	SRR23937825	1
+GSM7110948	Dysplasia [MK_14]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747225	SRR23937824	1
+GSM7110949	HkNR [MK_18]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747226	SRR23937823	1
+GSM7110950	Control [MK_24]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747235	SRR23937814	1
+GSM7110951	HkNR [MK_32]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747236	SRR23937813	1
+GSM7110952	Dysplasia [MK_A]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747237	SRR23937812	1
+GSM7110953	HkNR [MK_36]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747238	SRR23937811	1
+GSM7110954	HkNR [MK_51]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747239	SRR23937810	1
+GSM7110955	Cancer [MK_54]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747240	SRR23937809	1
+GSM7110956	Control [MK_3]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747241	SRR23937808	1
+GSM7110957	Dysplasia [MK_6]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747242	SRR23937807	1
+GSM7110958	Dysplasia [MK_13]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747195	SRR23937854	1
+GSM7110959	HkNR [MK_4]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747196	SRR23937853	1
+GSM7110960	Control [MK_27]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747197	SRR23937852	1
+GSM7110961	Dysplasia [MK_B6A]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747198	SRR23937851	1
+GSM7110962	Control [MK_B6C]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747199	SRR23937850	1
+GSM7110963	Dysplasia [MK_B-0007]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747200	SRR23937849	1
+GSM7110964	Control [MK_B-0002]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747201	SRR23937848	1
+GSM7110965	Dysplasia [MK_B-0003]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747202	SRR23937847	1
+GSM7110966	Control [MK_B-0004]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747211	SRR23937838	1
+GSM7110967	Control [MK_B-0005]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747212	SRR23937837	1
+GSM7110968	Control [MK_B-0008]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747213	SRR23937836	1
+GSM7110969	Control [MK_B-0012]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747214	SRR23937835	1
+GSM7110970	Dysplasia [MK_B-013]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747215	SRR23937834	1
+GSM7110971	Dysplasia [MK_B-014]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747216	SRR23937833	1
+GSM7110972	Dysplasia [MK_B-016]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747217	SRR23937832	1
+GSM7110973	Cancer [MK_B-018]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747218	SRR23937831	1
+GSM7110974	Cancer [MK_B-0019]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747227	SRR23937822	1
+GSM7110975	Control [MK_B-0021]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747228	SRR23937821	1
+GSM7110976	Cancer [MK_B-0022]	oral mucosa	Homo sapiens	oral mucosa	OSCC	RNA-Seq	SRX19747229	SRR23937820	1
+GSM7110977	Dysplasia [MK_B-0024]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747230	SRR23937819	1
+GSM7110978	Control [MK_EOG_001]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747231	SRR23937818	1
+GSM7110979	Control [MK_EOG_004]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747232	SRR23937817	1
+GSM7110980	Control [MK_EOG_005]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747233	SRR23937816	1
+GSM7110981	HkNR [MK_EOG_009]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747234	SRR23937815	1
+GSM7110982	Control [MK_EOG_012]	oral mucosa	Homo sapiens	oral mucosa	Control	RNA-Seq	SRX19747243	SRR23937806	1
+GSM7110983	HkNR [MK_EOG_015]	oral mucosa	Homo sapiens	oral mucosa	premalignant lesions	RNA-Seq	SRX19747244	SRR23937805	1

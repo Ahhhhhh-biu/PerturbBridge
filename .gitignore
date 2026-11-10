@@ -69,3 +69,7 @@ __pycache__/
 13_model/programme/matrices.npz
 envs/
 13_model/programme/records*.parquet
+# in-house material (HeyA8) in figures and programme checks
+inhouse_*
+15_manuscript/figures/inhouse_*
+06_features/rbp_functional/atlas/*.npy
